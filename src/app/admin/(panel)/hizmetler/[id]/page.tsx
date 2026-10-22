@@ -15,10 +15,12 @@ export default async function ServiceForm({ params, searchParams }: { params: Pr
   const isNew = id === "new";
   await ensureServiceTable();
   let s: ReturnType<typeof fromServiceRow> | null = null;
+  let custom = false; // adminden yüklenmiş görsel var mı (yoksa varsayılan görsel gösterilir)
   if (!isNew) {
     const [rows] = await db().query<RowDataPacket[]>("SELECT * FROM service_items WHERE id = ?", [Number(id)]);
     if (!rows[0]) notFound();
     s = fromServiceRow(rows[0]);
+    custom = !!rows[0].image_url;
   }
   const area = `${field} leading-relaxed`;
 
@@ -68,10 +70,11 @@ export default async function ServiceForm({ params, searchParams }: { params: Pr
 
         <div className="space-y-3">
           <p className="text-sm font-semibold">Görsel</p>
-          <SizeBadge req={SERVICE_REQ} note="kare görsel önerilir; kartlarda 4:3 kırpılır. Görsel yoksa grubun ikonlu lacivert görseli gösterilir" />
+          <SizeBadge req={SERVICE_REQ} note="kare görsel önerilir; kartlarda 4:3 kırpılır. Görsel yüklenmezse hizmetin varsayılan görseli (varsa) ya da grubun ikonlu lacivert görseli gösterilir" />
           <ImagePreview src={s?.image} className="h-32" />
           <input type="file" name="image" accept="image/jpeg,image/png,image/webp" className={fileCls} />
-          {s?.image && <Toggle name="remove_image" label="Görseli kaldır" />}
+          {s?.image && !custom && <p className="text-xs text-muted">Şu an varsayılan görsel gösteriliyor; yeni görsel yüklerseniz o kullanılır.</p>}
+          {custom && <Toggle name="remove_image" label="Yüklenen görseli kaldır (varsayılan görsele döner)" />}
         </div>
 
         <Toggle name="active" defaultChecked={isNew ? true : !!s?.active} label="Sitede yayınla" />

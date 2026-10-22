@@ -23,9 +23,11 @@ export type ServiceItem = {
 
 // İlk kurulumda tabloya yazılan kayıtlar (GAZA Web Sitesi Ek Hizmet İçerikleri, 22.10.2026); veritabanı yoksa bunlar gösterilir
 const faqOf = (cat: string) => proServiceBySlug(cat)?.faq ?? [];
-export const SEED: Omit<ServiceItem, "id" | "active" | "image">[] = [
+// Varsayılan görseller public/hizmetler/<slug>.jpg; adminden görsel yüklenirse o kullanılır
+const img = (slug: string) => `/hizmetler/${slug}.jpg`;
+export const SEED: (Omit<ServiceItem, "id" | "active" | "image"> & { image: string })[] = [
   {
-    category: "ticari-endustriyel-dogalgaz", slug: "ticari-isletmeler-icin-dogalgaz-projeleri",
+    category: "ticari-endustriyel-dogalgaz", slug: "ticari-isletmeler-icin-dogalgaz-projeleri", image: img("ticari-isletmeler-icin-dogalgaz-projeleri"),
     title: "Ticari İşletmeler İçin Doğalgaz Projeleri",
     summary: "Ticari yapılarda doğalgaz tesisatını işletmenin kullanım ihtiyacına göre ele alıyor, keşifle iş kapsamını ve uygulama adımlarını netleştiriyoruz.",
     description: "Ticari yapılarda doğalgaz tesisatını, işletmenin kullanım ihtiyacına göre ele alıyoruz. Hat güzergâhı, cihaz bağlantıları ve mevcut tesisatın durumu proje çalışmasının kapsamını belirler. Keşif sırasında yapılacak işleri ve uygulama adımlarını netleştirerek teklifimizi buna göre hazırlıyoruz.",
@@ -33,7 +35,7 @@ export const SEED: Omit<ServiceItem, "id" | "active" | "image">[] = [
     faq: faqOf("ticari-endustriyel-dogalgaz"),
   },
   {
-    category: "ticari-endustriyel-dogalgaz", slug: "fabrika-ve-sanayi-dogalgaz-hatlari",
+    category: "ticari-endustriyel-dogalgaz", slug: "fabrika-ve-sanayi-dogalgaz-hatlari", image: img("fabrika-ve-sanayi-dogalgaz-hatlari"),
     title: "Fabrika ve Sanayi Doğalgaz Hatları",
     summary: "Fabrika ve üretim tesislerinde doğalgaz hatlarını, gaz kullanacak ekipmanların ihtiyaçlarıyla birlikte planlıyoruz.",
     description: "Fabrikalarda ve üretim tesislerinde doğalgaz hatlarının, gaz kullanacak ekipmanların ihtiyaçlarıyla birlikte planlanması gerekir. Büyük sanayi hatları ve tesis içi doğalgaz uygulamalarında, mevcut altyapıyı ve bağlantı noktalarını inceleyerek projenin gerektirdiği çözümü geliştiriyoruz.",
@@ -41,7 +43,7 @@ export const SEED: Omit<ServiceItem, "id" | "active" | "image">[] = [
     faq: faqOf("ticari-endustriyel-dogalgaz"),
   },
   {
-    category: "yangin-tesisati-hidrofor", slug: "yangin-hatlari-ve-tesisat-uygulamalari",
+    category: "yangin-tesisati-hidrofor", slug: "yangin-hatlari-ve-tesisat-uygulamalari", image: img("yangin-hatlari-ve-tesisat-uygulamalari"),
     title: "Yangın Hatları ve Tesisat Uygulamaları",
     summary: "Ticari işletmeler ve fabrikalarda yangın tesisatını yapının yerleşimine, hat güzergâhlarına ve proje koşullarına göre uyguluyoruz.",
     description: "Yangın tesisatı çalışmalarında yapının yerleşimi, hat güzergâhları ve bağlantı ihtiyaçları önem taşır. Ticari işletmelerde ve fabrikalarda, mevcut proje ve saha koşulları üzerinden uygulama kapsamını belirliyor; yapılacak işleri teklif aşamasında açıklıyoruz.",
@@ -49,7 +51,7 @@ export const SEED: Omit<ServiceItem, "id" | "active" | "image">[] = [
     faq: faqOf("yangin-tesisati-hidrofor"),
   },
   {
-    category: "yangin-tesisati-hidrofor", slug: "yangin-hidrofor-sistemleri",
+    category: "yangin-tesisati-hidrofor", slug: "yangin-hidrofor-sistemleri", image: img("yangin-hidrofor-sistemleri"),
     title: "Yangın Hidrofor Sistemleri",
     summary: "Yangın tesisatının su besleme ve basınç ihtiyacı için hidrofor sistemini, tesisatın proje gereksinimleriyle birlikte değerlendiriyoruz.",
     description: "Yangın hidrofor sistemi, yangın tesisatının su besleme ve basınç ihtiyacının karşılanmasında görev alır. Sistem seçimini mevcut hatlardan bağımsız ele almıyor; tesisatın proje gereksinimleri ve saha koşullarıyla birlikte değerlendiriyoruz. Ekipman ve bağlantı ihtiyaçları bu değerlendirme sonucunda netleşir.",
@@ -57,7 +59,7 @@ export const SEED: Omit<ServiceItem, "id" | "active" | "image">[] = [
     faq: faqOf("yangin-tesisati-hidrofor"),
   },
   {
-    category: "iklimlendirme-hava-sartlandirma", slug: "isletmeye-uygun-iklimlendirme",
+    category: "iklimlendirme-hava-sartlandirma", slug: "isletmeye-uygun-iklimlendirme", image: img("isletmeye-uygun-iklimlendirme"),
     title: "İşletmeye Uygun İklimlendirme",
     summary: "Ofis, ticari alan ve üretim tesislerinin ısıtma ve soğutma ihtiyacına, kullanım saatlerine ve alanın özelliklerine göre sistemi belirliyoruz.",
     description: "Ofislerin, ticari alanların ve üretim tesislerinin iklimlendirme ihtiyaçları farklıdır. Isıtma ve soğutma ihtiyacını, kullanım saatlerini ve alanın özelliklerini inceleyerek sistemin kapsamını belirliyoruz. Cihaz ve uygulama seçeneklerini bu ihtiyaçlara göre değerlendiriyoruz.",
@@ -65,7 +67,7 @@ export const SEED: Omit<ServiceItem, "id" | "active" | "image">[] = [
     faq: faqOf("iklimlendirme-hava-sartlandirma"),
   },
   {
-    category: "iklimlendirme-hava-sartlandirma", slug: "sartlandirilmis-hava-cozumleri",
+    category: "iklimlendirme-hava-sartlandirma", slug: "sartlandirilmis-hava-cozumleri", image: img("sartlandirilmis-hava-cozumleri"),
     title: "Şartlandırılmış Hava Çözümleri",
     summary: "Sıcaklık, nem, taze hava ve filtreleme gereksinimlerini işletmenin istediği ortam koşullarına göre birlikte ele alıyoruz.",
     description: "Hava şartlandırma, havanın ihtiyaç duyulan ortam koşullarına göre düzenlenmesini kapsar. Projeye göre sıcaklık, nem, taze hava ve filtreleme gereksinimleri birlikte ele alınabilir. Çalışmalarımızda, işletmenin istediği koşulları ve bunların mevcut yapıda nasıl sağlanabileceğini değerlendiriyoruz.",
@@ -74,7 +76,10 @@ export const SEED: Omit<ServiceItem, "id" | "active" | "image">[] = [
   },
 ];
 
-const seedItems = (): ServiceItem[] => SEED.map((s, i) => ({ ...s, id: i + 1, image: null, active: true }));
+const seedItems = (): ServiceItem[] => SEED.map((s, i) => ({ ...s, id: i + 1, active: true }));
+
+// Veritabanındaki kaydın görseli boşsa (ör. tablo görselsiz oluşturulduysa) o hizmetin varsayılan görseli
+export const defaultServiceImage = (slug: string): string | null => SEED.find((s) => s.slug === slug)?.image ?? null;
 
 let tableReady = false;
 export async function ensureServiceTable() {
@@ -100,7 +105,7 @@ export async function ensureServiceTable() {
     for (const [i, s] of SEED.entries()) {
       await db().query("INSERT IGNORE INTO service_items SET ?", [{
         category: s.category, slug: s.slug, title: s.title, summary: s.summary, description: s.description,
-        points: JSON.stringify(s.points), faq: JSON.stringify(s.faq), sort_order: i + 1, active: 1,
+        points: JSON.stringify(s.points), faq: JSON.stringify(s.faq), image_url: s.image, sort_order: i + 1, active: 1,
       }]);
     }
   }
@@ -114,7 +119,7 @@ const parse = <T,>(v: unknown, fallback: T): T => {
 
 export const fromServiceRow = (r: RowDataPacket): ServiceItem => ({
   id: r.id, category: r.category, slug: r.slug, title: r.title, summary: r.summary ?? "", description: r.description ?? "",
-  points: parse<string[]>(r.points, []), faq: parse<{ q: string; a: string }[]>(r.faq, []), image: r.image_url ?? null, active: !!r.active,
+  points: parse<string[]>(r.points, []), faq: parse<{ q: string; a: string }[]>(r.faq, []), image: r.image_url || defaultServiceImage(r.slug), active: !!r.active,
 });
 
 // Yayındaki hizmetler; kategori sırası pro-services'teki gibi, kategori içinde admin sırası

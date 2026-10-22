@@ -1,7 +1,7 @@
 import type { RowDataPacket } from "mysql2";
 import { db } from "@/lib/db";
 import { proServiceBySlug } from "@/lib/pro-services";
-import { ensureServiceTable } from "@/lib/service-items";
+import { defaultServiceImage, ensureServiceTable } from "@/lib/service-items";
 import { AdminList, Notice, PageHead } from "../_ui";
 
 export default async function ServicesAdmin({ searchParams }: { searchParams: Promise<{ saved?: string }> }) {
@@ -15,7 +15,7 @@ export default async function ServicesAdmin({ searchParams }: { searchParams: Pr
         newHref="/admin/hizmetler/new" newLabel="Yeni Hizmet" />
       <Notice saved={saved} />
       <AdminList table="service_items" base="/admin/hizmetler" empty="Henüz hizmet eklenmemiş."
-        rows={rows.map((r) => ({ id: r.id, thumb: r.image_url, title: r.title, sub: `${proServiceBySlug(r.category)?.short ?? r.category} · /hizmet/${r.slug}`, active: r.active }))} />
+        rows={rows.map((r) => ({ id: r.id, thumb: r.image_url || defaultServiceImage(r.slug), title: r.title, sub: `${proServiceBySlug(r.category)?.short ?? r.category} · /hizmet/${r.slug}`, active: r.active }))} />
     </>
   );
 }
