@@ -10,6 +10,8 @@ import { CountUp } from "./CountUp";
 import { DealsGrid } from "./Deals";
 import { Reveal } from "./Reveal";
 import { ServicesShowcase } from "./ServicesShowcase";
+import { ServiceCards } from "../ProServices";
+import { proIntro } from "@/lib/pro-services";
 
 const wrap = "mx-auto w-full max-w-7xl px-4 md:px-6";
 
@@ -48,6 +50,36 @@ export function Services() {
       <div className="absolute inset-0 -z-10 bg-gradient-to-br from-[#0b1d45] via-[#0f2a60] to-primary" />
       <div className="mx-auto w-full max-w-[1400px] px-4 py-24 md:px-10 lg:py-32">
         <ServicesShowcase />
+      </div>
+    </section>
+  );
+}
+
+// Ticari ve endüstriyel hizmetler: başlık, giriş metni ve 3 hizmet kartı (/hizmetlerimiz)
+export function ProServicesBand() {
+  return (
+    <section className="border-t border-border">
+      <div className="mx-auto w-full max-w-[1400px] px-4 py-24 md:px-10 lg:py-32">
+        <div className="mb-14 grid gap-8 lg:grid-cols-[1.2fr_1fr] lg:items-end lg:gap-20">
+          <Reveal>
+            <p className="text-[11px] font-semibold uppercase tracking-[0.3em] text-accent">Ticari ve endüstriyel</p>
+            <h2 className="mt-6 text-4xl font-extralight leading-[1.08] tracking-tight md:text-5xl">
+              Ticari yapılar ve sanayi tesisleri için <span className="font-semibold text-primary">mühendislik hizmetleri</span>
+            </h2>
+          </Reveal>
+          <Reveal delay={0.1}>
+            <p className="leading-relaxed text-muted">{proIntro.text}</p>
+            <div className="mt-7 flex flex-wrap gap-3">
+              <Link href="/hizmetlerimiz#teklif" className="inline-flex items-center rounded-[4px] bg-primary px-7 py-3.5 text-xs font-bold uppercase tracking-[0.2em] text-white transition hover:bg-primary/90">
+                {proIntro.quoteTitle}
+              </Link>
+              <Link href="/hizmetlerimiz" className="inline-flex items-center gap-2 rounded-[4px] border border-foreground/20 px-7 py-3.5 text-xs font-bold uppercase tracking-[0.2em] transition hover:border-primary hover:text-primary">
+                Tüm hizmetler <ArrowRight size={15} />
+              </Link>
+            </div>
+          </Reveal>
+        </div>
+        <ServiceCards />
       </div>
     </section>
   );

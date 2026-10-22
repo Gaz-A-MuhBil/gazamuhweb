@@ -46,6 +46,7 @@ export const contact = {
 export const footerLinks = {
   Kurumsal: [
     { label: "Hakkımızda", href: "/hakkimizda" },
+    { label: "Hizmetlerimiz", href: "/hizmetlerimiz" },
     { label: "Blog", href: "/blog" },
     { label: "İletişim", href: "/iletisim" },
     { label: "Bilgi Al", href: "/bilgi-al" },

@@ -16,17 +16,21 @@ function Field({ label, children }: { label: string; children: React.ReactNode }
   );
 }
 
-export function LeadForm({ slug }: { slug?: string }) {
+// Hizmet teklifi: services verilirse hizmet seçimi gösterilir; service verilirse o hizmet seçili gelir (lib/pro-services)
+type ServiceOption = { slug: string; short: string };
+
+export function LeadForm({ slug, services, service }: { slug?: string; services?: ServiceOption[]; service?: string }) {
+  const quote = !!services;
   const [state, action, pending] = useActionState<LeadState, FormData>(submitLead, null);
 
   if (state?.ok)
     return (
       <div role="status" className="flex flex-col items-center rounded-[4px] bg-surface p-10 text-center">
         <CircleCheck size={48} className="text-green-600" />
-        <p className="mt-4 text-xl font-extrabold">Talebiniz bize ulaştı</p>
+        <p className="mt-4 text-xl font-extrabold">{quote ? "Teklif talebiniz bize ulaştı" : "Talebiniz bize ulaştı"}</p>
         <p className="mt-2 max-w-md text-sm leading-relaxed text-muted">Teşekkür ederiz. Ekibimiz en kısa sürede verdiğiniz telefon numarasından size dönüş yapacak.</p>
-        <Link href={slug ? `/urun/${slug}` : "/urunler"} className="mt-6 rounded-[4px] bg-primary px-7 py-3 text-sm font-semibold text-white">
-          {slug ? "Ürüne geri dön" : "Ürünlere göz at"}
+        <Link href={quote ? "/hizmetlerimiz" : slug ? `/urun/${slug}` : "/urunler"} className="mt-6 rounded-[4px] bg-primary px-7 py-3 text-sm font-semibold text-white">
+          {quote ? "Hizmetlerimize göz at" : slug ? "Ürüne geri dön" : "Ürünlere göz at"}
         </Link>
       </div>
     );
@@ -37,14 +41,23 @@ export function LeadForm({ slug }: { slug?: string }) {
       {/* Botlar için tuzak alan: gerçek kullanıcı görmez */}
       <input type="text" name="website" tabIndex={-1} autoComplete="off" aria-hidden className="absolute -left-[9999px] h-0 w-0 opacity-0" />
 
+      {services && (
+        <Field label="Hizmet">
+          <select name="hizmet" required defaultValue={service ?? ""} className={inputCls}>
+            <option value="" disabled>Hizmet seçin</option>
+            {services.map((x) => <option key={x.slug} value={x.slug}>{x.short}</option>)}
+          </select>
+        </Field>
+      )}
       <div className="grid gap-5 sm:grid-cols-2">
         <Field label="Ad Soyad"><input name="full_name" required minLength={3} maxLength={160} autoComplete="name" className={inputCls} /></Field>
         <Field label="Telefon"><input name="phone" type="tel" required autoComplete="tel" placeholder="05xx xxx xx xx" className={inputCls} /></Field>
         <Field label="E-posta (isteğe bağlı)"><input name="email" type="email" maxLength={190} autoComplete="email" className={inputCls} /></Field>
         <Field label="Şehir / İlçe (isteğe bağlı)"><input name="city" maxLength={80} autoComplete="address-level2" placeholder="Örn. Sancaktepe" className={inputCls} /></Field>
       </div>
-      <Field label="Mesajınız (isteğe bağlı)">
-        <textarea name="message" rows={4} maxLength={2000} placeholder="Örn. Kurulum dahil fiyat almak istiyorum, 120 m² daire." className={inputCls} />
+      <Field label={quote ? "Projeniz hakkında (isteğe bağlı)" : "Mesajınız (isteğe bağlı)"}>
+        <textarea name="message" rows={4} maxLength={2000} className={inputCls}
+          placeholder={quote ? "Örn. Sancaktepe'de fabrika, kapalı alan 2.000 m²; mevcut proje ve planları paylaşabiliriz." : "Örn. Kurulum dahil fiyat almak istiyorum, 120 m² daire."} />
       </Field>
 
       <label className="flex cursor-pointer items-start gap-2.5 text-xs leading-relaxed text-muted">
@@ -57,7 +70,7 @@ export function LeadForm({ slug }: { slug?: string }) {
 
       {state?.error && <p role="alert" className="rounded-[4px] bg-red-50 px-4 py-3 text-sm font-semibold text-red-700">{state.error}</p>}
       <button disabled={pending} className="w-full rounded-[4px] bg-primary py-3.5 text-sm font-semibold text-white hover:bg-primary/90 disabled:opacity-60 sm:w-auto sm:px-12">
-        {pending ? "Gönderiliyor…" : "Bilgi Talebi Gönder"}
+        {pending ? "Gönderiliyor…" : quote ? "Teklif Talebi Gönder" : "Bilgi Talebi Gönder"}
       </button>
     </form>
   );

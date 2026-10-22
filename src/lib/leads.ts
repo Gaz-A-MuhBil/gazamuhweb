@@ -14,6 +14,7 @@ export type Lead = {
   city: string;
   message: string;
   product: { id: number; name: string; brand: string; sku: string | null; price: number; url: string } | null;
+  service?: string; // /hizmetlerimiz teklif formunda seçilen hizmet (lib/pro-services)
 };
 
 // "Bilgi Al" talepleri: hem veritabanına kaydedilir (admin panelinde görünür) hem de bildirim gönderilir.
@@ -43,7 +44,8 @@ export async function saveLead(l: Lead) {
   await ensureSiteColumn("leads");
   const [res] = await db().query<ResultSetHeader>(
     "INSERT INTO leads (product_id, product_name, full_name, phone, email, city, message, site) VALUES (?,?,?,?,?,?,?,?)",
-    [l.product?.id ?? null, l.product?.name ?? null, l.fullName, l.phone, l.email || null, l.city || null, l.message || null, SITE_KEY]
+    // Hizmet talebinde ürün yoktur; hizmet adı admin panelindeki "ürün" sütununda görünür
+    [l.product?.id ?? null, l.product?.name ?? (l.service ? `Hizmet: ${l.service}` : null), l.fullName, l.phone, l.email || null, l.city || null, l.message || null, SITE_KEY]
   );
   return res.insertId;
 }
@@ -52,7 +54,7 @@ export async function saveLead(l: Lead) {
 function lines(l: Lead): string[] {
   const p = l.product;
   return [
-    p ? `Ürün: ${p.name}` : "Genel bilgi talebi",
+    p ? `Ürün: ${p.name}` : l.service ? `Hizmet: ${l.service}` : "Genel bilgi talebi",
     ...(p ? [`Marka: ${p.brand}${p.sku ? ` · Kod: ${p.sku}` : ""}`, `Fiyat: ${p.price > 0 ? tl(p.price) : "Fiyat için arayın"}`, `Link: ${p.url}`] : []),
     "",
     `Ad Soyad: ${l.fullName}`,
@@ -76,7 +78,7 @@ async function sendWhatsApp(l: Lead) {
   if (!key || key.startsWith("BURAYA")) return false;
   const phone = process.env.CALLMEBOT_PHONE || `+${WHATSAPP_NUMBER}`;
   // WhatsApp numarası iki sitede ortak: başlıkta talebin hangi markadan geldiği yazar
-  const text = [`*Yeni bilgi talebi · ${SITES[SITE_KEY].label}*`, ...lines(l)].join("\n");
+  const text = [`*${l.service ? "Yeni hizmet teklifi talebi" : "Yeni bilgi talebi"} · ${SITES[SITE_KEY].label}*`, ...lines(l)].join("\n");
   const url = `https://api.callmebot.com/whatsapp.php?phone=${encodeURIComponent(phone)}&text=${encodeURIComponent(text)}&apikey=${encodeURIComponent(key)}`;
   const res = await fetch(url, { signal: AbortSignal.timeout(15_000) });
   return res.ok;

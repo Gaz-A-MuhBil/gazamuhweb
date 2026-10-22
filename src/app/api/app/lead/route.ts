@@ -2,6 +2,7 @@ import { after } from "next/server";
 import { EMAIL, body, fail, json, preflight } from "@/lib/app-api";
 import { notifyLead, saveLead, type Lead } from "@/lib/leads";
 import { getProduct } from "@/lib/products";
+import { proServiceBySlug } from "@/lib/pro-services";
 import { clientIp, tooMany } from "@/lib/ratelimit";
 
 export const OPTIONS = preflight;
@@ -26,6 +27,8 @@ export async function POST(req: Request) {
     city: b.str("city", 80),
     message: b.str("message", 2000),
     product: p ? { id: Number(p.id), name: p.name, brand: p.brand, sku: p.sku, price: p.price, url: `${SITE}/urun/${p.slug}` } : null,
+    // Uygulamadaki hizmet ekranından gelen teklif talebi
+    service: proServiceBySlug(b.str("service", 80))?.short,
   };
   try {
     const id = await saveLead(lead);

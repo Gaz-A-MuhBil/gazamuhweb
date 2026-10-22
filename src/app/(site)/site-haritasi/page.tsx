@@ -6,6 +6,7 @@ import { getPosts } from "@/lib/blog";
 import type { Product } from "@/lib/data";
 import { getProducts } from "@/lib/products";
 import { getSeason, seasonRank } from "@/lib/season";
+import { proServices } from "@/lib/pro-services";
 import { footerLinks } from "@/lib/site";
 import { slugify } from "@/lib/slug";
 
@@ -26,6 +27,8 @@ const general: L[] = [
   { label: "Bilgi / Teklif Al", href: "/bilgi-al" },
   { label: "İletişim", href: "/iletisim" },
   { label: "Hakkımızda", href: "/hakkimizda" },
+  { label: "Hizmetlerimiz", href: "/hizmetlerimiz" },
+  ...proServices.map((x) => ({ label: x.short, href: `/hizmetlerimiz/${x.slug}` })),
 ];
 const account: L[] = [
   { label: "Giriş Yap", href: "/giris" },

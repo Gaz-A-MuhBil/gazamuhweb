@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { getPosts } from "@/lib/blog";
 import { getProducts } from "@/lib/products";
+import { proServices } from "@/lib/pro-services";
 import { footerLinks } from "@/lib/site";
 import { slugify } from "@/lib/slug";
 
@@ -10,7 +11,7 @@ const SITE = (process.env.SITE_URL || "https://gazamuhendislik.com.tr").replace(
 // Arama motorları için /sitemap.xml: sayfalar, kategoriler, ürünler ve blog yazıları
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const [products, posts] = await Promise.all([getProducts().catch(() => []), getPosts().catch(() => [])]);
-  const pages = ["/", "/urunler", "/blog", "/bilgi-al", "/site-haritasi", ...Object.values(footerLinks).flat().map((l) => l.href)];
+  const pages = ["/", "/urunler", "/blog", "/bilgi-al", "/site-haritasi", ...proServices.map((s) => `/hizmetlerimiz/${s.slug}`), ...Object.values(footerLinks).flat().map((l) => l.href)];
   const cats = [...new Set(products.map((p) => p.category).filter(Boolean))].map((c) => `/${slugify(c)}`);
   const skip = new Set(["/hesabim"]);
   return [

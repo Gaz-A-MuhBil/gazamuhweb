@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { LockKeyhole, Mail, MapPin, Phone } from "lucide-react";
+import { proServices } from "@/lib/pro-services";
 import { company, contact, footerLinks, igdas } from "@/lib/site";
 import { AppDownload } from "./AppDownload";
 import { IgdasBadge } from "./IgdasBadge";
@@ -31,7 +32,7 @@ export function Footer({ cats }: { cats: { label: string; href: string }[] }) {
     <AppDownload />
     <footer className="mt-16 bg-surface">
       <Newsletter />
-      <div className="mx-auto grid w-full max-w-7xl gap-10 px-4 py-14 sm:grid-cols-2 md:px-6 lg:grid-cols-5">
+      <div className="mx-auto grid w-full max-w-7xl gap-10 px-4 py-14 sm:grid-cols-2 md:px-6 lg:grid-cols-6">
         <div className="lg:col-span-2">
           <Image src="/brand/logo.png" alt="GAZ-A Mühendislik Proje Yönetimi" width={242} height={58} className="h-11 w-auto" />
           <p className="mt-4 max-w-sm text-sm leading-relaxed text-muted">
@@ -49,6 +50,15 @@ export function Footer({ cats }: { cats: { label: string; href: string }[] }) {
           <ul className="space-y-2 text-sm text-muted">
             {cats.map((n) => (
               <li key={n.label}><a href={n.href} className="hover:text-foreground">{n.label}</a></li>
+            ))}
+          </ul>
+        </div>
+
+        <div>
+          <h4 className="mb-4 text-sm font-bold text-primary"><Link href="/hizmetlerimiz" className="hover:underline">Hizmetlerimiz</Link></h4>
+          <ul className="space-y-2 text-sm text-muted">
+            {proServices.map((s) => (
+              <li key={s.slug}><Link href={`/hizmetlerimiz/${s.slug}`} className="hover:text-foreground">{s.short}</Link></li>
             ))}
           </ul>
         </div>

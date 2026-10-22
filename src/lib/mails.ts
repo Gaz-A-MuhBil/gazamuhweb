@@ -103,7 +103,8 @@ export function orderStatusMail(o: OrderMailData, status: Status) {
 }
 
 /* ---------- Bilgi talebi ---------- */
-export type LeadMailData = { fullName: string; phone: string; email: string; city: string; message: string; product: { name: string; brand: string; price: number; url: string } | null };
+// service: /hizmetlerimiz teklif formundan gelen talepte seçilen hizmetin adı
+export type LeadMailData = { fullName: string; phone: string; email: string; city: string; message: string; product: { name: string; brand: string; price: number; url: string } | null; service?: string };
 
 export function leadCustomerMail(l: LeadMailData) {
   return build(
@@ -114,6 +115,7 @@ export function leadCustomerMail(l: LeadMailData) {
       h.p("Uzman ekibimiz talebinizi inceleyip en kısa sürede sizi arayacak. Acil durumlar için bize telefon veya WhatsApp üzerinden de ulaşabilirsiniz.") +
       h.box([
         ...(l.product ? [["İlgilendiğiniz ürün", `<a href="${esc(l.product.url)}" style="color:#1a3e85">${esc(l.product.name)}</a>`] as [string, string]] : []),
+        ...(l.service ? [["Hizmet", esc(l.service)] as [string, string]] : []),
         ["Telefon", esc(l.phone)],
         ...(l.message ? [["Mesajınız", esc(l.message)] as [string, string]] : []),
       ], "Talep özeti") +
@@ -124,9 +126,9 @@ export function leadCustomerMail(l: LeadMailData) {
 
 export function leadAdminMail(l: LeadMailData) {
   return build(
-    `Bilgi talebi: ${l.product?.name ?? "Genel"} — ${l.fullName}`,
-    `${l.fullName} (${l.phone}) bilgi talebi gönderdi.`,
-    h.eyebrow("Yeni bilgi talebi") +
+    l.service ? `Teklif talebi: ${l.service} — ${l.fullName}` : `Bilgi talebi: ${l.product?.name ?? "Genel"} — ${l.fullName}`,
+    `${l.fullName} (${l.phone}) ${l.service ? "hizmet teklifi istedi" : "bilgi talebi gönderdi"}.`,
+    h.eyebrow(l.service ? "Yeni hizmet teklifi talebi" : "Yeni bilgi talebi") +
       h.title(esc(l.fullName)) +
       h.box([
         ["Telefon", `<a href="tel:${esc(l.phone.replace(/\s/g, ""))}" style="color:#1a3e85">${esc(l.phone)}</a>`],
@@ -134,7 +136,8 @@ export function leadAdminMail(l: LeadMailData) {
         ...(l.city ? [["Şehir / ilçe", esc(l.city)] as [string, string]] : []),
         ...(l.message ? [["Mesaj", esc(l.message)] as [string, string]] : []),
       ], "Müşteri") +
-      (l.product ? h.box([["Ürün", esc(l.product.name)], ["Marka", esc(l.product.brand)], ["Fiyat", l.product.price > 0 ? `${l.product.price.toLocaleString("tr-TR")} ₺` : "—"]], "İlgilendiği ürün") : h.p("Genel bilgi talebi (ürün seçilmedi).")) +
+      (l.service ? h.box([["Hizmet", esc(l.service)]], "İstenen hizmet") : "") +
+      (l.product ? h.box([["Ürün", esc(l.product.name)], ["Marka", esc(l.product.brand)], ["Fiyat", l.product.price > 0 ? `${l.product.price.toLocaleString("tr-TR")} ₺` : "—"]], "İlgilendiği ürün") : l.service ? "" : h.p("Genel bilgi talebi (ürün seçilmedi).")) +
       h.button("Talepleri panelde aç", `${SITE_URL}/admin/talepler`)
   );
 }

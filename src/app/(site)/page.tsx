@@ -4,7 +4,7 @@ import { Campaigns } from "@/components/home/Campaigns";
 import { CategoryRow } from "@/components/home/CategoryRow";
 import { HeroSlider } from "@/components/home/HeroSlider";
 import { ProductTabs, type Group } from "@/components/home/ProductTabs";
-import { Brands, CtaBand, Deals, Igdas, Services, Stats } from "@/components/home/Sections";
+import { Brands, CtaBand, Deals, Igdas, ProServicesBand, Services, Stats } from "@/components/home/Sections";
 import { Showcase } from "@/components/home/Showcase";
 import { getBrandLogos, getCampaigns, getSlides, getTiles } from "@/lib/cms";
 import type { Product } from "@/lib/data";
@@ -76,6 +76,7 @@ export default async function Home() {
       {/* Adminden logo eklendiyse onlar, eklenmediyse en çok ürünü olan markaların adları */}
       <Brands items={logos.length ? logos.map((l) => ({ name: l.name, image: l.image })) : brands.slice(0, 12).map((name) => ({ name, image: null }))} />
       <Services />
+      <ProServicesBand />
       <Igdas />
       <Stats products={all.length} brands={brands.length} categories={groups.length} />
       <CtaBand />
