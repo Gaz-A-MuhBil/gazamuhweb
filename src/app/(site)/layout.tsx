@@ -7,6 +7,7 @@ import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { dbConfigured, getFavoriteIds, getUser } from "@/lib/customer";
 import { getMenu } from "@/lib/menu";
 import { seasonalNav } from "@/lib/season";
+import { getServiceGroups } from "@/lib/service-items";
 import { siteLd } from "@/lib/seo";
 
 // Üye bilgisi ve veritabanı durumu her istekte okunur. Derleme anında sabitlenirse (ör. /sepet) sepetten
@@ -14,7 +15,12 @@ import { siteLd } from "@/lib/seo";
 export const dynamic = "force-dynamic";
 
 export default async function SiteLayout({ children }: { children: React.ReactNode }) {
-  const [user, menu, cats] = await Promise.all([getUser(), getMenu(), seasonalNav()]);
+  const [user, menu, cats, groups] = await Promise.all([getUser(), getMenu(), seasonalNav(), getServiceGroups()]);
+  // Header'daki "Hizmetlerimiz" açılır menüsü: kategoriler ve altındaki hizmetler
+  const services = groups.filter((g) => g.items.length).map((g) => ({
+    label: g.category.short, href: `/hizmetlerimiz/${g.category.slug}`, icon: g.category.icon,
+    items: g.items.map((i) => ({ title: i.title, href: `/hizmet/${i.slug}` })),
+  }));
   const favIds = user ? await getFavoriteIds(user.id) : [];
   // Popüler aramalar: en çok ürünü olan kategoriler ve markalar
   const brandTotals = new Map<string, number>();
@@ -24,7 +30,7 @@ export default async function SiteLayout({ children }: { children: React.ReactNo
   return (
     <SiteProvider user={user ? { name: user.firstName } : null} favIds={favIds} enabled={dbConfigured()}>
       <JsonLd data={siteLd()} />
-      <Header menu={menu} popular={popular} />
+      <Header menu={menu} popular={popular} services={services} />
       {children}
       <Footer cats={cats} />
       <WhatsAppButton />

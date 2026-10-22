@@ -2,7 +2,7 @@
 import { after } from "next/server";
 import { notifyLead, saveLead, type Lead } from "@/lib/leads";
 import { getProduct } from "@/lib/products";
-import { proServiceBySlug } from "@/lib/pro-services";
+import { serviceLabel } from "@/lib/service-items";
 import { clientIp, tooMany } from "@/lib/ratelimit";
 
 export type LeadState = { ok?: true; error?: string } | null;
@@ -31,7 +31,7 @@ export async function submitLead(_: LeadState, f: FormData): Promise<LeadState> 
     message: clean(f, "message", 2000),
     product: p ? { id: Number(p.id), name: p.name, brand: p.brand, sku: p.sku, price: p.price, url: `${SITE}/urun/${p.slug}` } : null,
     // /hizmetlerimiz teklif formu: seçilen hizmet
-    service: proServiceBySlug(clean(f, "hizmet", 80))?.short,
+    service: await serviceLabel(clean(f, "hizmet", 160)),
   };
 
   let id: number;

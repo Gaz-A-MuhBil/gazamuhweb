@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import {
-  Award, Bell, ExternalLink, MailCheck, Users, GalleryHorizontal, ImagePlus, Inbox, LayoutDashboard, LayoutGrid, LogOut, Megaphone, Menu, MessageSquare, Newspaper, Package, ShoppingBag, Smartphone, SunSnow, TicketPercent, Truck, X,
+  Award, Bell, ExternalLink, MailCheck, Users, GalleryHorizontal, ImagePlus, Inbox, LayoutDashboard, LayoutGrid, LogOut, Megaphone, Menu, MessageSquare, Newspaper, Package, ShoppingBag, Smartphone, SunSnow, TicketPercent, Truck, Wrench, X,
 } from "lucide-react";
 import { SITES, type SiteKey } from "@/lib/sites";
 import { logout } from "../actions";
@@ -16,6 +16,7 @@ const groups = [
     title: "Mağaza",
     items: [
       { href: "/admin/products", label: "Ürünler", icon: Package },
+      { href: "/admin/hizmetler", label: "Hizmetler", icon: Wrench },
       { href: "/admin/orders", label: "Siparişler", icon: ShoppingBag, badge: "orders" },
       { href: "/admin/talepler", label: "Bilgi Talepleri", icon: Inbox, badge: "leads" },
       { href: "/admin/kuponlar", label: "İndirim Kuponları", icon: TicketPercent },

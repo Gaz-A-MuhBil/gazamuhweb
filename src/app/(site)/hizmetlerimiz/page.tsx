@@ -3,9 +3,10 @@ import Link from "next/link";
 import { ArrowRight, BadgeCheck, Phone } from "lucide-react";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { JsonLd } from "@/components/JsonLd";
-import { QuoteSection, ServiceCards, ServiceIcon, tel } from "@/components/ProServices";
+import { QuoteSection, ServiceIcon, ServiceItemCard, categoryHref, serviceHref, tel } from "@/components/ProServices";
 import { Reveal } from "@/components/home/Reveal";
 import { proIntro, proServices } from "@/lib/pro-services";
+import { getServiceGroups } from "@/lib/service-items";
 import { contact, igdas } from "@/lib/site";
 import { abs, breadcrumbLd } from "@/lib/seo";
 
@@ -16,7 +17,11 @@ export const metadata: Metadata = {
   openGraph: { type: "website", url: "/hizmetlerimiz", title: "Hizmetlerimiz | GAZ-A Mühendislik", description: proIntro.text, images: ["/brand/og.jpg"] },
 };
 
-export default function ServicesPage() {
+export const dynamic = "force-dynamic";
+
+// Tüm hizmetler (Tüm Ürünler sayfası gibi): kategori başlıkları altında hizmet kartları
+export default async function ServicesPage() {
+  const groups = await getServiceGroups();
   return (
     <main>
       <JsonLd data={[
@@ -25,7 +30,7 @@ export default function ServicesPage() {
           "@context": "https://schema.org",
           "@type": "ItemList",
           name: "Hizmetlerimiz",
-          itemListElement: proServices.map((s, i) => ({ "@type": "ListItem", position: i + 1, name: s.title, url: abs(`/hizmetlerimiz/${s.slug}`) })),
+          itemListElement: groups.flatMap((g) => g.items).map((s, i) => ({ "@type": "ListItem", position: i + 1, name: s.title, url: abs(serviceHref(s)) })),
         },
       ]} />
 
@@ -53,10 +58,28 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      {/* Hizmet kartları */}
-      <section className="mx-auto w-full max-w-7xl px-4 pb-20 md:px-6 lg:pb-28">
-        <ServiceCards />
-      </section>
+      {/* Kategori başlıkları altında hizmetler */}
+      <div className="mx-auto w-full max-w-7xl space-y-16 px-4 pb-20 md:px-6 lg:pb-28">
+        {groups.filter((g) => g.items.length).map((g) => (
+          <section key={g.category.slug} aria-labelledby={`grup-${g.category.slug}`}>
+            <div className="mb-8 flex flex-wrap items-end justify-between gap-4 border-b border-border pb-5">
+              <div className="flex items-center gap-4">
+                <span className="grid h-12 w-12 place-items-center rounded-[4px] bg-primary text-white"><ServiceIcon name={g.category.icon} size={22} /></span>
+                <div>
+                  <h2 id={`grup-${g.category.slug}`} className="text-2xl font-light tracking-tight md:text-3xl">{g.category.short}</h2>
+                  <p className="mt-1 text-sm text-muted">{g.items.length} hizmet</p>
+                </div>
+              </div>
+              <Link href={categoryHref(g.category)} className="inline-flex items-center gap-2 border-b border-primary pb-1 text-xs font-bold uppercase tracking-[0.2em] text-primary transition-colors hover:border-accent hover:text-accent">
+                {g.category.more} <ArrowRight size={15} />
+              </Link>
+            </div>
+            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              {g.items.map((i, k) => <ServiceItemCard key={i.slug} item={i} i={k} />)}
+            </div>
+          </section>
+        ))}
+      </div>
 
       {/* Hakkımızda: koyu bant */}
       <section className="relative isolate overflow-hidden bg-[#0b1d45] text-white">
@@ -76,7 +99,7 @@ export default function ServicesPage() {
             <ul className="divide-y divide-white/10 border-y border-white/10">
               {proServices.map((s, n) => (
                 <li key={s.slug}>
-                  <Link href={`/hizmetlerimiz/${s.slug}`} className="group flex items-center gap-5 py-6">
+                  <Link href={categoryHref(s)} className="group flex items-center gap-5 py-6">
                     <span className="w-7 text-xs font-semibold tabular-nums text-white/50">{String(n + 1).padStart(2, "0")}</span>
                     <span className="grid h-11 w-11 shrink-0 place-items-center rounded-[4px] bg-white/10 text-accent"><ServiceIcon name={s.icon} size={20} /></span>
                     <span className="flex-1 text-lg font-light transition-transform duration-300 group-hover:translate-x-1 md:text-xl">{s.title}</span>

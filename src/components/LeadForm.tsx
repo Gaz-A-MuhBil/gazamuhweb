@@ -17,7 +17,8 @@ function Field({ label, children }: { label: string; children: React.ReactNode }
 }
 
 // Hizmet teklifi: services verilirse hizmet seçimi gösterilir; service verilirse o hizmet seçili gelir (lib/pro-services)
-type ServiceOption = { slug: string; short: string };
+// group verilirse seçenekler kategori başlıkları altında listelenir
+export type ServiceOption = { slug: string; short: string; group?: string };
 
 export function LeadForm({ slug, services, service }: { slug?: string; services?: ServiceOption[]; service?: string }) {
   const quote = !!services;
@@ -45,7 +46,10 @@ export function LeadForm({ slug, services, service }: { slug?: string; services?
         <Field label="Hizmet">
           <select name="hizmet" required defaultValue={service ?? ""} className={inputCls}>
             <option value="" disabled>Hizmet seçin</option>
-            {services.map((x) => <option key={x.slug} value={x.slug}>{x.short}</option>)}
+            {[...new Set(services.map((x) => x.group ?? ""))].map((g) => {
+              const opts = services.filter((x) => (x.group ?? "") === g).map((x) => <option key={x.slug} value={x.slug}>{x.short}</option>);
+              return g ? <optgroup key={g} label={g}>{opts}</optgroup> : opts;
+            })}
           </select>
         </Field>
       )}

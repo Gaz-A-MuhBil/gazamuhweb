@@ -7,13 +7,17 @@ import { ensureAppBannerTable, ensureBrandTable, ensureOnboardingTable } from "@
 import { db } from "@/lib/db";
 import { ADMIN_SITE_COOKIE, adminSite, ensureSiteColumn, type SiteTable } from "@/lib/site-db";
 import { isSiteKey } from "@/lib/sites";
-import { APP_BANNER_REQ, BRAND_REQ, CAMPAIGN_LAYOUTS, ONBOARD_REQ, HERO_MOBILE_REQ, HERO_REQ, TILE_REQ, safeUrl, type CampaignLayout } from "@/lib/layouts";
+import { APP_BANNER_REQ, BRAND_REQ, CAMPAIGN_LAYOUTS, ONBOARD_REQ, HERO_MOBILE_REQ, HERO_REQ, SERVICE_REQ, TILE_REQ, safeUrl, type CampaignLayout } from "@/lib/layouts";
+import { proServiceBySlug } from "@/lib/pro-services";
+import { ensureServiceTable, newServiceSlug } from "@/lib/service-items";
 import { removeImage, saveImage, type Req } from "@/lib/uploads";
 
 const str = (f: FormData, k: string, max: number) => String(f.get(k) ?? "").trim().slice(0, max) || null;
 const back = (path: string, err: string): never => redirect(`${path}?err=${encodeURIComponent(err)}`);
 
-type Table = "hero_slides" | "showcase_tiles" | "campaign_blocks" | "brand_logos" | "app_onboarding" | "app_banners";
+type Table = "hero_slides" | "showcase_tiles" | "campaign_blocks" | "brand_logos" | "app_onboarding" | "app_banners" | "service_items";
+// Markaya (site) göre ayrılmayan tablolar: markalar ortak, hizmetler yalnızca GAZ-A sitesinde görünür
+const GLOBAL: Table[] = ["brand_logos", "service_items"];
 
 async function nextOrder(table: Table) {
   const [r] = await db().query<RowDataPacket[]>(`SELECT COALESCE(MAX(sort_order), 0) + 1 AS n FROM ${table}`);
@@ -23,8 +27,8 @@ async function nextOrder(table: Table) {
 // Yeni kayıt: sıra numarası ve (markaya özel tablolarda) admin menüsünde seçili marka
 async function newRow(table: Table) {
   const order = { sort_order: await nextOrder(table) };
-  if (table === "brand_logos") return order;
-  await ensureSiteColumn(table);
+  if (GLOBAL.includes(table)) return order;
+  await ensureSiteColumn(table as SiteTable);
   return { ...order, site: await adminSite() };
 }
 
@@ -122,6 +126,47 @@ export async function saveBrand(f: FormData) {
   redirect("/admin/markalar?saved=1");
 }
 
+/* ---------- Hizmetler (sitede ürün gibi sayfası olan, teklif formlu hizmetler) ---------- */
+// Kapsam: her satır bir madde. SSS: her soru-cevap boş satırla ayrılır; ilk satır soru, altındakiler cevap.
+const lines = (v: string | null) => (v ?? "").split("\n").map((l) => l.replace(/^[•\-*]\s*/, "").trim()).filter(Boolean);
+function faqBlocks(v: string | null) {
+  return (v ?? "").split(/\n\s*\n/).map((b) => b.split("\n").map((l) => l.trim()).filter(Boolean))
+    .filter((b) => b.length >= 2).map(([q, ...a]) => ({ q, a: a.join(" ") }));
+}
+
+export async function saveService(f: FormData) {
+  await requireAdmin();
+  await ensureServiceTable();
+  const id = Number(f.get("id")) || null;
+  const errPath = id ? `/admin/hizmetler/${id}` : "/admin/hizmetler/new";
+  const [old] = id ? await db().query<RowDataPacket[]>("SELECT image_url FROM service_items WHERE id = ?", [id]) : [[] as RowDataPacket[]];
+
+  const title = str(f, "title", 160);
+  if (!title) back(errPath, "Hizmet adı zorunlu.");
+  const category = str(f, "category", 80);
+  if (!category || !proServiceBySlug(category)) back(errPath, "Hizmet grubunu seçin.");
+  const slug = newServiceSlug(str(f, "slug", 160) || title!);
+  if (!slug) back(errPath, "Sayfa adresi oluşturulamadı; hizmet adını kontrol edin.");
+  const [dup] = await db().query<RowDataPacket[]>("SELECT id FROM service_items WHERE slug = ? AND id <> ?", [slug, id ?? 0]);
+  if (dup.length) back(errPath, `"${slug}" adresi başka bir hizmette kullanılıyor; farklı bir adres yazın.`);
+  const image = await upload(f, "image", SERVICE_REQ, errPath);
+
+  const v: Record<string, unknown> = {
+    category, slug, title,
+    summary: str(f, "summary", 500),
+    description: str(f, "description", 20000),
+    points: JSON.stringify(lines(str(f, "points", 4000))),
+    faq: JSON.stringify(faqBlocks(str(f, "faq", 20000))),
+    active: f.get("active") ? 1 : 0,
+  };
+  if (image) { v.image_url = image; await removeImage(old[0]?.image_url); }
+  if (f.get("remove_image") && !image) { v.image_url = null; await removeImage(old[0]?.image_url); }
+
+  if (id) await db().query("UPDATE service_items SET ? WHERE id = ?", [v, id]);
+  else await db().query("INSERT INTO service_items SET ?", [{ ...v, ...(await newRow("service_items")) }]);
+  redirect("/admin/hizmetler?saved=1");
+}
+
 /* ---------- Mobil uygulama tanıtım ekranları ---------- */
 export async function saveOnboarding(f: FormData) {
   await requireAdmin();
@@ -205,7 +250,7 @@ export async function saveCampaign(f: FormData) {
 /* ---------- Ortak: sil / sırala / göster-gizle ---------- */
 const PATHS: Record<Table, string> = {
   hero_slides: "/admin/slider", showcase_tiles: "/admin/vitrin", campaign_blocks: "/admin/kampanyalar", brand_logos: "/admin/markalar",
-  app_onboarding: "/admin/uygulama-tanitim", app_banners: "/admin/uygulama-banner",
+  app_onboarding: "/admin/uygulama-tanitim", app_banners: "/admin/uygulama-banner", service_items: "/admin/hizmetler",
 };
 const isTable = (t: unknown): t is Table => typeof t === "string" && t in PATHS;
 
@@ -234,7 +279,7 @@ export async function moveItem(f: FormData) {
   const id = Number(f.get("id"));
   const dir = f.get("dir") === "up" ? -1 : 1;
   // markaya özel tablolarda yalnızca aynı markanın kayıtları arasında sıralanır
-  const own = table !== "brand_logos";
+  const own = !GLOBAL.includes(table);
   if (own) await ensureSiteColumn(table as SiteTable);
   const [rows] = await db().query<RowDataPacket[]>(
     own ? `SELECT id FROM ${table} WHERE site = (SELECT site FROM ${table} WHERE id = ?) ORDER BY sort_order, id` : `SELECT id FROM ${table} ORDER BY sort_order, id`,

@@ -4,7 +4,7 @@ import { usePathname } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 import { AnimatePresence, motion } from "motion/react";
-import { ArrowRight, Heart, Info, Menu, PhoneCall, Search, ShoppingCart, User, Wrench, X } from "lucide-react";
+import { AirVent, ArrowRight, ChevronDown, FireExtinguisher, Flame, Heart, Info, Menu, PhoneCall, Search, ShoppingCart, User, Wrench, X } from "lucide-react";
 import type { MenuItem } from "@/lib/menu";
 import { cartCount, useCart } from "@/store/cart";
 import { IgdasBadge } from "./IgdasBadge";
@@ -12,7 +12,12 @@ import { SearchOverlay } from "./SearchOverlay";
 import { SocialIcons } from "./SocialIcons";
 import { useSite } from "./SiteProvider";
 
-export function Header({ menu, popular }: { menu: MenuItem[]; popular: string[] }) {
+// Header'daki "Hizmetlerimiz" açılır menüsü: hizmet kategorileri ve altındaki hizmetler (lib/service-items)
+export type ServiceMenu = { label: string; href: string; icon: "flame" | "fire" | "air"; items: { title: string; href: string }[] };
+const serviceIcons = { flame: Flame, fire: FireExtinguisher, air: AirVent };
+const SERVICES = "__hizmetler";
+
+export function Header({ menu, popular, services = [] }: { menu: MenuItem[]; popular: string[]; services?: ServiceMenu[] }) {
   const count = useCart((s) => cartCount(s.items));
   const { user, favs, enabled } = useSite();
   const pathname = usePathname();
@@ -29,6 +34,9 @@ export function Header({ menu, popular }: { menu: MenuItem[]; popular: string[] 
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
   const active = menu.find((m) => m.label === open);
+  const servicesOpen = open === SERVICES && services.length > 0;
+  const [mobileServices, setMobileServices] = useState(false);
+  const onServices = pathname.startsWith("/hizmetlerimiz") || pathname.startsWith("/hizmet/");
   const close = () => { setOpen(null); setMobile(false); };
   const icons = (
     <>
@@ -103,9 +111,10 @@ export function Header({ menu, popular }: { menu: MenuItem[]; popular: string[] 
                 </Link>
               </li>
             ))}
-            <li className="ml-auto" onMouseEnter={() => setOpen(null)}>
-              <Link href="/hizmetlerimiz" onClick={close} className={`${navCls(pathname.startsWith("/hizmetlerimiz"))} inline-flex items-center gap-1.5`}>
-                <Wrench size={16} />Hizmetlerimiz
+            <li className="ml-auto" onMouseEnter={() => setOpen(SERVICES)}>
+              <Link href="/hizmetlerimiz" onClick={close} aria-expanded={servicesOpen}
+                className={`${navCls(onServices || servicesOpen)} inline-flex items-center gap-1.5 ${servicesOpen ? "text-accent" : ""}`}>
+                <Wrench size={16} />Hizmetlerimiz<ChevronDown size={14} className={`transition-transform ${servicesOpen ? "rotate-180" : ""}`} />
               </Link>
             </li>
             <li onMouseEnter={() => setOpen(null)}>
@@ -139,9 +148,9 @@ export function Header({ menu, popular }: { menu: MenuItem[]; popular: string[] 
                   </Link>
                 </li>
               ))}
-              <li onMouseEnter={() => setOpen(null)}>
+              <li onMouseEnter={() => setOpen(SERVICES)}>
                 <Link href="/hizmetlerimiz" onClick={close}
-                  className={`block rounded-[4px] px-2.5 py-2 text-[13px] font-semibold transition-colors hover:bg-surface hover:text-primary ${pathname.startsWith("/hizmetlerimiz") ? "text-primary" : "text-foreground/80"}`}>
+                  className={`block rounded-[4px] px-2.5 py-2 text-[13px] font-semibold transition-colors hover:bg-surface hover:text-primary ${onServices || servicesOpen ? "text-primary" : "text-foreground/80"}`}>
                   Hizmetlerimiz
                 </Link>
               </li>
@@ -164,6 +173,50 @@ export function Header({ menu, popular }: { menu: MenuItem[]; popular: string[] 
         )}
 
         <AnimatePresence>
+          {servicesOpen && (
+            <motion.div
+              key="hizmetler"
+              initial={{ opacity: 0, y: -8 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -8 }}
+              transition={{ duration: 0.18 }}
+              className="absolute inset-x-0 top-full hidden border-b border-border bg-white shadow-xl md:block"
+            >
+              <div className="mx-auto grid w-full max-w-7xl grid-cols-12 gap-10 px-6 py-10">
+                <div className="col-span-9 grid grid-cols-3 gap-8">
+                  {services.map((g) => {
+                    const I = serviceIcons[g.icon];
+                    return (
+                      <div key={g.href}>
+                        <Link href={g.href} onClick={close} className="group flex items-center gap-3">
+                          <span className="grid h-10 w-10 shrink-0 place-items-center rounded-[4px] bg-primary text-white transition-colors group-hover:bg-accent"><I size={19} /></span>
+                          <span className="text-sm font-bold uppercase tracking-[0.12em] text-muted group-hover:text-primary">{g.label}</span>
+                        </Link>
+                        <ul className="mt-5 space-y-3 border-l border-border pl-4">
+                          {g.items.map((it) => (
+                            <li key={it.href}>
+                              <Link href={it.href} onClick={close} className="block text-[15px] leading-snug hover:text-primary">{it.title}</Link>
+                            </li>
+                          ))}
+                        </ul>
+                        <Link href={g.href} onClick={close} className="mt-5 inline-flex items-center gap-1.5 text-xs font-semibold text-accent hover:text-primary">
+                          Tümünü gör <ArrowRight size={13} />
+                        </Link>
+                      </div>
+                    );
+                  })}
+                </div>
+                <div className="relative col-span-3 isolate overflow-hidden rounded-[4px] bg-[#0b1d45] p-7 text-white">
+                  <div className="absolute inset-0 -z-10 bg-gradient-to-br from-[#0b1d45] via-[#0f2a60] to-primary" />
+                  <p className="text-[11px] font-semibold uppercase tracking-[0.25em] text-accent">Keşif ve teklif</p>
+                  <p className="mt-4 text-xl font-semibold leading-snug">Ticari yapılar ve sanayi tesisleri için teklif alın</p>
+                  <p className="mt-3 text-sm leading-relaxed text-white/70">Projenizi paylaşın; yerinde keşifle kapsamı netleştirip teklif hazırlayalım.</p>
+                  <Link href="/hizmetlerimiz#teklif" onClick={close} className="mt-6 inline-flex rounded-[4px] bg-white px-4 py-2.5 text-sm font-bold text-primary hover:bg-white/90">Teklif Al</Link>
+                  <Link href="/hizmetlerimiz" onClick={close} className="mt-3 flex items-center gap-1.5 text-sm font-semibold text-white/80 hover:text-white">Tüm hizmetler <ArrowRight size={14} /></Link>
+                </div>
+              </div>
+            </motion.div>
+          )}
           {active && (
             <motion.div
               key={active.label}
@@ -234,7 +287,26 @@ export function Header({ menu, popular }: { menu: MenuItem[]; popular: string[] 
                     </Link>
                   </li>
                 ))}
-                <li className="mt-1 border-t border-border pt-1"><Link href="/hizmetlerimiz" onClick={close} className="flex items-center gap-2 px-6 py-3 font-semibold"><Wrench size={18} />Hizmetlerimiz</Link></li>
+                <li className="mt-1 border-t border-border pt-1">
+                  <button onClick={() => setMobileServices((v) => !v)} aria-expanded={mobileServices} className="flex w-full items-center gap-2 px-6 py-3 text-left font-semibold">
+                    <Wrench size={18} />Hizmetlerimiz<ChevronDown size={16} className={`ml-auto transition-transform ${mobileServices ? "rotate-180" : ""}`} />
+                  </button>
+                  {mobileServices && (
+                    <div className="bg-surface pb-2">
+                      <Link href="/hizmetlerimiz" onClick={close} className="block px-8 py-2.5 text-sm font-semibold text-primary">Tüm hizmetler</Link>
+                      {services.map((g) => (
+                        <div key={g.href} className="px-8 py-2">
+                          <Link href={g.href} onClick={close} className="text-xs font-bold uppercase tracking-[0.12em] text-muted">{g.label}</Link>
+                          <ul className="mt-1.5">
+                            {g.items.map((it) => (
+                              <li key={it.href}><Link href={it.href} onClick={close} className="block py-1.5 text-sm">{it.title}</Link></li>
+                            ))}
+                          </ul>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                </li>
                 <li><Link href="/iletisim" onClick={close} className="flex items-center gap-2 px-6 py-3 font-semibold text-primary"><PhoneCall size={18} />İletişim</Link></li>
                 <li><Link href="/bilgi-al" onClick={close} className="flex items-center gap-2 px-6 py-3 font-semibold text-accent"><Info size={18} />Bilgi Al</Link></li>
               </ul>

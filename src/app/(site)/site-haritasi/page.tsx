@@ -7,6 +7,7 @@ import type { Product } from "@/lib/data";
 import { getProducts } from "@/lib/products";
 import { getSeason, seasonRank } from "@/lib/season";
 import { proServices } from "@/lib/pro-services";
+import { getServiceItems } from "@/lib/service-items";
 import { footerLinks } from "@/lib/site";
 import { slugify } from "@/lib/slug";
 
@@ -55,7 +56,7 @@ function byBrand(list: Product[]) {
 }
 
 export default async function SiteMap() {
-  const [products, posts, season] = await Promise.all([getProducts(), getPosts().catch(() => []), getSeason()]);
+  const [products, posts, season, services] = await Promise.all([getProducts(), getPosts().catch(() => []), getSeason(), getServiceItems()]);
   const cats = byCategory(products, seasonRank(season));
   const brands = [...new Set(products.map((p) => p.brand).filter(Boolean))].sort((a, b) => a.localeCompare(b, "tr"));
   const stats = [
@@ -92,7 +93,7 @@ export default async function SiteMap() {
       </nav>
 
       <section id="sayfalar" className="mt-14 grid scroll-mt-32 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        <LinkCard icon={<LayoutGrid size={18} />} title="Genel sayfalar" links={general} />
+        <LinkCard icon={<LayoutGrid size={18} />} title="Genel sayfalar" links={[...general, ...services.map((x) => ({ label: x.title, href: `/hizmet/${x.slug}` }))]} />
         <LinkCard icon={<UserRound size={18} />} title="Hesap ve alışveriş" links={account} />
         <LinkCard icon={<Headset size={18} />} title="Müşteri hizmetleri" links={service} />
       </section>
