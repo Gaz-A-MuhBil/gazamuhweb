@@ -7,6 +7,7 @@ export const nav = [
   { label: "Klima", href: "/klima" },
   { label: "Kombi", href: "/kombi" },
   { label: "Şofben", href: "/sofben" },
+  { label: "Termosifon", href: "/termosifon" },
   { label: "Radyatör", href: "/radyator" },
   { label: "Oda Termostatı", href: "/oda-termostati" },
   { label: "Isı Pompası", href: "/isi-pompasi" },

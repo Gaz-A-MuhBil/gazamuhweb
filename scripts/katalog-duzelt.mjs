@@ -18,6 +18,8 @@
 // 11) Üstü çizili fiyatı (old_price) satış fiyatından düşük ya da ona eşit girilmiş ürünlerde old_price'ı
 //     satış fiyatının ~%10 üstüne, yuvarlak bir değere çeker (indirim etiketi doğru görünsün). Eski değerler
 //     UPLOAD_DIR/.eski-fiyat-1.json dosyasına yedeklenir.
+// 12) Ürün görsellerini eykom.com görselleriyle değiştirir, eykom'da olmayan ürünlerin galerisini tek görsele indirir
+//     ve bizim kategorilerimizdeki yeni eykom ürünlerini ekler (eykom.json + eykom-gorselleri/).
 // Her adım başarıyla bitince UPLOAD_DIR'e kendi işaret dosyasını bırakır ve bir daha çalışmaz;
 // böylece sonradan admin panelinden yapılan değişikliklere dokunulmaz.
 import { createHash, randomBytes } from "node:crypto";
@@ -37,6 +39,7 @@ const MARK_BG = ".arkaplan-1";
 const MARK_BG_BACK = ".arkaplan-geri-1";
 const MARK_PRICE = ".fiyat-indirim-1";
 const MARK_OLD = ".eski-fiyat-1";
+const MARK_EYKOM = ".eykom-1";
 const exists = (p) => access(p).then(() => true, () => false);
 const bundledName = (url) => createHash("sha1").update(url).digest("hex").slice(0, 24) + ".webp";
 
@@ -65,7 +68,8 @@ export async function run() {
   const doBgBack = !(await exists(path.join(uploadDir, MARK_BG_BACK))) && (await exists(path.join(HERE, "katalog-arkaplan-geri.json")));
   const doPrice = !(await exists(path.join(uploadDir, MARK_PRICE)));
   const doOld = !(await exists(path.join(uploadDir, MARK_OLD)));
-  if (!doCatalog && !doStock && !doGallery && !doClean && !doText && !doSku && !doBg && !doBgBack && !doPrice && !doOld) return;
+  const doEykom = !(await exists(path.join(uploadDir, MARK_EYKOM))) && (await exists(path.join(HERE, "eykom.json")));
+  if (!doCatalog && !doStock && !doGallery && !doClean && !doText && !doSku && !doBg && !doBgBack && !doPrice && !doOld && !doEykom) return;
 
   const c = await mysql.createConnection({
     host: process.env.DB_HOST,
@@ -92,6 +96,7 @@ export async function run() {
     if (doBgBack) await backgroundsBack(c, uploadDir);
     if (doPrice) await priceCut(c, uploadDir);
     if (doOld) await oldPriceFix(c, uploadDir);
+    if (doEykom) await eykom(c, uploadDir);
   } finally {
     await c.end();
   }
@@ -205,7 +210,7 @@ async function texts(c, uploadDir) {
 
 // 7) Ürün kodları: kategori başına marka ve ada göre sıralı numara. Zaten GZ- ile başlayanlara dokunulmaz.
 // Kategori kısaltmaları src/lib/sku.ts ile aynıdır.
-const CATEGORY_CODES = { Kombi: "KMB", Klima: "KLM", "Isı Pompası": "ISP", Radyatör: "RAD", Şofben: "SFB", "Sirkülasyon Pompası": "SRK", "Oda Termostatı": "TRM" };
+const CATEGORY_CODES = { Kombi: "KMB", Klima: "KLM", "Isı Pompası": "ISP", Radyatör: "RAD", Şofben: "SFB", "Sirkülasyon Pompası": "SRK", "Oda Termostatı": "TRM", Termosifon: "TRS" };
 async function skus(c, uploadDir) {
   const [rows] = await c.query("SELECT id, sku, category FROM products ORDER BY category, brand, name, id");
   const next = new Map();
@@ -345,6 +350,73 @@ async function oldPriceFix(c, uploadDir) {
   await writeFile(path.join(uploadDir, `${MARK_OLD}.json`), JSON.stringify(backup));
   console.log(`[katalog] ${rows.length} ürünün hatalı üstü çizili fiyatı düzeltildi`);
   await writeFile(path.join(uploadDir, MARK_OLD), new Date().toISOString());
+}
+
+// 12) Ürün görselleri artık eykom.com'dan (eykom.json + eykom-gorselleri/, arka planı temizlenmiş katalog görselleri):
+//   a) eykom'da karşılığı olan ürünlerin kapak ve galeri görselleri eykom görselleriyle değişir
+//   b) karşılığı olmayan ürünlerde yalnızca kapak görseli kalır (galeri boşaltılır)
+//   c) bizim kategorilerimizdeki yeni eykom ürünleri eklenir (aynı adreste ürün varsa atlanır)
+// Ürün adı, fiyatı ve açıklaması gibi mevcut veriler değişmez. Eski görsel alanları ve eklenen ürün kimlikleri
+// UPLOAD_DIR/.eykom-1.json dosyasına yedeklenir; eski görsel dosyaları silinmez.
+async function eykom(c, uploadDir) {
+  const data = JSON.parse(await readFile(path.join(HERE, "eykom.json"), "utf8"));
+  const src = path.join(HERE, "eykom-gorselleri");
+  const put = async (f) => {
+    const to = path.join(uploadDir, f);
+    if (!(await exists(to))) await copyFile(path.join(src, f), to);
+    return `/uploads/${f}`;
+  };
+  const backup = { products: {}, added: [] };
+
+  let changed = 0;
+  for (const m of data.matched) {
+    const [rows] = await c.query("SELECT image_url, images FROM products WHERE id = ? AND slug = ?", [m.id, m.slug]);
+    if (!rows[0]) continue;
+    backup.products[m.id] = rows[0];
+    const urls = [];
+    for (const f of m.images) urls.push(await put(f));
+    await c.query("UPDATE products SET image_url = ?, images = ? WHERE id = ?", [urls[0], JSON.stringify(urls.slice(1)), m.id]);
+    changed++;
+  }
+
+  let single = 0;
+  for (const s of data.single) {
+    const [rows] = await c.query("SELECT image_url, images FROM products WHERE id = ? AND slug = ?", [s.id, s.slug]);
+    if (!rows[0]) continue;
+    const imgs = typeof rows[0].images === "string" ? JSON.parse(rows[0].images) : rows[0].images;
+    if (!imgs?.length) continue;
+    backup.products[s.id] = rows[0];
+    await c.query("UPDATE products SET images = ? WHERE id = ?", ["[]", s.id]);
+    single++;
+  }
+
+  const [skuRows] = await c.query("SELECT sku FROM products WHERE sku LIKE 'GZ-%'");
+  const next = new Map();
+  for (const r of skuRows) {
+    const m = /^GZ-([A-Z]{3})-(\d+)$/.exec(r.sku ?? "");
+    if (m) next.set(m[1], Math.max(next.get(m[1]) ?? 0, Number(m[2])));
+  }
+  let added = 0;
+  for (const p of data.add) {
+    const [dup] = await c.query("SELECT id FROM products WHERE slug = ?", [p.slug]);
+    if (dup.length) continue;
+    const urls = [];
+    for (const f of p.images) urls.push(await put(f));
+    const code = CATEGORY_CODES[p.category] ?? "URN";
+    const seq = (next.get(code) ?? 0) + 1;
+    next.set(code, seq);
+    const [res] = await c.query("INSERT INTO products SET ?", [{
+      slug: p.slug, sku: `GZ-${code}-${String(seq).padStart(4, "0")}`, name: p.name, brand: p.brand, category: p.category,
+      product_group: p.product_group, price: p.price, old_price: p.old_price, in_stock: 1, description: p.description,
+      specs: JSON.stringify(p.specs), image_url: urls[0], images: JSON.stringify(urls.slice(1)), source_url: p.source_url, active: 1,
+    }]);
+    backup.added.push(res.insertId);
+    added++;
+  }
+
+  await writeFile(path.join(uploadDir, `${MARK_EYKOM}.json`), JSON.stringify(backup));
+  console.log(`[katalog] eykom: ${changed} ürünün görseli değişti, ${single} ürün tek görsele indi, ${added} yeni ürün eklendi`);
+  await writeFile(path.join(uploadDir, MARK_EYKOM), new Date().toISOString());
 }
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
