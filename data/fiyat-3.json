@@ -1,0 +1,5090 @@
+{
+ "65-lt-termoboyler-baymak-aqua-konfor": {
+  "price": 16250,
+  "old_price": null
+ },
+ "airfel_vibe_inverter_klima_9000_btu_klima": {
+  "price": 30200,
+  "old_price": null
+ },
+ "airfel_vibe_inverter_klima_ltxq35a_12000_btu": {
+  "price": 29450,
+  "old_price": 32500
+ },
+ "airfel_vibe_inverter_klima_ltxq50c_18000_btu": {
+  "price": 41600,
+  "old_price": 46000
+ },
+ "airfel-duvar-tipi-inverter-klima-ltxm25n-9000-btu": {
+  "price": 30700,
+  "old_price": null
+ },
+ "airfel-duvar-tipi-inverter-klima-ltxm35n-12000-btu": {
+  "price": 25000,
+  "old_price": null
+ },
+ "airfel-duvar-tipi-inverter-klima-ltxm50n-18000-btu": {
+  "price": 50250,
+  "old_price": null
+ },
+ "airfel-duvar-tipi-inverter-klima-ltxm71n-24000-btu": {
+  "price": 56000,
+  "old_price": null
+ },
+ "airfel-inverter-salon-tipi-klima-lva140a-split-48000-btu": {
+  "price": 111300,
+  "old_price": null
+ },
+ "airfel-maestro-optimum-premix-20-24-kw-tam-yogusmali-5-yil-garantili-kombi": {
+  "price": 32900,
+  "old_price": 36500
+ },
+ "airfel-maestro-optimum-premix-23-kw-tam-yogusmali-5-yil-garantili-kombi": {
+  "price": 37350,
+  "old_price": 41500
+ },
+ "airfel-maestro-power-premix-23kw-tam-yogusmali-5-yil-garantili-kombi": {
+  "price": 38050,
+  "old_price": 42000
+ },
+ "airfel-maestro-power-premix-24kw-tam-yogusmali-5-yil-garantili-kombi": {
+  "price": 38050,
+  "old_price": 42000
+ },
+ "airfel-maestro-power-premix-36kw-tam-yogusmali-5-yil-garantili-kombi": {
+  "price": 47350,
+  "old_price": 52500
+ },
+ "airfel-maestro-smart-premix-24-kw-tam-yogusmali-5yil-garantili-kombi": {
+  "price": 41600,
+  "old_price": 46000
+ },
+ "airfel-maestro-smart-premix-28-kw-tam-yogusmali-5-yil-garantili-kombi": {
+  "price": 51950,
+  "old_price": 57500
+ },
+ "airfel-vibe-inverter-klima-ltxq71c-24020-btu": {
+  "price": 48500,
+  "old_price": 53500
+ },
+ "arcelik-09465-hp-ultra-hijyen-plus-silver-inverter-klima-a-sinifi-r32": {
+  "price": 37150,
+  "old_price": null
+ },
+ "arcelik-09560-hp-wifi-ultra-hijyen-plus-prosmart-black-inverter-klima-a-sinifi-r32": {
+  "price": 41250,
+  "old_price": null
+ },
+ "arcelik-12000-btu-klima": {
+  "price": 32600,
+  "old_price": 36000
+ },
+ "arcelik-12465-hp-ultra-hijyen-plus-silver-inverter-klima-a-sinifi-r32": {
+  "price": 41850,
+  "old_price": null
+ },
+ "arcelik-12560-hp-wifi-ultra-hijyen-plus-prosmart-black-inverter-klima-a-sinifi-r32": {
+  "price": 44050,
+  "old_price": null
+ },
+ "arcelik-18000-btu-klima": {
+  "price": 45550,
+  "old_price": 50500
+ },
+ "arcelik-18465-hp-ultra-hijyen-plus-silver-inverter-klima-a-sinifi-r32": {
+  "price": 57900,
+  "old_price": null
+ },
+ "arcelik-18560-hp-wifi-ultra-hijyen-plus-prosmart-black-inverter-klima-a-sinifi-r32": {
+  "price": 67650,
+  "old_price": null
+ },
+ "arcelik-24465-hp-ultra-hijyen-plus-silver-inverter-klima-a-sinifi-r32": {
+  "price": 63750,
+  "old_price": null
+ },
+ "arcelik-24560-hp-wifi-ultra-hijyen-plus-prosmart-black-inverter-klima-a-sinifi-r32": {
+  "price": 73400,
+  "old_price": null
+ },
+ "arcelik-ekolojik-15000-btu-split-klima": {
+  "price": 31850,
+  "old_price": null
+ },
+ "arcelik-ekolojik-24000-btu-split-klima": {
+  "price": 56800,
+  "old_price": null
+ },
+ "arcelik-ekolojik-7500-btu-split-klima": {
+  "price": 29000,
+  "old_price": null
+ },
+ "arcelik-ekolojik-9000-btu-split-klima": {
+  "price": 41600,
+  "old_price": null
+ },
+ "arcelik-multi-zm16102-md-16-000-btu-2-girisli-f-dis-unite": {
+  "price": 48200,
+  "old_price": null
+ },
+ "arcelik-multi-zm18103-md-18-000-btu-3-girisli-f-dis-unite": {
+  "price": 70400,
+  "old_price": null
+ },
+ "arcelik-multi-zm24104-md-24-000-btu-4-girisli-f-dis-unite": {
+  "price": 89700,
+  "old_price": null
+ },
+ "arcelik-multi-zm30105-md-30-000-btu-5-girisli-f-dis-unite": {
+  "price": 99200,
+  "old_price": null
+ },
+ "arcelik-neo-12000-btu-split-klima": {
+  "price": 30600,
+  "old_price": null
+ },
+ "arcelik-neo-9000-btu-split-klima": {
+  "price": 31700,
+  "old_price": null
+ },
+ "arcelik-t-7365-e-bs-65-lt-dijital-koseli-termosifon": {
+  "price": 18250,
+  "old_price": null
+ },
+ "arcelik-thermal-16-kw-isi-pompasi-monoblok-inverter-monofaze": {
+  "price": 168150,
+  "old_price": null
+ },
+ "arcelik-thermal-8-kw-monoblok-isi-pompasi-monofaze": {
+  "price": 110500,
+  "old_price": null
+ },
+ "arcelik-z40509-md-sb-mirror-9k-9-000-btu-h-ic-unite": {
+  "price": 26050,
+  "old_price": null
+ },
+ "arcelik-z40609-md-sb-plasma-9k-9-000-btu-h-ic-unite": {
+  "price": 11950,
+  "old_price": null
+ },
+ "arcelik-z40612-md-sb-plasma-12k-12-000-btu-h-ic-unite": {
+  "price": 13800,
+  "old_price": null
+ },
+ "arcelik-z40618-md-sc-plasma-18k-18-000-btu-h-ic-unite": {
+  "price": 15250,
+  "old_price": null
+ },
+ "arcelik-z40624-md-sc-plasma-24k-24-000-btu-h-ic-unite": {
+  "price": 21850,
+  "old_price": null
+ },
+ "arissa-hm-25-120-180-sirkulasyon-pompasi": {
+  "price": 9560,
+  "old_price": null
+ },
+ "arissa-hm-25-125-180-sirkulasyon-pompasi": {
+  "price": 8110,
+  "old_price": null
+ },
+ "ariston-andris-lux-15-5-15-lt-tezgah-ustu-termosifon": {
+  "price": 11100,
+  "old_price": null
+ },
+ "ariston-andris-lux-15u-5-15-lt-tezgah-alti-termosifon": {
+  "price": 11700,
+  "old_price": null
+ },
+ "ariston-andris-lux-30-5-30-lt-tezgah-ustu-termosifon": {
+  "price": 11400,
+  "old_price": null
+ },
+ "ariston-pro1-r-50v-1-8k-pl-eu-50-lt-silindirik-termosifon": {
+  "price": 13600,
+  "old_price": null
+ },
+ "ariston-pro1-r-65v-1-8k-pl-eu-65-lt-silindirik-termosifon": {
+  "price": 15900,
+  "old_price": null
+ },
+ "ariston-pro1-r-80v-1-8k-pl-eu-80-lt-silindirik-termosifon": {
+  "price": 16200,
+  "old_price": null
+ },
+ "baymak-12000-btu-elegant-plus-split-inverter-klima": {
+  "price": 38000,
+  "old_price": 42000
+ },
+ "baymak-18000-btu-elegant-plus-split-inverter-klima": {
+  "price": 45750,
+  "old_price": 50500
+ },
+ "baymak-24000-btu-elegant-plus-split-inverter-klima-2": {
+  "price": 67600,
+  "old_price": 74500
+ },
+ "baymak-48-000-btu-salon-tipi-klima": {
+  "price": 119600,
+  "old_price": null
+ },
+ "baymak-600x1000-panel-radyator-tip22": {
+  "price": 2810,
+  "old_price": null
+ },
+ "baymak-600x1200-panel-radyator-tip22": {
+  "price": 3370,
+  "old_price": null
+ },
+ "baymak-600x1300-panel-radyator-tip22": {
+  "price": 3500,
+  "old_price": null
+ },
+ "baymak-600x1400-panel-radyator-tip22": {
+  "price": 3770,
+  "old_price": null
+ },
+ "baymak-600x1500-panel-radyator-tip22": {
+  "price": 4040,
+  "old_price": null
+ },
+ "baymak-600x1600-panel-radyator-tip22": {
+  "price": 4310,
+  "old_price": null
+ },
+ "baymak-600x1800-panel-radyator-tip22": {
+  "price": 4850,
+  "old_price": null
+ },
+ "baymak-600x600-panel-radyator-tip22": {
+  "price": 1850,
+  "old_price": null
+ },
+ "baymak-600x800-panel-radyator-tip22": {
+  "price": 2470,
+  "old_price": null
+ },
+ "baymak-600x900-panel-radyator-tip22": {
+  "price": 2530,
+  "old_price": null
+ },
+ "baymak-9000-btu-elegant-plus-split-inverter-klima": {
+  "price": 21890,
+  "old_price": 24500
+ },
+ "baymak-aqua-konfor-100-lt-montaj-haric-titanium-silindirik-termosifon": {
+  "price": 13950,
+  "old_price": null
+ },
+ "baymak-aqua-konfor-50-lt-montaj-haric-titanium-silindirik-termosifon": {
+  "price": 12900,
+  "old_price": null
+ },
+ "baymak-aqua-konfor-65-lt-montaj-haric-titanium-silindirik-termosifon": {
+  "price": 12250,
+  "old_price": null
+ },
+ "baymak-aqua-konfor-80-lt-montaj-haric-titanium-silindirik-termosifon": {
+  "price": 15350,
+  "old_price": null
+ },
+ "baymak-aqua-lcd-prizmatik-65-lt-termosifon-montaj-haric": {
+  "price": 21750,
+  "old_price": null
+ },
+ "baymak-aqua-lcd-prizmatik-jet-50-lt-termosifon-montaj-haric": {
+  "price": 21100,
+  "old_price": null
+ },
+ "baymak-aqua-lcd-prizmatik-jet-65-lt-termosifon-montaj-haric": {
+  "price": 21500,
+  "old_price": null
+ },
+ "baymak-bh-12-lt-dogalgazli-hermatik-sofben": {
+  "price": 24750,
+  "old_price": 27500
+ },
+ "baymak-bh-14-hermetik-sofben-14-lt": {
+  "price": 24950,
+  "old_price": null
+ },
+ "baymak-connect-akilli-oda-termostati": {
+  "price": 8770,
+  "old_price": null
+ },
+ "baymak-duotec-compact-24-kw-3-yil-garantili-premix-yogusmali-kombi": {
+  "price": 37300,
+  "old_price": 41500
+ },
+ "baymak-duotec-compact-30-kw-3-yil-garantili-premix-yogusmali-kombi": {
+  "price": 39100,
+  "old_price": 43500
+ },
+ "baymak-duotec-compact-33-kw-3-yil-garantili-premix-yogusmali-kombi": {
+  "price": 42600,
+  "old_price": 47000
+ },
+ "baymak-duotec-compact-42-kw-dhw-tam-yogusmali-kombi-boyler-cikisli": {
+  "price": 52200,
+  "old_price": null
+ },
+ "baymak-duotec-compact-45-kw-tam-yogusmali-kombi": {
+  "price": 47250,
+  "old_price": null
+ },
+ "baymak-duotec-premix-42-kw-3-yil-garantili-yogusmali-kombi": {
+  "price": 54900,
+  "old_price": 60500
+ },
+ "baymak-elegant-plus-uv-09-a-k-r32-inverter-split-klima": {
+  "price": 24250,
+  "old_price": null
+ },
+ "baymak-elegant-plus-uv-09-a-r32-inverter-split-klima": {
+  "price": 29150,
+  "old_price": null
+ },
+ "baymak-elegant-plus-uv-12-a-k-r32-inverter-split-klima": {
+  "price": 30850,
+  "old_price": null
+ },
+ "baymak-elegant-plus-uv-12-a-r32-inverter-split-klima": {
+  "price": 25400,
+  "old_price": null
+ },
+ "baymak-elegant-plus-uv-18-a-k-r32-inverter-split-klima": {
+  "price": 44150,
+  "old_price": null
+ },
+ "baymak-elegant-plus-uv-18-a-r32-inverter-split-klima": {
+  "price": 47300,
+  "old_price": null
+ },
+ "baymak-elegant-plus-uv-24-a-r32-inverter-split-klima": {
+  "price": 55800,
+  "old_price": null
+ },
+ "baymak-elegant-prime-09-d-a-sinifi-r32-inverter-split-klima": {
+  "price": 26550,
+  "old_price": null
+ },
+ "baymak-elegant-prime-09-k-a-sinifi-r32-inverter-split-klima": {
+  "price": 28200,
+  "old_price": null
+ },
+ "baymak-elegant-prime-12-d-a-sinifi-r32-inverter-split-klima": {
+  "price": 30300,
+  "old_price": null
+ },
+ "baymak-elegant-prime-12-k-a-sinifi-r32-inverter-split-klima": {
+  "price": 31500,
+  "old_price": null
+ },
+ "baymak-elegant-prime-18-d-a-sinifi-r32-inverter-split-klima": {
+  "price": 43200,
+  "old_price": null
+ },
+ "baymak-elegant-prime-18-k-a-sinifi-r32-inverter-split-klima": {
+  "price": 46150,
+  "old_price": null
+ },
+ "baymak-elegant-prime-24-d-a-sinifi-r32-inverter-split-klima": {
+  "price": 59600,
+  "old_price": null
+ },
+ "baymak-elegant-prime-multi-18-1x2-a-2-girisli-dis-unite": {
+  "price": 70450,
+  "old_price": null
+ },
+ "baymak-elegant-prime-multi-21-1x3-a-3-girisli-dis-unite": {
+  "price": 69600,
+  "old_price": null
+ },
+ "baymak-elegant-prime-multi-36-1x4-a-4-girisli-dis-unite": {
+  "price": 109000,
+  "old_price": null
+ },
+ "baymak-elegant-prime-multi-42-1x5-a-5-girisli-dis-unite": {
+  "price": 146150,
+  "old_price": null
+ },
+ "baymak-elegant-prime-split-multi-09-a-ic-unite": {
+  "price": 10900,
+  "old_price": null
+ },
+ "baymak-elegant-prime-split-multi-12-a-ic-unite": {
+  "price": 15300,
+  "old_price": null
+ },
+ "baymak-elegant-prime-split-multi-18-a-ic-unite": {
+  "price": 18050,
+  "old_price": null
+ },
+ "baymak-elegant-prime-split-multi-24-a-ic-unite": {
+  "price": 26450,
+  "old_price": null
+ },
+ "baymak-idee-kablosuz-programlanabilir-oda-termostati": {
+  "price": 6020,
+  "old_price": null
+ },
+ "baymak-idee-programlanabilir-oda-termostati": {
+  "price": 3460,
+  "old_price": null
+ },
+ "baymak-iotherm-hava-kaynakli-monoblok-inverter-isi-pompasi-io-mm-100-p-10kw": {
+  "price": 128350,
+  "old_price": null
+ },
+ "baymak-iotherm-hava-kaynakli-monoblok-inverter-isi-pompasi-io-mm-80-p-8kw": {
+  "price": 125300,
+  "old_price": null
+ },
+ "baymak-iotherm-hava-kaynakli-monoblok-inverter-isi-pompasi-io-mt-160-p-16kw": {
+  "price": 190000,
+  "old_price": null
+ },
+ "baymak-iotherm-pro-hava-kaynakli-isi-pompasi-10m-10kw": {
+  "price": 133450,
+  "old_price": null
+ },
+ "baymak-iotherm-pro-hava-kaynakli-isi-pompasi-16m-159kw": {
+  "price": 207450,
+  "old_price": null
+ },
+ "baymak-iotherm-pro-hava-kaynakli-isi-pompasi-16t-159kw": {
+  "price": 223650,
+  "old_price": null
+ },
+ "baymak-iotherm-pro-hava-kaynakli-isi-pompasi-8m-8kw": {
+  "price": 123800,
+  "old_price": null
+ },
+ "baymak-lunatec-24-kw-5-yil-garantili-tam-yogusmali-kombi": {
+  "price": 35400,
+  "old_price": 39000
+ },
+ "baymak-lunatec-30-kw-5-yil-garantili-tam-yogusmali-kombi": {
+  "price": 41650,
+  "old_price": 46000
+ },
+ "baymak-lunatec-35-kw-5-yil-garantili-tam-yogusmali-kombi": {
+  "price": 41950,
+  "old_price": 46500
+ },
+ "baymak-ta-15-lt-montaj-haric-tezgah-alti-termosifon": {
+  "price": 11050,
+  "old_price": null
+ },
+ "baymak-ta-30-lt-montaj-haric-tezgah-alti-termosifon": {
+  "price": 13450,
+  "old_price": null
+ },
+ "baymak-tu-15-lt-montaj-haric-tezgah-ustu-termosifon": {
+  "price": 12200,
+  "old_price": null
+ },
+ "baymak-tu-30-lt-montaj-haric-tezgah-ustu-termosifon": {
+  "price": 14500,
+  "old_price": null
+ },
+ "bosch-36000-btu-4-yon-uflemeli-kaset-tipi-klima": {
+  "price": 100650,
+  "old_price": null
+ },
+ "bosch-42000-btu-4-yon-uflemeli-kaset-tipi-klima": {
+  "price": 109650,
+  "old_price": null
+ },
+ "bosch-48000-btu-4-yon-uflemeli-kaset-tipi-klima": {
+  "price": 119750,
+  "old_price": null
+ },
+ "bosch-48000-btu-on-off-4-yon-uflemeli-kaset-tipi-klima": {
+  "price": 91700,
+  "old_price": null
+ },
+ "bosch-600x1000-panel-radyator-tip22": {
+  "price": 1440,
+  "old_price": null
+ },
+ "bosch-600x1100-panel-radyator-tip22": {
+  "price": 1590,
+  "old_price": null
+ },
+ "bosch-600x1200-panel-radyator-tip22": {
+  "price": 1730,
+  "old_price": null
+ },
+ "bosch-600x1300-panel-radyator-tip22": {
+  "price": 1780,
+  "old_price": null
+ },
+ "bosch-600x1400-panel-radyator-tip22": {
+  "price": 1920,
+  "old_price": null
+ },
+ "bosch-600x1500-panel-radyator-tip22": {
+  "price": 2060,
+  "old_price": null
+ },
+ "bosch-600x1600-panel-radyator-tip22": {
+  "price": 2190,
+  "old_price": null
+ },
+ "bosch-600x1800-panel-radyator-tip22": {
+  "price": 2470,
+  "old_price": null
+ },
+ "bosch-600x2000-panel-radyator-tip22": {
+  "price": 2740,
+  "old_price": null
+ },
+ "bosch-600x500-panel-radyator-tip22": {
+  "price": 855,
+  "old_price": null
+ },
+ "bosch-600x600-panel-radyator-tip22": {
+  "price": 955,
+  "old_price": null
+ },
+ "bosch-600x700-panel-radyator-tip22": {
+  "price": 1110,
+  "old_price": null
+ },
+ "bosch-600x800-panel-radyator-tip22": {
+  "price": 1190,
+  "old_price": null
+ },
+ "bosch-600x900-panel-radyator-tip22": {
+  "price": 1300,
+  "old_price": null
+ },
+ "bosch-cl2000-24000-btu-inverter-split-klima": {
+  "price": 65700,
+  "old_price": null
+ },
+ "bosch-cl2001-12000-btu-inverter-split-klima": {
+  "price": 34400,
+  "old_price": null
+ },
+ "bosch-climate-2000-duvar-tipi-klima-18000-btu": {
+  "price": 50900,
+  "old_price": 56000
+ },
+ "bosch-climate-2000-duvar-tipi-klima-24000-btu": {
+  "price": 58250,
+  "old_price": 64500
+ },
+ "bosch-climate-2000-duvar-tipi-klima-9000-btu": {
+  "price": 31500,
+  "old_price": 35000
+ },
+ "bosch-climate-3000i-12-000-btu-h-r32-gazli-a-inverter-split-klima": {
+  "price": 32700,
+  "old_price": null
+ },
+ "bosch-climate-3000i-18-000-btu-h-r32-gazli-a-inverter-split-klima": {
+  "price": 43400,
+  "old_price": null
+ },
+ "bosch-climate-3000i-24-000-btu-h-r32-gazli-a-inverter-split-klima": {
+  "price": 61550,
+  "old_price": null
+ },
+ "bosch-climate-3000i-9-000-btu-h-r32-gazli-a-inverter-split-klima": {
+  "price": 33650,
+  "old_price": null
+ },
+ "bosch-climate-5000-l-f-salon-tipi-klima-48000-btu": {
+  "price": 127750,
+  "old_price": null
+ },
+ "bosch-climate-5000-rac-18000-btu-inverter-split-klima": {
+  "price": 46450,
+  "old_price": null
+ },
+ "bosch-climate-5000-rac-9000-btu-r32-inverter-split-klima": {
+  "price": 29150,
+  "old_price": null
+ },
+ "bosch-compass-wi-fi-12000-btu-inverter-split-klima": {
+  "price": 46750,
+  "old_price": null
+ },
+ "bosch-compass-wi-fi-9000-btu-inverter-split-klima": {
+  "price": 38450,
+  "old_price": null
+ },
+ "bosch-compress-3400i-aws-10-kw-isi-pompasi-split-inverter-monofaze": {
+  "price": 188050,
+  "old_price": null
+ },
+ "bosch-compress-3400i-aws-14-kw-isi-pompasi-split-inverter-monofaze": {
+  "price": 201950,
+  "old_price": null
+ },
+ "bosch-compress-3400i-aws-8-kw-isi-pompasi-split-inverter-monofaze": {
+  "price": 168150,
+  "old_price": null
+ },
+ "bosch-condens-1200i-tam-yogusmali-20kw-3-yil-garantili-kombi": {
+  "price": 34750,
+  "old_price": 38500
+ },
+ "bosch-condens-1200w-24kw-3-yil-garanti-tam-yogusmali-kombi": {
+  "price": 37700,
+  "old_price": 41500
+ },
+ "bosch-condens-1200w-28kw-3-yil-garanti-tam-yogusmali-kombi": {
+  "price": 40450,
+  "old_price": 44500
+ },
+ "bosch-condens-2200i-w-24-kw-5-yil-garantili-tam-yogusmali-kombi": {
+  "price": 46050,
+  "old_price": 51000
+ },
+ "bosch-condens-5700i-w-2424-tam-yogusmali-kombi": {
+  "price": 62500,
+  "old_price": 69000
+ },
+ "bosch-condens-5700i-w-3030-tam-yogusmali-kombi": {
+  "price": 76100,
+  "old_price": 84000
+ },
+ "bosch-condens-5700i-w-3535-tam-yogusmali-kombi": {
+  "price": 89550,
+  "old_price": 99000
+ },
+ "bosch-condens-7000i-24kw-tam-yogusmali-siyah-3-yil-garantili-kombi": {
+  "price": 71350,
+  "old_price": null
+ },
+ "bosch-ct200-easycontrol-akilli-oda-kumandasi-siyah": {
+  "price": 10000,
+  "old_price": null
+ },
+ "bosch-tr15-oda-termostati": {
+  "price": 1080,
+  "old_price": null
+ },
+ "bosch-tr20-rf-on-off-kablosuz-oda-termostati": {
+  "price": 1960,
+  "old_price": null
+ },
+ "bosch-tr24rf-kablosuz-oda-termostati": {
+  "price": 4120,
+  "old_price": 4600
+ },
+ "bosch-vertu-12000-btu-dc-inverter-split-klima": {
+  "price": 39350,
+  "old_price": null
+ },
+ "bosch-vertu-9000-btu-dc-inverter-split-klima": {
+  "price": 39000,
+  "old_price": null
+ },
+ "buderus-gb062-tam-yogusmali-3-yil-garantili-20-kw-sessiz-kombi": {
+  "price": 43950,
+  "old_price": 48500
+ },
+ "buderus-gb062-tam-yogusmali-4-yil-garantili-24-kw-sessiz-kombi": {
+  "price": 46000,
+  "old_price": 51000
+ },
+ "buderus-gb122i-5-yil-garantili-tam-yogusmali-24-kw-ayni-gun-teslimat": {
+  "price": 49700,
+  "old_price": 55000
+ },
+ "buderus-logamatic-tc100-2": {
+  "price": 13490,
+  "old_price": null
+ },
+ "buderus-logamax-plus-gb172i2-30-kw-tam-yogusmali-kombi": {
+  "price": 78900,
+  "old_price": 87000
+ },
+ "buderus-logamax-plus-gb172i2-35-kw-tam-yogusmali-kombi": {
+  "price": 81250,
+  "old_price": 89500
+ },
+ "buderus-logamax-plus-gb182i-2-wi-fi-24-30-kw-tam-yogusmali-kombi": {
+  "price": 122050,
+  "old_price": null
+ },
+ "buderus-logamax-plus-gb182i-2-wi-fi-35-40-kw-tam-yogusmali-kombi": {
+  "price": 123100,
+  "old_price": null
+ },
+ "buderus-logamax-plus-gb182i2-24-kw-tam-yogusmali-kombi": {
+  "price": 95450,
+  "old_price": 105000
+ },
+ "buderus-logamax-plus-gb182i2-30-kw-tam-yogusmali-kombi": {
+  "price": 105000,
+  "old_price": null
+ },
+ "buderus-logamax-plus-gb182i2-35-kw-tam-yogusmali-kombi": {
+  "price": 99900,
+  "old_price": 110000
+ },
+ "buderus-rc100-2-modulasyonlu-oda-kumandasi": {
+  "price": 4470,
+  "old_price": null
+ },
+ "buderus-rc210-rf-mx100-kablosuz-programlanabilir-modulasyonlu-oda-kumandasi": {
+  "price": 8950,
+  "old_price": null
+ },
+ "buderus-rt20-rf-kablosuz-oda-kumandasi": {
+  "price": 1990,
+  "old_price": null
+ },
+ "buderus-rt24-rf-kablosuz-oda-termostati": {
+  "price": 4820,
+  "old_price": 5400
+ },
+ "daikin-csu-premix-24-kw-d2cnl024-6-yil-garantili-tam-yogusmali-kombi": {
+  "price": 49550,
+  "old_price": 55000
+ },
+ "daikin-emura-12000-btu-inverter-klima-beyaz": {
+  "price": 103400,
+  "old_price": 114000
+ },
+ "daikin-emura-12000-btu-inverter-klima-gri": {
+  "price": 100150,
+  "old_price": 110500
+ },
+ "daikin-emura-12000-btuh-a-siyah": {
+  "price": 95300,
+  "old_price": 105000
+ },
+ "daikin-emura-14000-btu-inverter-klima-beyaz": {
+  "price": 130450,
+  "old_price": 143500
+ },
+ "daikin-emura-14000-btu-inverter-klima-gri": {
+  "price": 115600,
+  "old_price": 127500
+ },
+ "daikin-emura-14000-btu-inverter-klima-siyah": {
+  "price": 111450,
+  "old_price": 123000
+ },
+ "daikin-emura-18000-btu-inverter-beyaz": {
+  "price": 130950,
+  "old_price": 144500
+ },
+ "daikin-emura-18000-btu-inverter-gri": {
+  "price": 146550,
+  "old_price": 161500
+ },
+ "daikin-emura-18000-btu-inverter-siyah": {
+  "price": 139650,
+  "old_price": 154000
+ },
+ "daikin-emura-7000-btu-inverter-klima-beyaz": {
+  "price": 86600,
+  "old_price": 95500
+ },
+ "daikin-emura-7000-btu-inverter-klima-gri": {
+  "price": 83750,
+  "old_price": 92500
+ },
+ "daikin-emura-9000-btu-inverter-klima-beyaz": {
+  "price": 83200,
+  "old_price": 92000
+ },
+ "daikin-emura-9000-btu-inverter-klima-gri": {
+  "price": 89300,
+  "old_price": 98500
+ },
+ "daikin-emura-9000-btu-inverter-klima-siyah": {
+  "price": 89100,
+  "old_price": 98500
+ },
+ "daikin-icon-premix-2024-kw-d2cbp020-6-yil-garantili-tam-yogusmali-kombi": {
+  "price": 39900,
+  "old_price": 44000
+ },
+ "daikin-ndj-premix-24-kw-d2cnd024-6-yil-garantili-tam-yogusmali-kombi": {
+  "price": 47550,
+  "old_price": 52500
+ },
+ "daikin-ndj-premix-28-kw-d2cnd028-6-yil-garantili-tam-yogusmali-kombi": {
+  "price": 59900,
+  "old_price": 66000
+ },
+ "daikin-ndj-premix-35-kw-d2cnd035-6-yil-garantili-tam-yogusmali-kombi": {
+  "price": 58850,
+  "old_price": 65000
+ },
+ "daikin-ndj-smart-premix-28-kw-d2cnd024-6-yil-garantili-tam-yogusmali-kombi": {
+  "price": 51950,
+  "old_price": 57500
+ },
+ "daikin-ndj-smart-premix-35-kw-d2cnd024-6-yil-garantili-tam-yogusmali-kombi": {
+  "price": 56050,
+  "old_price": 62000
+ },
+ "daikin-sensira-12000-btu-inverter-klima-beyaz": {
+  "price": 42350,
+  "old_price": 47000
+ },
+ "daikin-sensira-14000-btu-inverter-klima-beyaz": {
+  "price": 61950,
+  "old_price": 68500
+ },
+ "daikin-sensira-18000-btu-inverter-klima-beyaz": {
+  "price": 80150,
+  "old_price": 88500
+ },
+ "daikin-sensira-21000-btu-inverter-klima-beyaz": {
+  "price": 114450,
+  "old_price": 126000
+ },
+ "daikin-sensira-24000-btu-inverter-klima-beyaz": {
+  "price": 92050,
+  "old_price": 101500
+ },
+ "daikin-sensira-7000-btu-inverter-klima-beyaz": {
+  "price": 43650,
+  "old_price": 48500
+ },
+ "daikin-sensira-9000-btu-inverter-klima": {
+  "price": 46150,
+  "old_price": 51000
+ },
+ "daikin-shira-eco-12000-btu-inverter-klima": {
+  "price": 65350,
+  "old_price": 72000
+ },
+ "daikin-shira-eco-24000-btu-inverter-klima": {
+  "price": 107950,
+  "old_price": 119000
+ },
+ "daikin-shira-eco-7000-btu-inverter-klima": {
+  "price": 46900,
+  "old_price": 52000
+ },
+ "daikin-shira-eco-9000-btu-inverter-klima": {
+  "price": 49550,
+  "old_price": 55000
+ },
+ "daikin-siesta-sensira-12000-btu-inverter-klima-beyaz": {
+  "price": 36200,
+  "old_price": 40000
+ },
+ "daikin-siesta-sensira-14000-btu-inverter-klima-beyaz": {
+  "price": 45750,
+  "old_price": 50500
+ },
+ "daikin-siesta-sensira-18000-btu-inverter-klima-beyaz": {
+  "price": 52700,
+  "old_price": 58000
+ },
+ "daikin-siesta-sensira-24000-btu-inverter-klima-beyaz": {
+  "price": 89650,
+  "old_price": 99000
+ },
+ "daikin-siesta-sensira-9000-btu-inverter-klima-beyaz": {
+  "price": 42700,
+  "old_price": 47000
+ },
+ "daikin-ururu-sarara-12000-btu-inverter-klima-beyaz": {
+  "price": 235250,
+  "old_price": 259000
+ },
+ "daikin-ururu-sarara-18000-btuh-inverter-klima-a-beyaz": {
+  "price": 289500,
+  "old_price": 318500
+ },
+ "daikin-ururu-sarara-9000-btuh-inverter-klima-a-beyaz": {
+  "price": 226050,
+  "old_price": 249000
+ },
+ "daikin-vz-premix-23-kw-d2cpx023-6-yil-garantili-tam-yogusmali-kombi": {
+  "price": 39750,
+  "old_price": 44000
+ },
+ "daikin-vz-premix-26-kw-d2cpx026-6-yil-garantili-tam-yogusmali-kombi": {
+  "price": 40200,
+  "old_price": 44500
+ },
+ "daikin-vz-premix-30-kw-d2cpx030-6-yil-garantili-tam-yogusmali-kombi": {
+  "price": 47850,
+  "old_price": 53000
+ },
+ "daikin-vz-premix-36-kw-d2cpx036-6-yil-garantili-tam-yogusmali-kombi": {
+  "price": 49150,
+  "old_price": 54500
+ },
+ "daikin-vz-premix-42-kw-d2cpx042-6-yil-garantili-tam-yogusmali-kombi": {
+  "price": 57800,
+  "old_price": 64000
+ },
+ "daikin-zeta-shira-plus-12000-btu-inverter-klima": {
+  "price": 89500,
+  "old_price": 98500
+ },
+ "daikin-zeta-shira-plus-14000-btu-inverter-klima": {
+  "price": 90350,
+  "old_price": 99500
+ },
+ "daikin-zeta-shira-plus-24000-btu-inverter-klima": {
+  "price": 132300,
+  "old_price": 146000
+ },
+ "daikin-zeta-shira-plus-7000-btu-inverter-klima": {
+  "price": 61500,
+  "old_price": 68000
+ },
+ "daikin-zeta-shira-plus-9000-btu-inverter-klima": {
+  "price": 78550,
+  "old_price": 86500
+ },
+ "daxom-10-kw-elektrikli-kombi-monofaze-sicak-sulu-uk-dax-10edm": {
+  "price": 35200,
+  "old_price": null
+ },
+ "daxom-12-kw-elektrikli-kombi-monofaze-sicak-sulu-uk-dax-12edm": {
+  "price": 35800,
+  "old_price": null
+ },
+ "daxom-12-kw-elektrikli-kombi-trifaze-sicak-sulu-uk-dax-12edt": {
+  "price": 34700,
+  "old_price": null
+ },
+ "daxom-16-kw-elektrikli-kombi-monofaze-sicak-sulu-uk-dax-16edm": {
+  "price": 36950,
+  "old_price": null
+ },
+ "daxom-16-kw-elektrikli-kombi-trifaze-sicak-sulu-uk-dax-16edt": {
+  "price": 36650,
+  "old_price": null
+ },
+ "daxom-18-kw-elektrikli-kombi-monofaze-sicak-sulu-uk-dax-18edm": {
+  "price": 40250,
+  "old_price": null
+ },
+ "daxom-18-kw-elektrikli-kombi-trifaze-sicak-sulu-uk-dax-18edt": {
+  "price": 37950,
+  "old_price": null
+ },
+ "daxom-20-kw-elektrikli-kombi-trifaze-sicak-sulu-uk-dax-20edt": {
+  "price": 38550,
+  "old_price": null
+ },
+ "daxom-24-kw-elektrikli-kombi-trifaze-sicak-sulu-uk-dax-24edt": {
+  "price": 39950,
+  "old_price": null
+ },
+ "daxom-30-kw-elektrikli-kombi-trifaze-sicak-sulu-uk-dax-30edt": {
+  "price": 45150,
+  "old_price": null
+ },
+ "daxom-36-kw-elektrikli-kombi-trifaze-sicak-sulu-uk-dax-36edt": {
+  "price": 45800,
+  "old_price": null
+ },
+ "daxom-40-kw-elektrikli-kombi-trifaze-sicak-sulu-uk-dax-40edt": {
+  "price": 48750,
+  "old_price": null
+ },
+ "daxom-48-kw-elektrikli-kombi-trifaze-sicak-sulu-uk-dax-48edt": {
+  "price": 56050,
+  "old_price": null
+ },
+ "daxom-naviels-uk-dax-10-ebm-50-lt-boylerli-tek-fazli-elektrikli-kombi-220v": {
+  "price": 59150,
+  "old_price": null
+ },
+ "daxom-naviels-uk-dax-10edt-sicak-sulu-3-fazli-elektrikli-kombi-400v": {
+  "price": 33000,
+  "old_price": null
+ },
+ "daxom-naviels-uk-dax-10ett-sadece-isitma-3-fazli-elektrikli-kombi-400v": {
+  "price": 30000,
+  "old_price": null
+ },
+ "daxom-naviels-uk-dax-12ett-sadece-isitma-3-fazli-elektrikli-kombi-400v": {
+  "price": 30700,
+  "old_price": null
+ },
+ "daxom-naviels-uk-dax-16-ebm-50-lt-boylerli-tek-fazli-elektrikli-kombi-220v": {
+  "price": 62700,
+  "old_price": null
+ },
+ "daxom-naviels-uk-dax-16ett-sadece-isitma-3-fazli-elektrikli-kombi-400v": {
+  "price": 33900,
+  "old_price": null
+ },
+ "daxom-naviels-uk-dax-18-ebt-50-lt-boylerli-3-fazli-elektrikli-kombi-400v": {
+  "price": 63850,
+  "old_price": null
+ },
+ "daxom-naviels-uk-dax-18ett-sadece-isitma-3-fazli-elektrikli-kombi-400v": {
+  "price": 34450,
+  "old_price": null
+ },
+ "daxom-naviels-uk-dax-20-ebt-50-lt-boylerli-3-fazli-elektrikli-kombi-400v": {
+  "price": 65050,
+  "old_price": null
+ },
+ "daxom-naviels-uk-dax-20ett-sadece-isitma-3-fazli-elektrikli-kombi-400v": {
+  "price": 31800,
+  "old_price": null
+ },
+ "daxom-naviels-uk-dax-24-ebt-50-lt-boylerli-3-fazli-elektrikli-kombi-400v": {
+  "price": 66200,
+  "old_price": null
+ },
+ "daxom-naviels-uk-dax-24ett-sadece-isitma-3-fazli-elektrikli-kombi-400v": {
+  "price": 33350,
+  "old_price": null
+ },
+ "daxom-naviels-uk-dax-30ett-sadece-isitma-3-fazli-elektrikli-kombi-400v": {
+  "price": 38550,
+  "old_price": null
+ },
+ "daxom-naviels-uk-dax-36ett-sadece-isitma-3-fazli-elektrikli-kombi-400v": {
+  "price": 38950,
+  "old_price": null
+ },
+ "daxom-naviels-uk-dax-40ett-sadece-isitma-3-fazli-elektrikli-kombi-400v": {
+  "price": 41000,
+  "old_price": null
+ },
+ "daxom-naviels-uk-dax-48ett-sadece-isitma-3-fazli-elektrikli-kombi-400v": {
+  "price": 46850,
+  "old_price": null
+ },
+ "daxom-naviels-uk-dax-6-ebm-50-lt-boylerli-tek-fazli-elektrikli-kombi-220v": {
+  "price": 25250,
+  "old_price": null
+ },
+ "daxom-ukdax-12-stl-12-lt-fanli-hermetik-sofben": {
+  "price": 17450,
+  "old_price": null
+ },
+ "daxom-ukdax-14-stl-14-lt-fanli-hermetik-sofben": {
+  "price": 22000,
+  "old_price": null
+ },
+ "demir-dokum-9000-btu-klima": {
+  "price": 36350,
+  "old_price": null
+ },
+ "demirdokum-ademix-2424-2-yil-garantili-yogusmali-kombi": {
+  "price": 40300,
+  "old_price": 44500
+ },
+ "demirdokum-ademix-2828-2-yil-garantili-yogusmali-kombi": {
+  "price": 41200,
+  "old_price": 45500
+ },
+ "demirdokum-atromix-24-kw-2-yil-garantili-tam-yogusmali-kombi": {
+  "price": 36650,
+  "old_price": 40500
+ },
+ "demirdokum-atromix-28-kw-2-yil-garantili-yogusmali-kombi": {
+  "price": 42500,
+  "old_price": 47000
+ },
+ "demirdokum-dt4-titanium-50-lt-basic-termosifon": {
+  "price": 15550,
+  "old_price": null
+ },
+ "demirdokum-dt4-titanium-65-lt-basic-termosifon": {
+  "price": 17900,
+  "old_price": null
+ },
+ "demirdokum-dt4-titanium-80-lt-basic-termosifon": {
+  "price": 19700,
+  "old_price": null
+ },
+ "demirdokum-dt4-titanium-digital-50-lt-digital-termosifon": {
+  "price": 16600,
+  "old_price": null
+ },
+ "demirdokum-dt4-titanium-digital-65-lt-digital-termosifon": {
+  "price": 18650,
+  "old_price": null
+ },
+ "demirdokum-dt4-titanium-digital-80-lt-digital-termosifon": {
+  "price": 20900,
+  "old_price": null
+ },
+ "demirdokum-exabasic-oda-termostati": {
+  "price": 1500,
+  "old_price": null
+ },
+ "demirdokum-isomix-30-35-kw-tam-yogusmali-kombi-entegre-boylerli": {
+  "price": 102300,
+  "old_price": null
+ },
+ "demirdokum-kion-inverter-12000-btu-split-klima": {
+  "price": 37250,
+  "old_price": null
+ },
+ "demirdokum-kion-inverter-18000-btu-split-klima": {
+  "price": 50750,
+  "old_price": null
+ },
+ "demirdokum-kion-inverter-24000-btu-split-klima": {
+  "price": 67450,
+  "old_price": null
+ },
+ "demirdokum-l-350-f-14-lt-fanli-hermetik-sofben": {
+  "price": 27650,
+  "old_price": null
+ },
+ "demirdokum-migo-connect-akilli-oda-termostati": {
+  "price": 8630,
+  "old_price": null
+ },
+ "demirdokum-nitromix-ioni-2426-cs-2-yil-garantili-tam-yogusmali-dokunmatik-ekran-kombi": {
+  "price": 55550,
+  "old_price": 61500
+ },
+ "demirdokum-nitromix-ioni-2836-cs-2-yil-garantili-tam-yogusmali-dokunmatik-ekran-kombi": {
+  "price": 63450,
+  "old_price": 70000
+ },
+ "demirdokum-nitromix-ioni-35-kw-tam-yogusmali-kombi": {
+  "price": 63300,
+  "old_price": null
+ },
+ "demirdokum-nitromix-p24-2-yil-garantili-yogusmali-kombi": {
+  "price": 51150,
+  "old_price": 56500
+ },
+ "demirdokum-nitromix-p28-2-yil-garantili-yogusmali-kombi": {
+  "price": 56550,
+  "old_price": 62500
+ },
+ "demirdokum-nitromix-p35-2-yil-garantili-yogusmali-kombi": {
+  "price": 60900,
+  "old_price": 67000
+ },
+ "demirdokum-panel-plus-600x1100-panel-radyator-tip22": {
+  "price": 4170,
+  "old_price": null
+ },
+ "demirdokum-panel-plus-600x400-panel-radyator-tip22": {
+  "price": 1610,
+  "old_price": null
+ },
+ "demirdokum-plus-6001000-panel-radyator-tip22": {
+  "price": 3300,
+  "old_price": 3700
+ },
+ "demirdokum-plus-6001200-panel-radyator-tip22": {
+  "price": 4420,
+  "old_price": 4900
+ },
+ "demirdokum-plus-6001300-panel-radyator-tip22": {
+  "price": 4160,
+  "old_price": 4600
+ },
+ "demirdokum-plus-6001400-panel-radyator-tip22": {
+  "price": 4480,
+  "old_price": null
+ },
+ "demirdokum-plus-6001500-panel-radyator-tip22": {
+  "price": 5270,
+  "old_price": null
+ },
+ "demirdokum-plus-6001600-panel-radyator-tip22": {
+  "price": 5910,
+  "old_price": null
+ },
+ "demirdokum-plus-6001800-panel-radyator-tip22": {
+  "price": 6850,
+  "old_price": null
+ },
+ "demirdokum-plus-6002000-panel-radyator-tip22": {
+  "price": 7400,
+  "old_price": null
+ },
+ "demirdokum-plus-600500-panel-radyator-tip22": {
+  "price": 2350,
+  "old_price": null
+ },
+ "demirdokum-plus-600600-panel-radyator-tip22": {
+  "price": 2480,
+  "old_price": null
+ },
+ "demirdokum-plus-600700-panel-radyator-tip22": {
+  "price": 2770,
+  "old_price": null
+ },
+ "demirdokum-plus-600800-panel-radyator-tip22": {
+  "price": 2810,
+  "old_price": 3100
+ },
+ "demirdokum-plus-600900-panel-radyator-tip22": {
+  "price": 3820,
+  "old_price": null
+ },
+ "demirdokum-rf6001-kablosuz-termostad": {
+  "price": 2820,
+  "old_price": null
+ },
+ "demirdokum-sofben-11-lt": {
+  "price": 24450,
+  "old_price": 27000
+ },
+ "demirdokum-vintomix-1824-2-yil-garantili-yogusmali-kombi": {
+  "price": 43100,
+  "old_price": 47500
+ },
+ "demirdokum-vintomix-2428-2-yil-garantili-yogusmali-kombi": {
+  "price": 44450,
+  "old_price": 49000
+ },
+ "e-c-a-300x1000-panel-radyator-tip22": {
+  "price": 1970,
+  "old_price": null
+ },
+ "e-c-a-300x1100-panel-radyator-tip22": {
+  "price": 2160,
+  "old_price": null
+ },
+ "e-c-a-300x1200-panel-radyator-tip22": {
+  "price": 2220,
+  "old_price": null
+ },
+ "e-c-a-300x1300-panel-radyator-tip22": {
+  "price": 2400,
+  "old_price": null
+ },
+ "e-c-a-300x1400-panel-radyator-tip22": {
+  "price": 2590,
+  "old_price": null
+ },
+ "e-c-a-300x1500-panel-radyator-tip22": {
+  "price": 2770,
+  "old_price": null
+ },
+ "e-c-a-300x1600-panel-radyator-tip22": {
+  "price": 2860,
+  "old_price": null
+ },
+ "e-c-a-300x1700-panel-radyator-tip22": {
+  "price": 3040,
+  "old_price": null
+ },
+ "e-c-a-300x1800-panel-radyator-tip22": {
+  "price": 3730,
+  "old_price": null
+ },
+ "e-c-a-300x1900-panel-radyator-tip22": {
+  "price": 3880,
+  "old_price": null
+ },
+ "e-c-a-300x2000-panel-radyator-tip22": {
+  "price": 3980,
+  "old_price": null
+ },
+ "e-c-a-300x2200-panel-radyator-tip22": {
+  "price": 4270,
+  "old_price": null
+ },
+ "e-c-a-300x2400-panel-radyator-tip22": {
+  "price": 4470,
+  "old_price": null
+ },
+ "e-c-a-300x2600-panel-radyator-tip22": {
+  "price": 4610,
+  "old_price": null
+ },
+ "e-c-a-300x2800-panel-radyator-tip22": {
+  "price": 4960,
+  "old_price": null
+ },
+ "e-c-a-300x3000-panel-radyator-tip22": {
+  "price": 5320,
+  "old_price": null
+ },
+ "e-c-a-300x400-panel-radyator-tip22": {
+  "price": 890,
+  "old_price": null
+ },
+ "e-c-a-300x500-panel-radyator-tip22": {
+  "price": 1110,
+  "old_price": null
+ },
+ "e-c-a-300x600-panel-radyator-tip22": {
+  "price": 1280,
+  "old_price": null
+ },
+ "e-c-a-300x700-panel-radyator-tip22": {
+  "price": 1500,
+  "old_price": null
+ },
+ "e-c-a-300x800-panel-radyator-tip22": {
+  "price": 1570,
+  "old_price": null
+ },
+ "e-c-a-300x900-panel-radyator-tip22": {
+  "price": 1770,
+  "old_price": null
+ },
+ "e-c-a-400x1000-panel-radyator-tip22": {
+  "price": 2420,
+  "old_price": null
+ },
+ "e-c-a-400x1100-panel-radyator-tip22": {
+  "price": 2430,
+  "old_price": null
+ },
+ "e-c-a-400x1200-panel-radyator-tip22": {
+  "price": 2730,
+  "old_price": null
+ },
+ "e-c-a-400x1300-panel-radyator-tip22": {
+  "price": 2700,
+  "old_price": null
+ },
+ "e-c-a-400x1400-panel-radyator-tip22": {
+  "price": 3180,
+  "old_price": null
+ },
+ "e-c-a-400x1500-panel-radyator-tip22": {
+  "price": 3110,
+  "old_price": null
+ },
+ "e-c-a-400x1600-panel-radyator-tip22": {
+  "price": 3520,
+  "old_price": null
+ },
+ "e-c-a-400x1700-panel-radyator-tip22": {
+  "price": 3410,
+  "old_price": null
+ },
+ "e-c-a-400x1800-panel-radyator-tip22": {
+  "price": 3960,
+  "old_price": null
+ },
+ "e-c-a-400x1900-panel-radyator-tip22": {
+  "price": 3820,
+  "old_price": null
+ },
+ "e-c-a-400x2000-panel-radyator-tip22": {
+  "price": 4020,
+  "old_price": null
+ },
+ "e-c-a-400x2200-panel-radyator-tip22": {
+  "price": 4790,
+  "old_price": null
+ },
+ "e-c-a-400x2400-panel-radyator-tip22": {
+  "price": 5220,
+  "old_price": null
+ },
+ "e-c-a-400x2600-panel-radyator-tip22": {
+  "price": 5170,
+  "old_price": null
+ },
+ "e-c-a-400x2800-panel-radyator-tip22": {
+  "price": 5570,
+  "old_price": null
+ },
+ "e-c-a-400x3000-panel-radyator-tip22": {
+  "price": 5960,
+  "old_price": null
+ },
+ "e-c-a-400x400-panel-radyator-tip22": {
+  "price": 990,
+  "old_price": null
+ },
+ "e-c-a-400x500-panel-radyator-tip22": {
+  "price": 1360,
+  "old_price": null
+ },
+ "e-c-a-400x600-panel-radyator-tip22": {
+  "price": 1580,
+  "old_price": null
+ },
+ "e-c-a-400x700-panel-radyator-tip22": {
+  "price": 1680,
+  "old_price": null
+ },
+ "e-c-a-400x800-panel-radyator-tip22": {
+  "price": 1930,
+  "old_price": null
+ },
+ "e-c-a-400x900-panel-radyator-tip22": {
+  "price": 1980,
+  "old_price": null
+ },
+ "e-c-a-48-000-btu-salon-tipi-klima-monofaze": {
+  "price": 125350,
+  "old_price": null
+ },
+ "e-c-a-48-000-btu-salon-tipi-klima-trifaze": {
+  "price": 125350,
+  "old_price": null
+ },
+ "e-c-a-500x1000-panel-radyator-tip22": {
+  "price": 2920,
+  "old_price": null
+ },
+ "e-c-a-500x1100-panel-radyator-tip22": {
+  "price": 2930,
+  "old_price": null
+ },
+ "e-c-a-500x1200-panel-radyator-tip22": {
+  "price": 3290,
+  "old_price": null
+ },
+ "e-c-a-500x1300-panel-radyator-tip22": {
+  "price": 3250,
+  "old_price": null
+ },
+ "e-c-a-500x1400-panel-radyator-tip22": {
+  "price": 3840,
+  "old_price": null
+ },
+ "e-c-a-500x1500-panel-radyator-tip22": {
+  "price": 3760,
+  "old_price": null
+ },
+ "e-c-a-500x1600-panel-radyator-tip22": {
+  "price": 4250,
+  "old_price": null
+ },
+ "e-c-a-500x1700-panel-radyator-tip22": {
+  "price": 4120,
+  "old_price": null
+ },
+ "e-c-a-500x1800-panel-radyator-tip22": {
+  "price": 4780,
+  "old_price": null
+ },
+ "e-c-a-500x1900-panel-radyator-tip22": {
+  "price": 4610,
+  "old_price": null
+ },
+ "e-c-a-500x2000-panel-radyator-tip22": {
+  "price": 5310,
+  "old_price": null
+ },
+ "e-c-a-500x2200-panel-radyator-tip22": {
+  "price": 5780,
+  "old_price": null
+ },
+ "e-c-a-500x2400-panel-radyator-tip22": {
+  "price": 5760,
+  "old_price": null
+ },
+ "e-c-a-500x2600-panel-radyator-tip22": {
+  "price": 6240,
+  "old_price": null
+ },
+ "e-c-a-500x2800-panel-radyator-tip22": {
+  "price": 6720,
+  "old_price": null
+ },
+ "e-c-a-500x3000-panel-radyator-tip22": {
+  "price": 7200,
+  "old_price": null
+ },
+ "e-c-a-500x400-panel-radyator-tip22": {
+  "price": 1200,
+  "old_price": null
+ },
+ "e-c-a-500x500-panel-radyator-tip22": {
+  "price": 1640,
+  "old_price": null
+ },
+ "e-c-a-500x600-panel-radyator-tip22": {
+  "price": 1900,
+  "old_price": null
+ },
+ "e-c-a-500x700-panel-radyator-tip22": {
+  "price": 2030,
+  "old_price": null
+ },
+ "e-c-a-500x800-panel-radyator-tip22": {
+  "price": 2330,
+  "old_price": null
+ },
+ "e-c-a-500x900-panel-radyator-tip22": {
+  "price": 2620,
+  "old_price": null
+ },
+ "e-c-a-600x1100-panel-radyator-tip22": {
+  "price": 4320,
+  "old_price": null
+ },
+ "e-c-a-600x1200-panel-radyator-tip22": {
+  "price": 4440,
+  "old_price": null
+ },
+ "e-c-a-600x1400-panel-radyator-tip22": {
+  "price": 5050,
+  "old_price": null
+ },
+ "e-c-a-600x800-panel-radyator-tip22": {
+  "price": 2470,
+  "old_price": null
+ },
+ "e-c-a-600x900-panel-radyator-tip22": {
+  "price": 3240,
+  "old_price": null
+ },
+ "e-c-a-900x1000-panel-radyator-tip22": {
+  "price": 4640,
+  "old_price": null
+ },
+ "e-c-a-900x1100-panel-radyator-tip22": {
+  "price": 5110,
+  "old_price": null
+ },
+ "e-c-a-900x1200-panel-radyator-tip22": {
+  "price": 4780,
+  "old_price": null
+ },
+ "e-c-a-900x1300-panel-radyator-tip22": {
+  "price": 5180,
+  "old_price": null
+ },
+ "e-c-a-900x1400-panel-radyator-tip22": {
+  "price": 5580,
+  "old_price": null
+ },
+ "e-c-a-900x1500-panel-radyator-tip22": {
+  "price": 5980,
+  "old_price": null
+ },
+ "e-c-a-900x1600-panel-radyator-tip22": {
+  "price": 6170,
+  "old_price": null
+ },
+ "e-c-a-900x1700-panel-radyator-tip22": {
+  "price": 6560,
+  "old_price": null
+ },
+ "e-c-a-900x1800-panel-radyator-tip22": {
+  "price": 6940,
+  "old_price": null
+ },
+ "e-c-a-900x1900-panel-radyator-tip22": {
+  "price": 7330,
+  "old_price": null
+ },
+ "e-c-a-900x2000-panel-radyator-tip22": {
+  "price": 7720,
+  "old_price": null
+ },
+ "e-c-a-900x2200-panel-radyator-tip22": {
+  "price": 8390,
+  "old_price": null
+ },
+ "e-c-a-900x2400-panel-radyator-tip22": {
+  "price": 9160,
+  "old_price": null
+ },
+ "e-c-a-900x2600-panel-radyator-tip22": {
+  "price": 9920,
+  "old_price": null
+ },
+ "e-c-a-900x2800-panel-radyator-tip22": {
+  "price": 10650,
+  "old_price": null
+ },
+ "e-c-a-900x3000-panel-radyator-tip22": {
+  "price": 11450,
+  "old_price": null
+ },
+ "e-c-a-900x400-panel-radyator-tip22": {
+  "price": 1910,
+  "old_price": null
+ },
+ "e-c-a-900x500-panel-radyator-tip22": {
+  "price": 2620,
+  "old_price": null
+ },
+ "e-c-a-900x600-panel-radyator-tip22": {
+  "price": 3030,
+  "old_price": null
+ },
+ "e-c-a-900x700-panel-radyator-tip22": {
+  "price": 3540,
+  "old_price": null
+ },
+ "e-c-a-900x800-panel-radyator-tip22": {
+  "price": 3710,
+  "old_price": null
+ },
+ "e-c-a-900x900-panel-radyator-tip22": {
+  "price": 3810,
+  "old_price": null
+ },
+ "e-c-a-arceus-12-kw-elektrikli-kombi-monofaze-sicak-sulu": {
+  "price": 49450,
+  "old_price": null
+ },
+ "e-c-a-arceus-15-kw-elektrikli-kombi-trifaze-sicak-sulu": {
+  "price": 51900,
+  "old_price": null
+ },
+ "e-c-a-arceus-18-kw-elektrikli-kombi-trifaze-sicak-sulu": {
+  "price": 54200,
+  "old_price": null
+ },
+ "e-c-a-arceus-24-kw-elektrikli-kombi-trifaze-sicak-sulu": {
+  "price": 58950,
+  "old_price": null
+ },
+ "e-c-a-arceus-27-kw-elektrikli-kombi-trifaze-sicak-sulu": {
+  "price": 59950,
+  "old_price": null
+ },
+ "e-c-a-confeo-premix-24-kw-tam-yogusmali-kombi": {
+  "price": 49100,
+  "old_price": null
+ },
+ "e-c-a-confeo-premix-30-kw-tam-yogusmali-kombi": {
+  "price": 54900,
+  "old_price": null
+ },
+ "e-c-a-confeo-premix-35-kw-tam-yogusmali-kombi": {
+  "price": 57350,
+  "old_price": null
+ },
+ "e-c-a-ecotech-12000-btu-split-klima": {
+  "price": 29350,
+  "old_price": null
+ },
+ "e-c-a-ecotech-24000-btu-split-klima": {
+  "price": 55450,
+  "old_price": null
+ },
+ "e-c-a-ecotech-9000-btu-split-klima": {
+  "price": 32050,
+  "old_price": null
+ },
+ "e-c-a-proteus-premix-30-kw-tam-yogusmali-kombi": {
+  "price": 50000,
+  "old_price": null
+ },
+ "e-c-a-proteus-premix-45-kw-tam-yogusmali-kombi": {
+  "price": 55450,
+  "old_price": null
+ },
+ "e-c-a-spylos-pro-15000-btu-split-klima": {
+  "price": 39050,
+  "old_price": null
+ },
+ "e-c-a-spylos-pro-18000-btu-split-klima": {
+  "price": 44050,
+  "old_price": null
+ },
+ "eca-12000-btu-klima": {
+  "price": 30150,
+  "old_price": 33500
+ },
+ "eca-6001300-panel-radyator-tip22": {
+  "price": 4630,
+  "old_price": null
+ },
+ "eca-6002200-panel-radyator-tip22": {
+  "price": 5580,
+  "old_price": 6500
+ },
+ "eca-600400-panel-radyator-tip22": {
+  "price": 1390,
+  "old_price": null
+ },
+ "eca-600500-panel-radyator-tip22": {
+  "price": 2230,
+  "old_price": null
+ },
+ "eca-600700-panel-radyator-tip22": {
+  "price": 2630,
+  "old_price": null
+ },
+ "eca-citius-premix-20-kw-3-yil-garantili-tam-yogusmali-kombi": {
+  "price": 36350,
+  "old_price": 40000
+ },
+ "eca-citius-premix-24-kw-3-yil-garantili-tam-yogusmali-kombi": {
+  "price": 36900,
+  "old_price": 41000
+ },
+ "eca-citius-premix-28-kw-3-yil-garantili-tam-yogusmali-kombi": {
+  "price": 40700,
+  "old_price": 45000
+ },
+ "eca-ecotech-18-000-btu-h-inverter-split-klima-r32-gaz-a-sinifi": {
+  "price": 42900,
+  "old_price": null
+ },
+ "eca-monoblok-empa080a100-8-kw-isi-pompasi": {
+  "price": 128850,
+  "old_price": null
+ },
+ "eca-monoblok-empa160a100-16-kw-isi-pompasi": {
+  "price": 165000,
+  "old_price": null
+ },
+ "eca-multi-kaset-tipi-klima-24-000-btu-h-ic-unite": {
+  "price": 32850,
+  "old_price": null
+ },
+ "eca-multi-klima-dis-unite-8-5-kw-29-000-btu-4-girisli": {
+  "price": 68800,
+  "old_price": null
+ },
+ "eca-niobe-blue-12-000-btu-inverter-klima-r32": {
+  "price": 36650,
+  "old_price": null
+ },
+ "eca-niobe-blue-16-000-btu-inverter-klima-r32": {
+  "price": 42000,
+  "old_price": null
+ },
+ "eca-niobe-serisi-18-000-btu-h-inverter-klima-r32": {
+  "price": 43800,
+  "old_price": null
+ },
+ "eca-onoff-kablosuz-termostad": {
+  "price": 2200,
+  "old_price": 2500
+ },
+ "eca-phoenix-11-lt-sofben": {
+  "price": 23850,
+  "old_price": 26500
+ },
+ "eca-poly-comfort-200-b-kablosuz-dijital-oda-termostati-siyah": {
+  "price": 2170,
+  "old_price": null
+ },
+ "eca-poly-pure-100-w-kablosuz-dijital-oda-termostati": {
+  "price": 1990,
+  "old_price": null
+ },
+ "eca-poly-smart-akilli-oda-termostati": {
+  "price": 3400,
+  "old_price": null
+ },
+ "eca-poly-touch-400-b-kablosuz-programlanabilir-dijital-oda-termostati-siyah": {
+  "price": 2440,
+  "old_price": null
+ },
+ "eca-poly-touch-400-w-kablosuz-programlanabilir-dijital-oda-termostati": {
+  "price": 2440,
+  "old_price": null
+ },
+ "eca-proteus-premix-24-kw-5-yil-garantili-tam-yogusmali-kombi": {
+  "price": 46550,
+  "old_price": 51500
+ },
+ "eca-proteus-premix-28-kw-5-yil-garantili-tam-yogusmali-kombi": {
+  "price": 48400,
+  "old_price": 53500
+ },
+ "eca-proteus-premix-35-kw-5-yil-garantili-tam-yogusmali-kombi": {
+  "price": 54200,
+  "old_price": null
+ },
+ "eca-proteus-premix-42-kw-5-yil-garantili-tam-yogusmali-kombi": {
+  "price": 54400,
+  "old_price": 60000
+ },
+ "eca-spylos-pro-24000-btu-split-inverter-klima": {
+  "price": 67250,
+  "old_price": 74000
+ },
+ "eca-spylos-pro-9000-btu-split-inverter-klima": {
+  "price": 28400,
+  "old_price": 31500
+ },
+ "eca-tpi-kontrollu-programlanabilir-on-off-oda-termostati": {
+  "price": 1800,
+  "old_price": null
+ },
+ "euroterm-ekol-570x1000-10-dilim-1250-kcal-h-aluminyum-radyator": {
+  "price": 8080,
+  "old_price": null
+ },
+ "euroterm-ekol-570x1100-11-dilim-1375-kcal-h-aluminyum-radyator": {
+  "price": 8890,
+  "old_price": null
+ },
+ "euroterm-ekol-570x1200-12-dilim-1500-kcal-h-aluminyum-radyator": {
+  "price": 9700,
+  "old_price": null
+ },
+ "euroterm-ekol-570x1300-13-dilim-1625-kcal-h-aluminyum-radyator": {
+  "price": 10500,
+  "old_price": null
+ },
+ "euroterm-ekol-570x1400-14-dilim-1750-kcal-h-aluminyum-radyator": {
+  "price": 11300,
+  "old_price": null
+ },
+ "euroterm-ekol-570x1500-15-dilim-1875-kcal-h-aluminyum-radyator": {
+  "price": 12100,
+  "old_price": null
+ },
+ "euroterm-ekol-570x1600-16-dilim-2000-kcal-h-aluminyum-radyator": {
+  "price": 12900,
+  "old_price": null
+ },
+ "euroterm-ekol-570x1700-17-dilim-2125-kcal-h-aluminyum-radyator": {
+  "price": 13700,
+  "old_price": null
+ },
+ "euroterm-ekol-570x1800-18-dilim-2250-kcal-h-aluminyum-radyator": {
+  "price": 12700,
+  "old_price": null
+ },
+ "euroterm-ekol-570x1900-19-dilim-2375-kcal-h-aluminyum-radyator": {
+  "price": 13400,
+  "old_price": null
+ },
+ "euroterm-ekol-570x2000-20-dilim-2500-kcal-h-aluminyum-radyator": {
+  "price": 14100,
+  "old_price": null
+ },
+ "euroterm-ekol-570x400-4-dilim-500-kcal-h-aluminyum-radyator": {
+  "price": 3230,
+  "old_price": null
+ },
+ "euroterm-ekol-570x500-5-dilim-625-kcal-h-aluminyum-radyator": {
+  "price": 4040,
+  "old_price": null
+ },
+ "euroterm-ekol-570x600-6-dilim-750-kcal-h-aluminyum-radyator": {
+  "price": 4840,
+  "old_price": null
+ },
+ "euroterm-ekol-570x700-7-dilim-875-kcal-h-aluminyum-radyator": {
+  "price": 5650,
+  "old_price": null
+ },
+ "euroterm-ekol-570x800-8-dilim-1000-kcal-h-aluminyum-radyator": {
+  "price": 6460,
+  "old_price": null
+ },
+ "euroterm-ekol-570x900-9-dilim-1125-kcal-h-aluminyum-radyator": {
+  "price": 7270,
+  "old_price": null
+ },
+ "euroterm-klasik-1000x1040-13-dilim-2470-kcal-h-aluminyum-radyator": {
+  "price": 12950,
+  "old_price": null
+ },
+ "euroterm-klasik-1000x1120-14-dilim-2660-kcal-h-aluminyum-radyator": {
+  "price": 13950,
+  "old_price": null
+ },
+ "euroterm-klasik-1000x1200-15-dilim-2850-kcal-h-aluminyum-radyator": {
+  "price": 14950,
+  "old_price": null
+ },
+ "euroterm-klasik-1000x1280-16-dilim-3040-kcal-h-aluminyum-radyator": {
+  "price": 15950,
+  "old_price": null
+ },
+ "euroterm-klasik-1000x1360-17-dilim-3230-kcal-h-aluminyum-radyator": {
+  "price": 16900,
+  "old_price": null
+ },
+ "euroterm-klasik-1000x1440-18-dilim-3420-kcal-h-aluminyum-radyator": {
+  "price": 17900,
+  "old_price": null
+ },
+ "euroterm-klasik-1000x1520-19-dilim-3610-kcal-h-aluminyum-radyator": {
+  "price": 18900,
+  "old_price": null
+ },
+ "euroterm-klasik-1000x1600-20-dilim-3800-kcal-h-aluminyum-radyator": {
+  "price": 19900,
+  "old_price": null
+ },
+ "euroterm-klasik-1000x480-6-dilim-1140-kcal-h-aluminyum-radyator": {
+  "price": 6840,
+  "old_price": null
+ },
+ "euroterm-klasik-1000x560-7-dilim-1330-kcal-h-aluminyum-radyator": {
+  "price": 7980,
+  "old_price": null
+ },
+ "euroterm-klasik-1000x640-8-dilim-1520-kcal-h-aluminyum-radyator": {
+  "price": 9130,
+  "old_price": null
+ },
+ "euroterm-klasik-1000x720-9-dilim-1710-kcal-h-aluminyum-radyator": {
+  "price": 10250,
+  "old_price": null
+ },
+ "euroterm-klasik-1000x800-10-dilim-1900-kcal-h-aluminyum-radyator": {
+  "price": 6330,
+  "old_price": null
+ },
+ "euroterm-klasik-1000x880-11-dilim-2090-kcal-h-aluminyum-radyator": {
+  "price": 12550,
+  "old_price": null
+ },
+ "euroterm-klasik-1000x960-12-dilim-2280-kcal-h-aluminyum-radyator": {
+  "price": 13650,
+  "old_price": null
+ },
+ "euroterm-klasik-1250x480-6-dilim-1416-kcal-h-aluminyum-radyator": {
+  "price": 8710,
+  "old_price": null
+ },
+ "euroterm-klasik-1250x560-7-dilim-1652-kcal-h-aluminyum-radyator": {
+  "price": 10150,
+  "old_price": null
+ },
+ "euroterm-klasik-1250x640-8-dilim-1888-kcal-h-aluminyum-radyator": {
+  "price": 11600,
+  "old_price": null
+ },
+ "euroterm-klasik-1250x720-9-dilim-2124-kcal-h-aluminyum-radyator": {
+  "price": 13050,
+  "old_price": null
+ },
+ "euroterm-klasik-1250x800-10-dilim-2360-kcal-h-aluminyum-radyator": {
+  "price": 12650,
+  "old_price": null
+ },
+ "euroterm-klasik-1250x880-11-dilim-2596-kcal-h-aluminyum-radyator": {
+  "price": 13950,
+  "old_price": null
+ },
+ "euroterm-klasik-1250x960-12-dilim-2832-kcal-h-aluminyum-radyator": {
+  "price": 15200,
+  "old_price": null
+ },
+ "euroterm-klasik-1500x480-6-dilim-1590-kcal-h-aluminyum-radyator": {
+  "price": 9700,
+  "old_price": null
+ },
+ "euroterm-klasik-1500x560-7-dilim-1855-kcal-h-aluminyum-radyator": {
+  "price": 11300,
+  "old_price": null
+ },
+ "euroterm-klasik-1500x640-8-dilim-2120-kcal-h-aluminyum-radyator": {
+  "price": 12900,
+  "old_price": null
+ },
+ "euroterm-klasik-1500x720-9-dilim-2385-kcal-h-aluminyum-radyator": {
+  "price": 12700,
+  "old_price": null
+ },
+ "euroterm-klasik-1500x800-10-dilim-2650-kcal-h-aluminyum-radyator": {
+  "price": 14100,
+  "old_price": null
+ },
+ "euroterm-klasik-1500x880-11-dilim-2915-kcal-h-aluminyum-radyator": {
+  "price": 15500,
+  "old_price": null
+ },
+ "euroterm-klasik-2000x400-5-dilim-1725-kcal-h-aluminyum-radyator": {
+  "price": 9700,
+  "old_price": null
+ },
+ "euroterm-klasik-2000x480-6-dilim-2070-kcal-h-aluminyum-radyator": {
+  "price": 11600,
+  "old_price": null
+ },
+ "euroterm-klasik-2000x560-7-dilim-2415-kcal-h-aluminyum-radyator": {
+  "price": 13550,
+  "old_price": null
+ },
+ "euroterm-klasik-2000x640-8-dilim-2760-kcal-h-aluminyum-radyator": {
+  "price": 13550,
+  "old_price": null
+ },
+ "euroterm-klasik-2000x720-9-dilim-3105-kcal-h-aluminyum-radyator": {
+  "price": 15250,
+  "old_price": null
+ },
+ "euroterm-klasik-600x1040-13-dilim-1495-kcal-h-aluminyum-radyator": {
+  "price": 10000,
+  "old_price": null
+ },
+ "euroterm-klasik-600x1120-14-dilim-1610-kcal-h-aluminyum-radyator": {
+  "price": 10750,
+  "old_price": null
+ },
+ "euroterm-klasik-600x1200-15-dilim-1725-kcal-h-aluminyum-radyator": {
+  "price": 11550,
+  "old_price": null
+ },
+ "euroterm-klasik-600x1280-16-dilim-1840-kcal-h-aluminyum-radyator": {
+  "price": 12300,
+  "old_price": null
+ },
+ "euroterm-klasik-600x1360-17-dilim-1955-kcal-h-aluminyum-radyator": {
+  "price": 13050,
+  "old_price": null
+ },
+ "euroterm-klasik-600x1440-18-dilim-2070-kcal-h-aluminyum-radyator": {
+  "price": 12100,
+  "old_price": null
+ },
+ "euroterm-klasik-600x1520-19-dilim-2185-kcal-h-aluminyum-radyator": {
+  "price": 12750,
+  "old_price": null
+ },
+ "euroterm-klasik-600x1600-20-dilim-2300-kcal-h-aluminyum-radyator": {
+  "price": 13450,
+  "old_price": null
+ },
+ "euroterm-klasik-600x1680-21-dilim-2415-kcal-h-aluminyum-radyator": {
+  "price": 14100,
+  "old_price": null
+ },
+ "euroterm-klasik-600x1760-22-dilim-2530-kcal-h-aluminyum-radyator": {
+  "price": 14800,
+  "old_price": null
+ },
+ "euroterm-klasik-600x1840-23-dilim-2645-kcal-h-aluminyum-radyator": {
+  "price": 15450,
+  "old_price": null
+ },
+ "euroterm-klasik-600x1920-24-dilim-2760-kcal-h-aluminyum-radyator": {
+  "price": 16150,
+  "old_price": null
+ },
+ "euroterm-klasik-600x2000-25-dilim-2875-kcal-h-aluminyum-radyator": {
+  "price": 16800,
+  "old_price": null
+ },
+ "euroterm-klasik-600x480-6-dilim-690-kcal-h-aluminyum-radyator": {
+  "price": 4620,
+  "old_price": null
+ },
+ "euroterm-klasik-600x560-7-dilim-805-kcal-h-aluminyum-radyator": {
+  "price": 5390,
+  "old_price": null
+ },
+ "euroterm-klasik-600x640-8-dilim-920-kcal-h-aluminyum-radyator": {
+  "price": 6160,
+  "old_price": null
+ },
+ "euroterm-klasik-600x720-9-dilim-1035-kcal-h-aluminyum-radyator": {
+  "price": 6930,
+  "old_price": null
+ },
+ "euroterm-klasik-600x800-10-dilim-1150-kcal-h-aluminyum-radyator": {
+  "price": 7700,
+  "old_price": null
+ },
+ "euroterm-klasik-600x880-11-dilim-1265-kcal-h-aluminyum-radyator": {
+  "price": 8470,
+  "old_price": null
+ },
+ "euroterm-klasik-600x960-12-dilim-1380-kcal-h-aluminyum-radyator": {
+  "price": 9240,
+  "old_price": null
+ },
+ "euroterm-klasik-900x1040-13-dilim-2197-kcal-h-aluminyum-radyator": {
+  "price": 12200,
+  "old_price": null
+ },
+ "euroterm-klasik-900x1120-14-dilim-2366-kcal-h-aluminyum-radyator": {
+  "price": 13150,
+  "old_price": null
+ },
+ "euroterm-klasik-900x1200-15-dilim-2535-kcal-h-aluminyum-radyator": {
+  "price": 14100,
+  "old_price": null
+ },
+ "euroterm-klasik-900x1280-16-dilim-2704-kcal-h-aluminyum-radyator": {
+  "price": 15050,
+  "old_price": null
+ },
+ "euroterm-klasik-900x1360-17-dilim-2873-kcal-h-aluminyum-radyator": {
+  "price": 16000,
+  "old_price": null
+ },
+ "euroterm-klasik-900x1440-18-dilim-3042-kcal-h-aluminyum-radyator": {
+  "price": 16900,
+  "old_price": null
+ },
+ "euroterm-klasik-900x1520-19-dilim-3211-kcal-h-aluminyum-radyator": {
+  "price": 17850,
+  "old_price": null
+ },
+ "euroterm-klasik-900x1600-20-dilim-3380-kcal-h-aluminyum-radyator": {
+  "price": 18800,
+  "old_price": null
+ },
+ "euroterm-klasik-900x480-6-dilim-1014-kcal-h-aluminyum-radyator": {
+  "price": 6460,
+  "old_price": null
+ },
+ "euroterm-klasik-900x560-7-dilim-1183-kcal-h-aluminyum-radyator": {
+  "price": 7540,
+  "old_price": null
+ },
+ "euroterm-klasik-900x640-8-dilim-1352-kcal-h-aluminyum-radyator": {
+  "price": 8620,
+  "old_price": null
+ },
+ "euroterm-klasik-900x720-9-dilim-1521-kcal-h-aluminyum-radyator": {
+  "price": 9700,
+  "old_price": null
+ },
+ "euroterm-klasik-900x800-10-dilim-1690-kcal-h-aluminyum-radyator": {
+  "price": 10750,
+  "old_price": null
+ },
+ "euroterm-klasik-900x880-11-dilim-1859-kcal-h-aluminyum-radyator": {
+  "price": 11850,
+  "old_price": null
+ },
+ "euroterm-klasik-900x960-12-dilim-2028-kcal-h-aluminyum-radyator": {
+  "price": 12900,
+  "old_price": null
+ },
+ "euroterm-konfor-1000x1040-13-dilim-2912-kcal-h-aluminyum-radyator": {
+  "price": 18150,
+  "old_price": null
+ },
+ "euroterm-konfor-1000x1120-14-dilim-3136-kcal-h-aluminyum-radyator": {
+  "price": 19550,
+  "old_price": null
+ },
+ "euroterm-konfor-1000x1200-15-dilim-3360-kcal-h-aluminyum-radyator": {
+  "price": 20950,
+  "old_price": null
+ },
+ "euroterm-konfor-1000x1280-16-dilim-3584-kcal-h-aluminyum-radyator": {
+  "price": 22350,
+  "old_price": null
+ },
+ "euroterm-konfor-1000x1360-17-dilim-3808-kcal-h-aluminyum-radyator": {
+  "price": 23750,
+  "old_price": null
+ },
+ "euroterm-konfor-1000x1440-18-dilim-4032-kcal-h-aluminyum-radyator": {
+  "price": 25150,
+  "old_price": null
+ },
+ "euroterm-konfor-1000x1520-19-dilim-4256-kcal-h-aluminyum-radyator": {
+  "price": 26550,
+  "old_price": null
+ },
+ "euroterm-konfor-1000x1600-20-dilim-4480-kcal-h-aluminyum-radyator": {
+  "price": 27950,
+  "old_price": null
+ },
+ "euroterm-konfor-1000x480-6-dilim-1344-kcal-h-aluminyum-radyator": {
+  "price": 9600,
+  "old_price": null
+ },
+ "euroterm-konfor-1000x560-7-dilim-1568-kcal-h-aluminyum-radyator": {
+  "price": 11200,
+  "old_price": null
+ },
+ "euroterm-konfor-1000x640-8-dilim-1792-kcal-h-aluminyum-radyator": {
+  "price": 12800,
+  "old_price": null
+ },
+ "euroterm-konfor-1000x720-9-dilim-2016-kcal-h-aluminyum-radyator": {
+  "price": 12550,
+  "old_price": null
+ },
+ "euroterm-konfor-1000x800-10-dilim-2240-kcal-h-aluminyum-radyator": {
+  "price": 13950,
+  "old_price": null
+ },
+ "euroterm-konfor-1000x880-11-dilim-2464-kcal-h-aluminyum-radyator": {
+  "price": 15350,
+  "old_price": null
+ },
+ "euroterm-konfor-1000x960-12-dilim-2688-kcal-h-aluminyum-radyator": {
+  "price": 16750,
+  "old_price": null
+ },
+ "euroterm-konfor-1250x480-6-dilim-1674-kcal-h-aluminyum-radyator": {
+  "price": 12200,
+  "old_price": null
+ },
+ "euroterm-konfor-1250x560-7-dilim-1953-kcal-h-aluminyum-radyator": {
+  "price": 12400,
+  "old_price": null
+ },
+ "euroterm-konfor-1250x640-8-dilim-2232-kcal-h-aluminyum-radyator": {
+  "price": 14200,
+  "old_price": null
+ },
+ "euroterm-konfor-1250x720-9-dilim-2511-kcal-h-aluminyum-radyator": {
+  "price": 16000,
+  "old_price": null
+ },
+ "euroterm-konfor-1250x800-10-dilim-2790-kcal-h-aluminyum-radyator": {
+  "price": 17750,
+  "old_price": null
+ },
+ "euroterm-konfor-1250x880-11-dilim-3069-kcal-h-aluminyum-radyator": {
+  "price": 19550,
+  "old_price": null
+ },
+ "euroterm-konfor-1250x960-12-dilim-3348-kcal-h-aluminyum-radyator": {
+  "price": 21300,
+  "old_price": null
+ },
+ "euroterm-konfor-1500x480-6-dilim-1878-kcal-h-aluminyum-radyator": {
+  "price": 12050,
+  "old_price": null
+ },
+ "euroterm-konfor-1500x560-7-dilim-2191-kcal-h-aluminyum-radyator": {
+  "price": 14050,
+  "old_price": null
+ },
+ "euroterm-konfor-1500x640-8-dilim-2504-kcal-h-aluminyum-radyator": {
+  "price": 16100,
+  "old_price": null
+ },
+ "euroterm-konfor-1500x720-9-dilim-2817-kcal-h-aluminyum-radyator": {
+  "price": 18100,
+  "old_price": null
+ },
+ "euroterm-konfor-1500x800-10-dilim-3130-kcal-h-aluminyum-radyator": {
+  "price": 20100,
+  "old_price": null
+ },
+ "euroterm-konfor-450x1040-13-dilim-1417-kcal-h-aluminyum-radyator": {
+  "price": 11600,
+  "old_price": null
+ },
+ "euroterm-konfor-450x1120-14-dilim-1526-kcal-h-aluminyum-radyator": {
+  "price": 12500,
+  "old_price": null
+ },
+ "euroterm-konfor-450x1200-15-dilim-1635-kcal-h-aluminyum-radyator": {
+  "price": 13400,
+  "old_price": null
+ },
+ "euroterm-konfor-450x1280-16-dilim-1744-kcal-h-aluminyum-radyator": {
+  "price": 12450,
+  "old_price": null
+ },
+ "euroterm-konfor-450x1360-17-dilim-1853-kcal-h-aluminyum-radyator": {
+  "price": 13250,
+  "old_price": null
+ },
+ "euroterm-konfor-450x1440-18-dilim-1962-kcal-h-aluminyum-radyator": {
+  "price": 14050,
+  "old_price": null
+ },
+ "euroterm-konfor-450x1450-20-dilim-2180-kcal-h-aluminyum-radyator": {
+  "price": 15600,
+  "old_price": null
+ },
+ "euroterm-konfor-450x1520-19-dilim-2071-kcal-h-aluminyum-radyator": {
+  "price": 14800,
+  "old_price": null
+ },
+ "euroterm-konfor-450x1680-21-dilim-2289-kcal-h-aluminyum-radyator": {
+  "price": 16350,
+  "old_price": null
+ },
+ "euroterm-konfor-450x1760-22-dilim-2398-kcal-h-aluminyum-radyator": {
+  "price": 17150,
+  "old_price": null
+ },
+ "euroterm-konfor-450x1840-23-dilim-2507-kcal-h-aluminyum-radyator": {
+  "price": 17950,
+  "old_price": null
+ },
+ "euroterm-konfor-450x1920-24-dilim-2616-kcal-h-aluminyum-radyator": {
+  "price": 18700,
+  "old_price": null
+ },
+ "euroterm-konfor-450x2000-25-dilim-2725-kcal-h-aluminyum-radyator": {
+  "price": 19500,
+  "old_price": null
+ },
+ "euroterm-konfor-450x640-8-dilim-872-kcal-h-aluminyum-radyator": {
+  "price": 7150,
+  "old_price": null
+ },
+ "euroterm-konfor-450x800-10-dilim-1090-kcal-h-aluminyum-radyator": {
+  "price": 4960,
+  "old_price": null
+ },
+ "euroterm-konfor-450x880-11-dilim-1199-kcal-h-aluminyum-radyator": {
+  "price": 9830,
+  "old_price": null
+ },
+ "euroterm-konfor-450x960-12-dilim-1308-kcal-h-aluminyum-radyator": {
+  "price": 10700,
+  "old_price": null
+ },
+ "euroterm-konfor-600x1040-13-dilim-1755-kcal-h-aluminyum-radyator": {
+  "price": 13600,
+  "old_price": null
+ },
+ "euroterm-konfor-600x1120-14-dilim-1890-kcal-h-aluminyum-radyator": {
+  "price": 12750,
+  "old_price": null
+ },
+ "euroterm-konfor-600x1200-15-dilim-2025-kcal-h-aluminyum-radyator": {
+  "price": 13700,
+  "old_price": null
+ },
+ "euroterm-konfor-600x1280-16-dilim-2160-kcal-h-aluminyum-radyator": {
+  "price": 14600,
+  "old_price": null
+ },
+ "euroterm-konfor-600x1360-17-dilim-2295-kcal-h-aluminyum-radyator": {
+  "price": 15500,
+  "old_price": null
+ },
+ "euroterm-konfor-600x1440-18-dilim-2430-kcal-h-aluminyum-radyator": {
+  "price": 16450,
+  "old_price": null
+ },
+ "euroterm-konfor-600x1520-19-dilim-2565-kcal-h-aluminyum-radyator": {
+  "price": 17350,
+  "old_price": null
+ },
+ "euroterm-konfor-600x1600-20-dilim-2700-kcal-h-aluminyum-radyator": {
+  "price": 18250,
+  "old_price": null
+ },
+ "euroterm-konfor-600x1680-21-dilim-2835-kcal-h-aluminyum-radyator": {
+  "price": 19150,
+  "old_price": null
+ },
+ "euroterm-konfor-600x1760-22-dilim-2970-kcal-h-aluminyum-radyator": {
+  "price": 20100,
+  "old_price": null
+ },
+ "euroterm-konfor-600x1840-23-dilim-3105-kcal-h-aluminyum-radyator": {
+  "price": 21000,
+  "old_price": null
+ },
+ "euroterm-konfor-600x1920-24-dilim-3240-kcal-h-aluminyum-radyator": {
+  "price": 21900,
+  "old_price": null
+ },
+ "euroterm-konfor-600x2000-25-dilim-3375-kcal-h-aluminyum-radyator": {
+  "price": 22800,
+  "old_price": null
+ },
+ "euroterm-konfor-600x480-6-dilim-810-kcal-h-aluminyum-radyator": {
+  "price": 6270,
+  "old_price": null
+ },
+ "euroterm-konfor-600x560-7-dilim-945-kcal-h-aluminyum-radyator": {
+  "price": 7320,
+  "old_price": null
+ },
+ "euroterm-konfor-600x640-8-dilim-1080-kcal-h-aluminyum-radyator": {
+  "price": 8360,
+  "old_price": null
+ },
+ "euroterm-konfor-600x720-9-dilim-1215-kcal-h-aluminyum-radyator": {
+  "price": 9410,
+  "old_price": null
+ },
+ "euroterm-konfor-600x800-10-dilim-1350-kcal-h-aluminyum-radyator": {
+  "price": 10450,
+  "old_price": null
+ },
+ "euroterm-konfor-600x880-11-dilim-1485-kcal-h-aluminyum-radyator": {
+  "price": 11500,
+  "old_price": null
+ },
+ "euroterm-konfor-600x960-12-dilim-1620-kcal-h-aluminyum-radyator": {
+  "price": 12550,
+  "old_price": null
+ },
+ "euroterm-konfor-900x1040-13-dilim-2600-kcal-h-aluminyum-radyator": {
+  "price": 16900,
+  "old_price": null
+ },
+ "euroterm-konfor-900x1120-14-dilim-2800-kcal-h-aluminyum-radyator": {
+  "price": 18200,
+  "old_price": null
+ },
+ "euroterm-konfor-900x1200-15-dilim-3000-kcal-h-aluminyum-radyator": {
+  "price": 19500,
+  "old_price": null
+ },
+ "euroterm-konfor-900x1280-16-dilim-3200-kcal-h-aluminyum-radyator": {
+  "price": 20800,
+  "old_price": null
+ },
+ "euroterm-konfor-900x1360-17-dilim-3400-kcal-h-aluminyum-radyator": {
+  "price": 22100,
+  "old_price": null
+ },
+ "euroterm-konfor-900x1440-18-dilim-3600-kcal-h-aluminyum-radyator": {
+  "price": 23400,
+  "old_price": null
+ },
+ "euroterm-konfor-900x1520-19-dilim-3800-kcal-h-aluminyum-radyator": {
+  "price": 24700,
+  "old_price": null
+ },
+ "euroterm-konfor-900x1600-20-dilim-4000-kcal-h-aluminyum-radyator": {
+  "price": 26000,
+  "old_price": null
+ },
+ "euroterm-konfor-900x480-6-dilim-1200-kcal-h-aluminyum-radyator": {
+  "price": 8940,
+  "old_price": null
+ },
+ "euroterm-konfor-900x560-7-dilim-1400-kcal-h-aluminyum-radyator": {
+  "price": 10400,
+  "old_price": null
+ },
+ "euroterm-konfor-900x640-8-dilim-1600-kcal-h-aluminyum-radyator": {
+  "price": 11900,
+  "old_price": null
+ },
+ "euroterm-konfor-900x720-9-dilim-1800-kcal-h-aluminyum-radyator": {
+  "price": 13400,
+  "old_price": null
+ },
+ "euroterm-konfor-900x800-10-dilim-2000-kcal-h-aluminyum-radyator": {
+  "price": 13000,
+  "old_price": null
+ },
+ "euroterm-konfor-900x880-11-dilim-2200-kcal-h-aluminyum-radyator": {
+  "price": 14300,
+  "old_price": null
+ },
+ "euroterm-konfor-900x960-12-dilim-2400-kcal-h-aluminyum-radyator": {
+  "price": 15600,
+  "old_price": null
+ },
+ "euroterm-melisa-1000x1000-25-dilim-2650-kcal-h-aluminyum-radyator": {
+  "price": 16950,
+  "old_price": null
+ },
+ "euroterm-melisa-1000x1040-26-dilim-2756-kcal-h-aluminyum-radyator": {
+  "price": 17600,
+  "old_price": null
+ },
+ "euroterm-melisa-1000x1120-28-dilim-2968-kcal-h-aluminyum-radyator": {
+  "price": 18950,
+  "old_price": null
+ },
+ "euroterm-melisa-1000x1200-30-dilim-3180-kcal-h-aluminyum-radyator": {
+  "price": 20350,
+  "old_price": null
+ },
+ "euroterm-melisa-1000x1280-32-dilim-3392-kcal-h-aluminyum-radyator": {
+  "price": 21700,
+  "old_price": null
+ },
+ "euroterm-melisa-1000x1360-34-dilim-3604-kcal-h-aluminyum-radyator": {
+  "price": 23050,
+  "old_price": null
+ },
+ "euroterm-melisa-1000x1440-36-dilim-3816-kcal-h-aluminyum-radyator": {
+  "price": 17600,
+  "old_price": null
+ },
+ "euroterm-melisa-1000x1520-38-dilim-4028-kcal-h-aluminyum-radyator": {
+  "price": 18950,
+  "old_price": null
+ },
+ "euroterm-melisa-1000x1600-40-dilim-4240-kcal-h-aluminyum-radyator": {
+  "price": 27100,
+  "old_price": null
+ },
+ "euroterm-melisa-1000x480-12-dilim-1272-kcal-h-aluminyum-radyator": {
+  "price": 9320,
+  "old_price": null
+ },
+ "euroterm-melisa-1000x560-14-dilim-1484-kcal-h-aluminyum-radyator": {
+  "price": 10850,
+  "old_price": null
+ },
+ "euroterm-melisa-1000x640-16-dilim-1696-kcal-h-aluminyum-radyator": {
+  "price": 12400,
+  "old_price": null
+ },
+ "euroterm-melisa-1000x720-18-dilim-1908-kcal-h-aluminyum-radyator": {
+  "price": 12200,
+  "old_price": null
+ },
+ "euroterm-melisa-1000x800-20-dilim-2120-kcal-h-aluminyum-radyator": {
+  "price": 13550,
+  "old_price": null
+ },
+ "euroterm-melisa-1000x880-22-dilim-2332-kcal-h-aluminyum-radyator": {
+  "price": 14900,
+  "old_price": null
+ },
+ "euroterm-melisa-1000x960-24-dilim-2544-kcal-h-aluminyum-radyator": {
+  "price": 16250,
+  "old_price": null
+ },
+ "euroterm-melisa-1250x480-12-dilim-1572-kcal-h-aluminyum-radyator": {
+  "price": 11750,
+  "old_price": null
+ },
+ "euroterm-melisa-1250x560-14-dilim-1834-kcal-h-aluminyum-radyator": {
+  "price": 13750,
+  "old_price": null
+ },
+ "euroterm-melisa-1250x640-16-dilim-2096-kcal-h-aluminyum-radyator": {
+  "price": 13700,
+  "old_price": null
+ },
+ "euroterm-melisa-1250x720-18-dilim-2358-kcal-h-aluminyum-radyator": {
+  "price": 15450,
+  "old_price": null
+ },
+ "euroterm-melisa-1250x800-20-dilim-2620-kcal-h-aluminyum-radyator": {
+  "price": 17150,
+  "old_price": null
+ },
+ "euroterm-melisa-1250x880-22-dilim-2882-kcal-h-aluminyum-radyator": {
+  "price": 18850,
+  "old_price": null
+ },
+ "euroterm-melisa-1250x960-24-dilim-3144-kcal-h-aluminyum-radyator": {
+  "price": 20600,
+  "old_price": null
+ },
+ "euroterm-melisa-1500x400-10-dilim-1470-kcal-h-aluminyum-radyator": {
+  "price": 11150,
+  "old_price": null
+ },
+ "euroterm-melisa-1500x480-12-dilim-1764-kcal-h-aluminyum-radyator": {
+  "price": 13350,
+  "old_price": null
+ },
+ "euroterm-melisa-1500x560-14-dilim-2058-kcal-h-aluminyum-radyator": {
+  "price": 13600,
+  "old_price": null
+ },
+ "euroterm-melisa-1500x640-16-dilim-2352-kcal-h-aluminyum-radyator": {
+  "price": 15550,
+  "old_price": null
+ },
+ "euroterm-melisa-1500x720-18-dilim-2646-kcal-h-aluminyum-radyator": {
+  "price": 17500,
+  "old_price": null
+ },
+ "euroterm-melisa-1500x800-20-dilim-2940-kcal-h-aluminyum-radyator": {
+  "price": 19450,
+  "old_price": null
+ },
+ "euroterm-melisa-600x1000-25-dilim-1600-kcal-h-aluminyum-radyator": {
+  "price": 12650,
+  "old_price": null
+ },
+ "euroterm-melisa-600x1040-26-dilim-1664-kcal-h-aluminyum-radyator": {
+  "price": 13150,
+  "old_price": null
+ },
+ "euroterm-melisa-600x1120-28-dilim-1792-kcal-h-aluminyum-radyator": {
+  "price": 12400,
+  "old_price": null
+ },
+ "euroterm-melisa-600x1200-30-dilim-1920-kcal-h-aluminyum-radyator": {
+  "price": 13250,
+  "old_price": null
+ },
+ "euroterm-melisa-600x1280-32-dilim-2048-kcal-h-aluminyum-radyator": {
+  "price": 14150,
+  "old_price": null
+ },
+ "euroterm-melisa-600x1360-34-dilim-2176-kcal-h-aluminyum-radyator": {
+  "price": 15050,
+  "old_price": null
+ },
+ "euroterm-melisa-600x1440-36-dilim-2304-kcal-h-aluminyum-radyator": {
+  "price": 13150,
+  "old_price": null
+ },
+ "euroterm-melisa-600x1520-38-dilim-2432-kcal-h-aluminyum-radyator": {
+  "price": 16800,
+  "old_price": null
+ },
+ "euroterm-melisa-600x1600-40-dilim-2560-kcal-h-aluminyum-radyator": {
+  "price": 17700,
+  "old_price": null
+ },
+ "euroterm-melisa-600x1680-42-dilim-2668-kcal-h-aluminyum-radyator": {
+  "price": 18600,
+  "old_price": null
+ },
+ "euroterm-melisa-600x1760-44-dilim-2816-kcal-h-aluminyum-radyator": {
+  "price": 19450,
+  "old_price": null
+ },
+ "euroterm-melisa-600x1840-46-dilim-2944-kcal-h-aluminyum-radyator": {
+  "price": 20350,
+  "old_price": null
+ },
+ "euroterm-melisa-600x1920-48-dilim-3072-kcal-h-aluminyum-radyator": {
+  "price": 21250,
+  "old_price": null
+ },
+ "euroterm-melisa-600x2000-50-dilim-3200-kcal-h-aluminyum-radyator": {
+  "price": 22150,
+  "old_price": null
+ },
+ "euroterm-melisa-600x480-12-dilim-768-kcal-h-aluminyum-radyator": {
+  "price": 6080,
+  "old_price": null
+ },
+ "euroterm-melisa-600x560-14-dilim-896-kcal-h-aluminyum-radyator": {
+  "price": 7100,
+  "old_price": null
+ },
+ "euroterm-melisa-600x640-16-dilim-1024-kcal-h-aluminyum-radyator": {
+  "price": 8110,
+  "old_price": null
+ },
+ "euroterm-melisa-600x720-18-dilim-1152-kcal-h-aluminyum-radyator": {
+  "price": 9130,
+  "old_price": null
+ },
+ "euroterm-melisa-600x800-20-dilim-1280-kcal-h-aluminyum-radyator": {
+  "price": 10100,
+  "old_price": null
+ },
+ "euroterm-melisa-600x880-22-dilim-1408-kcal-h-aluminyum-radyator": {
+  "price": 11150,
+  "old_price": null
+ },
+ "euroterm-melisa-600x960-24-dilim-1536-kcal-h-aluminyum-radyator": {
+  "price": 12150,
+  "old_price": null
+ },
+ "euroterm-melisa-900x1000-25-dilim-2350-kcal-h-aluminyum-radyator": {
+  "price": 15750,
+  "old_price": null
+ },
+ "euroterm-melisa-900x1040-26-dilim-2444-kcal-h-aluminyum-radyator": {
+  "price": 16400,
+  "old_price": null
+ },
+ "euroterm-melisa-900x1120-28-dilim-2632-kcal-h-aluminyum-radyator": {
+  "price": 17650,
+  "old_price": null
+ },
+ "euroterm-melisa-900x1200-30-dilim-2820-kcal-h-aluminyum-radyator": {
+  "price": 18900,
+  "old_price": null
+ },
+ "euroterm-melisa-900x1280-32-dilim-3008-kcal-h-aluminyum-radyator": {
+  "price": 20200,
+  "old_price": null
+ },
+ "euroterm-melisa-900x1360-34-dilim-3196-kcal-h-aluminyum-radyator": {
+  "price": 21450,
+  "old_price": null
+ },
+ "euroterm-melisa-900x1440-36-dilim-3384-kcal-h-aluminyum-radyator": {
+  "price": 16400,
+  "old_price": null
+ },
+ "euroterm-melisa-900x1520-38-dilim-3572-kcal-h-aluminyum-radyator": {
+  "price": 23950,
+  "old_price": null
+ },
+ "euroterm-melisa-900x1600-40-dilim-3760-kcal-h-aluminyum-radyator": {
+  "price": 25250,
+  "old_price": null
+ },
+ "euroterm-melisa-900x480-12-dilim-1128-kcal-h-aluminyum-radyator": {
+  "price": 8670,
+  "old_price": null
+ },
+ "euroterm-melisa-900x560-14-dilim-1316-kcal-h-aluminyum-radyator": {
+  "price": 10100,
+  "old_price": null
+ },
+ "euroterm-melisa-900x640-16-dilim-1504-kcal-h-aluminyum-radyator": {
+  "price": 11550,
+  "old_price": null
+ },
+ "euroterm-melisa-900x720-18-dilim-1692-kcal-h-aluminyum-radyator": {
+  "price": 13000,
+  "old_price": null
+ },
+ "euroterm-melisa-900x800-20-dilim-1880-kcal-h-aluminyum-radyator": {
+  "price": 12600,
+  "old_price": null
+ },
+ "euroterm-melisa-900x880-22-dilim-2068-kcal-h-aluminyum-radyator": {
+  "price": 13850,
+  "old_price": null
+ },
+ "euroterm-melisa-900x960-24-dilim-2256-kcal-h-aluminyum-radyator": {
+  "price": 15150,
+  "old_price": null
+ },
+ "hosseven-hke-12-12-kw-elektrikli-kombi-tek-fazli-sicak-sulu": {
+  "price": 35150,
+  "old_price": null
+ },
+ "hosseven-hke-15-15-kw-elektrikli-kombi-trifaze-sicak-sulu": {
+  "price": 36200,
+  "old_price": null
+ },
+ "hosseven-hke-18-18-kw-elektrikli-kombi-trifaze-sicak-sulu": {
+  "price": 37150,
+  "old_price": null
+ },
+ "hosseven-hke-24-24-kw-elektrikli-kombi-trifaze-sicak-sulu": {
+  "price": 38500,
+  "old_price": null
+ },
+ "hosseven-hke-27-27-kw-elektrikli-kombi-trifaze-sicak-sulu": {
+  "price": 42100,
+  "old_price": null
+ },
+ "hosseven-hke-32-32-kw-elektrikli-kombi-trifaze-sicak-sulu": {
+  "price": 44000,
+  "old_price": null
+ },
+ "lg-dual-cool-plus-pc09sq-a-sinifi-r32-inverter-split-klima": {
+  "price": 34350,
+  "old_price": null
+ },
+ "lg-dual-cool-plus-pc12sq-a-sinifi-r32-inverter-split-klima": {
+  "price": 30800,
+  "old_price": null
+ },
+ "lg-dual-cool-plus-pc18sq-a-sinifi-r32-inverter-split-klima": {
+  "price": 43750,
+  "old_price": null
+ },
+ "lg-dual-cool-plus-pc24sq-a-sinifi-r32-inverter-split-klima": {
+  "price": 56200,
+  "old_price": null
+ },
+ "lg-uv-artcool-ac18bh-a-sinifi-r32-inverter-split-klima": {
+  "price": 69500,
+  "old_price": null
+ },
+ "lg-uv-artcool-ac24bh-a-sinifi-r32-inverter-split-klima": {
+  "price": 76000,
+  "old_price": null
+ },
+ "maestro-optimum-premix-26-kw-tam-yogusmali-5-yil-garantili-kombi": {
+  "price": 39350,
+  "old_price": 43500
+ },
+ "maktek-omega-12-kw-elektrikli-kombi-trifaze-sicak-sulu": {
+  "price": 37600,
+  "old_price": null
+ },
+ "maktek-omega-15-kw-elektrikli-kombi-trifaze-sicak-sulu": {
+  "price": 38550,
+  "old_price": null
+ },
+ "maktek-omega-18-kw-elektrikli-kombi-trifaze-sicak-sulu": {
+  "price": 39500,
+  "old_price": null
+ },
+ "maktek-omega-24-kw-elektrikli-kombi-trifaze-sicak-sulu": {
+  "price": 40450,
+  "old_price": null
+ },
+ "maktek-omega-30-kw-elektrikli-kombi-trifaze-sicak-sulu": {
+  "price": 42700,
+  "old_price": null
+ },
+ "maktek-omega-35-kw-elektrikli-kombi-trifaze-sicak-sulu": {
+  "price": 44950,
+  "old_price": null
+ },
+ "maktek-omega-40-kw-elektrikli-kombi-trifaze-sicak-sulu": {
+  "price": 48200,
+  "old_price": null
+ },
+ "maktek-omega-50-kw-elektrikli-kombi-trifaze-sadece-isitma": {
+  "price": 66900,
+  "old_price": null
+ },
+ "maktek-omega-60-kw-elektrikli-kombi-trifaze-sadece-isitma": {
+  "price": 76550,
+  "old_price": null
+ },
+ "maktek-omega-80-sadece-isitma-3-fazli-elektrikli-kombi-400v": {
+  "price": 88150,
+  "old_price": null
+ },
+ "notarad-evra-300x1000-10-dilim-300-kcal-h-aluminyum-radyator": {
+  "price": 7190,
+  "old_price": null
+ },
+ "notarad-evra-300x1200-12-dilim-360-kcal-h-aluminyum-radyator": {
+  "price": 8510,
+  "old_price": null
+ },
+ "notarad-evra-300x1400-14-dilim-420-kcal-h-aluminyum-radyator": {
+  "price": 9820,
+  "old_price": null
+ },
+ "notarad-evra-300x1500-15-dilim-450-kcal-h-aluminyum-radyator": {
+  "price": 10450,
+  "old_price": null
+ },
+ "notarad-evra-300x1600-16-dilim-480-kcal-h-aluminyum-radyator": {
+  "price": 11100,
+  "old_price": null
+ },
+ "notarad-evra-300x1800-18-dilim-540-kcal-h-aluminyum-radyator": {
+  "price": 12400,
+  "old_price": null
+ },
+ "notarad-evra-300x2000-x20-dilim-600-kcal-h-aluminyum-radyator": {
+  "price": 13750,
+  "old_price": null
+ },
+ "notarad-evra-300x800-8-dilim-240-kcal-h-aluminyum-radyator": {
+  "price": 3260,
+  "old_price": null
+ },
+ "notarad-evra-400x1000-10-dilim-410-kcal-h-aluminyum-radyator": {
+  "price": 7330,
+  "old_price": null
+ },
+ "notarad-evra-400x1200-12-dilim-492-kcal-h-aluminyum-radyator": {
+  "price": 8680,
+  "old_price": null
+ },
+ "notarad-evra-400x1400-14-dilim-574-kcal-h-aluminyum-radyator": {
+  "price": 10000,
+  "old_price": null
+ },
+ "notarad-evra-400x1500-15-dilim-615-kcal-h-aluminyum-radyator": {
+  "price": 10650,
+  "old_price": null
+ },
+ "notarad-evra-400x1600-16-dilim-656-kcal-h-aluminyum-radyator": {
+  "price": 11350,
+  "old_price": null
+ },
+ "notarad-evra-400x1800-18-dilim-738-kcal-h-aluminyum-radyator": {
+  "price": 12700,
+  "old_price": null
+ },
+ "notarad-evra-400x2000-20-dilim-820-kcal-h-aluminyum-radyator": {
+  "price": 12250,
+  "old_price": null
+ },
+ "notarad-evra-400x800-8-dilim-328-kcal-h-aluminyum-radyator": {
+  "price": 3320,
+  "old_price": null
+ },
+ "notarad-evra-500x1000-10-dilim-530-kcal-h-aluminyum-radyator": {
+  "price": 7730,
+  "old_price": null
+ },
+ "notarad-evra-500x1200-12-dilim-636-kcal-h-aluminyum-radyator": {
+  "price": 9150,
+  "old_price": null
+ },
+ "notarad-evra-500x1400-14-dilim-742-kcal-h-aluminyum-radyator": {
+  "price": 10550,
+  "old_price": null
+ },
+ "notarad-evra-500x1500-15-dilim-795-kcal-h-aluminyum-radyator": {
+  "price": 11250,
+  "old_price": null
+ },
+ "notarad-evra-500x1600-16-dilim-848-kcal-h-aluminyum-radyator": {
+  "price": 12000,
+  "old_price": null
+ },
+ "notarad-evra-500x1800-18-dilim-954-kcal-h-aluminyum-radyator": {
+  "price": 13400,
+  "old_price": null
+ },
+ "notarad-evra-500x2000-20-dilim-1060-kcal-h-aluminyum-radyator": {
+  "price": 12950,
+  "old_price": null
+ },
+ "notarad-evra-500x600-6-dilim-318-kcal-h-aluminyum-radyator": {
+  "price": 4890,
+  "old_price": null
+ },
+ "notarad-evra-500x800-8-dilim-424-kcal-h-aluminyum-radyator": {
+  "price": 6310,
+  "old_price": null
+ },
+ "notarad-evra-600x1000-10-dilim-640-kcal-h-aluminyum-radyator": {
+  "price": 8560,
+  "old_price": null
+ },
+ "notarad-evra-600x1200-12-dilim-768-kcal-h-aluminyum-radyator": {
+  "price": 10150,
+  "old_price": null
+ },
+ "notarad-evra-600x1400-14-dilim-896-kcal-h-aluminyum-radyator": {
+  "price": 11700,
+  "old_price": null
+ },
+ "notarad-evra-600x1500-15-dilim-960-kcal-h-aluminyum-radyator": {
+  "price": 12500,
+  "old_price": null
+ },
+ "notarad-evra-600x1600-16-dilim-1024-kcal-h-aluminyum-radyator": {
+  "price": 13300,
+  "old_price": null
+ },
+ "notarad-evra-600x1800-18-dilim-1152-kcal-h-aluminyum-radyator": {
+  "price": 13000,
+  "old_price": null
+ },
+ "notarad-evra-600x2000-20-dilim-1280-kcal-h-aluminyum-radyator": {
+  "price": 14400,
+  "old_price": null
+ },
+ "notarad-evra-600x500-5-dilim-320-kcal-h-aluminyum-radyator": {
+  "price": 4590,
+  "old_price": null
+ },
+ "notarad-evra-600x600-6-dilim-384-kcal-h-aluminyum-radyator": {
+  "price": 5390,
+  "old_price": null
+ },
+ "notarad-evra-600x800-8-dilim-512-kcal-h-aluminyum-radyator": {
+  "price": 6980,
+  "old_price": null
+ },
+ "notarad-evra-600x900-9-dilim-576-kcal-h-aluminyum-radyator": {
+  "price": 7770,
+  "old_price": null
+ },
+ "notarad-evra-900x1000-10-dilim-970-kcal-h-aluminyum-radyator": {
+  "price": 10900,
+  "old_price": null
+ },
+ "notarad-evra-900x400-4-dilim-388-kcal-h-aluminyum-radyator": {
+  "price": 4750,
+  "old_price": null
+ },
+ "notarad-evra-900x500-5-dilim-485-kcal-h-aluminyum-radyator": {
+  "price": 5790,
+  "old_price": null
+ },
+ "notarad-evra-900x600-6-dilim-582-kcal-h-aluminyum-radyator": {
+  "price": 6820,
+  "old_price": null
+ },
+ "notarad-evra-900x700-7-dilim-679-kcal-h-aluminyum-radyator": {
+  "price": 7850,
+  "old_price": null
+ },
+ "notarad-evra-900x800-8-dilim-776-kcal-h-aluminyum-radyator": {
+  "price": 8880,
+  "old_price": null
+ },
+ "notarad-evra-900x900-9-dilim-873-kcal-h-aluminyum-radyator": {
+  "price": 9910,
+  "old_price": null
+ },
+ "notarad-heat-1200x414-5-dilim-825-kcal-h-115-aks-aluminyum-radyator": {
+  "price": 4900,
+  "old_price": null
+ },
+ "notarad-heat-1200x498-6-dilim-990-kcal-h-115-aks-aluminyum-radyator": {
+  "price": 10450,
+  "old_price": null
+ },
+ "notarad-heat-1200x581-7-dilim-1155-kcal-h-115-aks-aluminyum-radyator": {
+  "price": 12100,
+  "old_price": null
+ },
+ "notarad-heat-1200x665-8-dilim-1320-kcal-h-115-aks-aluminyum-radyator": {
+  "price": 13750,
+  "old_price": null
+ },
+ "notarad-heat-1200x749-9-dilim-1485-kcal-h-115-aks-aluminyum-radyator": {
+  "price": 13450,
+  "old_price": null
+ },
+ "notarad-heat-1200x832-10-dilim-1650-kcal-h-115-aks-aluminyum-radyator": {
+  "price": 14850,
+  "old_price": null
+ },
+ "notarad-heat-1600x414-5-dilim-1080-kcal-h-155-aks-aluminyum-radyator": {
+  "price": 6090,
+  "old_price": null
+ },
+ "notarad-heat-1600x498-6-dilim-1296-kcal-h-155-aks-aluminyum-radyator": {
+  "price": 13050,
+  "old_price": null
+ },
+ "notarad-heat-1600x581-7-dilim-1512-kcal-h-155-aks-aluminyum-radyator": {
+  "price": 13200,
+  "old_price": null
+ },
+ "notarad-heat-1600x665-8-dilim-1728-kcal-h-155-aks-aluminyum-radyator": {
+  "price": 15000,
+  "old_price": null
+ },
+ "notarad-heat-1600x749-9-dilim-1944-kcal-h-155-aks-aluminyum-radyator": {
+  "price": 16800,
+  "old_price": null
+ },
+ "notarad-heat-1600x832-10-dilim-2160-kcal-h-155-aks-aluminyum-radyator": {
+  "price": 18600,
+  "old_price": null
+ },
+ "notarad-heat-400x1000-12-dilim-696-kcal-h-350-aks-aluminyum-radyator": {
+  "price": 9890,
+  "old_price": null
+ },
+ "notarad-heat-400x1167-14-dilim-812-kcal-h-350-aks-aluminyum-radyator": {
+  "price": 11400,
+  "old_price": null
+ },
+ "notarad-heat-400x1251-15-dilim-870-kcal-h-350-aks-aluminyum-radyator": {
+  "price": 12200,
+  "old_price": null
+ },
+ "notarad-heat-400x1335-16-dilim-2112-kcal-h-350-aks-aluminyum-radyator": {
+  "price": 12950,
+  "old_price": null
+ },
+ "notarad-heat-400x1500-18-dilim-2112-kcal-h-350-aks-aluminyum-radyator": {
+  "price": 12650,
+  "old_price": null
+ },
+ "notarad-heat-400x1670-20-dilim-1160-kcal-h-350-aks-aluminyum-radyator": {
+  "price": 14000,
+  "old_price": null
+ },
+ "notarad-heat-400x1837-22-dilim-1276-kcal-h-350-aks-aluminyum-radyator": {
+  "price": 15350,
+  "old_price": null
+ },
+ "notarad-heat-400x2088-25-dilim-1450-kcal-h-350-aks-aluminyum-radyator": {
+  "price": 17400,
+  "old_price": null
+ },
+ "notarad-heat-400x498-6-dilim-348-kcal-h-350-aks-aluminyum-radyator": {
+  "price": 5260,
+  "old_price": null
+ },
+ "notarad-heat-400x665-8-dilim-464-kcal-h-350-aks-aluminyum-radyator": {
+  "price": 6800,
+  "old_price": null
+ },
+ "notarad-heat-400x832-10-dilim-580-kcal-h-350-aks-aluminyum-radyator": {
+  "price": 8350,
+  "old_price": null
+ },
+ "notarad-heat-500x1000-12-dilim-852-kcal-h-450-aks-aluminyum-radyator": {
+  "price": 11200,
+  "old_price": null
+ },
+ "notarad-heat-500x1167-14-dilim-994-kcal-h-450-aks-aluminyum-radyator": {
+  "price": 13000,
+  "old_price": null
+ },
+ "notarad-heat-500x1251-15-dilim-1065-kcal-h-450-aks-aluminyum-radyator": {
+  "price": 12100,
+  "old_price": null
+ },
+ "notarad-heat-500x1335-16-dilim-1136-kcal-h-450-aks-aluminyum-radyator": {
+  "price": 12900,
+  "old_price": null
+ },
+ "notarad-heat-500x1500-18-dilim-1278-kcal-h-450-aks-aluminyum-radyator": {
+  "price": 14450,
+  "old_price": null
+ },
+ "notarad-heat-500x1670-20-dilim-1420-kcal-h-450-aks-aluminyum-radyator": {
+  "price": 16000,
+  "old_price": null
+ },
+ "notarad-heat-500x1837-22-dilim-1562-kcal-h-450-aks-aluminyum-radyator": {
+  "price": 17550,
+  "old_price": null
+ },
+ "notarad-heat-500x2088-25-dilim-1775-kcal-h-450-aks-aluminyum-radyator": {
+  "price": 19850,
+  "old_price": null
+ },
+ "notarad-heat-500x498-6-dilim-2112-kcal-h-450-aks-aluminyum-radyator": {
+  "price": 5940,
+  "old_price": null
+ },
+ "notarad-heat-500x665-8-dilim-2112-kcal-h-450-aks-aluminyum-radyator": {
+  "price": 7710,
+  "old_price": null
+ },
+ "notarad-heat-500x832-10-dilim-710-kcal-h-450-aks-aluminyum-radyator": {
+  "price": 9480,
+  "old_price": null
+ },
+ "notarad-heat-600x1000-12-dilim-1008-kcal-h-550-aks-aluminyum-radyator": {
+  "price": 12400,
+  "old_price": null
+ },
+ "notarad-heat-600x1167-14-dilim-1176-kcal-h-550-aks-aluminyum-radyator": {
+  "price": 12550,
+  "old_price": null
+ },
+ "notarad-heat-600x1251-15-dilim-1260-kcal-h-550-aks-aluminyum-radyator": {
+  "price": 13400,
+  "old_price": null
+ },
+ "notarad-heat-600x1335-16-dilim-1344-kcal-h-550-aks-aluminyum-radyator": {
+  "price": 14250,
+  "old_price": null
+ },
+ "notarad-heat-600x1500-18-dilim-1512-kcal-h-550-aks-aluminyum-radyator": {
+  "price": 15950,
+  "old_price": null
+ },
+ "notarad-heat-600x1670-20-dilim-1680-kcal-h-550-aks-aluminyum-radyator": {
+  "price": 17700,
+  "old_price": null
+ },
+ "notarad-heat-600x2088-25-dilim-2100-kcal-h-550-aks-aluminyum-radyator": {
+  "price": 21950,
+  "old_price": null
+ },
+ "notarad-heat-600x414-5-dilim-420-kcal-h-550-aks-aluminyum-radyator": {
+  "price": 5540,
+  "old_price": null
+ },
+ "notarad-heat-600x498-6-dilim-504-kcal-h-550-aks-aluminyum-radyator": {
+  "price": 6520,
+  "old_price": null
+ },
+ "notarad-heat-600x665-8-dilim-672-kcal-h-550-aks-aluminyum-radyator": {
+  "price": 8480,
+  "old_price": null
+ },
+ "notarad-heat-600x749-9-dilim-756-kcal-h-550-aks-aluminyum-radyator": {
+  "price": 9460,
+  "old_price": null
+ },
+ "notarad-heat-600x832-10-dilim-840-kcal-h-550-aks-aluminyum-radyator": {
+  "price": 10450,
+  "old_price": null
+ },
+ "notarad-heat-900x414-5-dilim-620-kcal-h-850-aks-aluminyum-radyator": {
+  "price": 7220,
+  "old_price": null
+ },
+ "notarad-heat-900x498-6-dilim-744-kcal-h-850-aks-aluminyum-radyator": {
+  "price": 8540,
+  "old_price": null
+ },
+ "notarad-heat-900x581-7-dilim-868-kcal-h-850-aks-aluminyum-radyator": {
+  "price": 9860,
+  "old_price": null
+ },
+ "notarad-heat-900x665-8-dilim-992-kcal-h-850-aks-aluminyum-radyator": {
+  "price": 11150,
+  "old_price": null
+ },
+ "notarad-heat-900x749-9-dilim-1116-kcal-h-850-aks-aluminyum-radyator": {
+  "price": 12450,
+  "old_price": null
+ },
+ "notarad-heat-900x832-10-dilim-1240-kcal-h-850-aks-aluminyum-radyator": {
+  "price": 12050,
+  "old_price": null
+ },
+ "notarad-heat-900x916-11-dilim-1364-kcal-h-850-aks-aluminyum-radyator": {
+  "price": 13200,
+  "old_price": null
+ },
+ "notarad-plus-581x1200-15-dilim-1515-kcal-h-500-aks-aluminyum-dokum-radyator": {
+  "price": 17100,
+  "old_price": null
+ },
+ "notarad-plus-581x1360-17-dilim-1717-kcal-h-500-aks-aluminyum-dokum-radyator": {
+  "price": 19300,
+  "old_price": null
+ },
+ "notarad-plus-581x1520-19-dilim-1919-kcal-h-500-aks-aluminyum-dokum-radyator": {
+  "price": 21500,
+  "old_price": null
+ },
+ "notarad-plus-581x1600-20-dilim-2020-kcal-h-500-aks-aluminyum-dokum-radyator": {
+  "price": 22600,
+  "old_price": null
+ },
+ "notarad-plus-581x1760-22-dilim-2222-kcal-h-500-aks-aluminyum-dokum-radyator": {
+  "price": 24800,
+  "old_price": null
+ },
+ "notarad-plus-581x2000-25-dilim-2525-kcal-h-500-aks-aluminyum-dokum-radyator": {
+  "price": 28150,
+  "old_price": null
+ },
+ "notarad-plus-581x400-5-dilim-505-kcal-h-500-aks-aluminyum-dokum-radyator": {
+  "price": 6950,
+  "old_price": null
+ },
+ "notarad-plus-581x480-6-dilim-606-kcal-h-500-aks-aluminyum-dokum-radyator": {
+  "price": 8210,
+  "old_price": null
+ },
+ "notarad-plus-581x560-7-dilim-707-kcal-h-500-aks-aluminyum-dokum-radyator": {
+  "price": 9480,
+  "old_price": null
+ },
+ "notarad-plus-581x640-8-dilim-808-kcal-h-500-aks-aluminyum-dokum-radyator": {
+  "price": 10700,
+  "old_price": null
+ },
+ "notarad-plus-581x800-10-dilim-1010-kcal-h-500-aks-aluminyum-dokum-radyator": {
+  "price": 13250,
+  "old_price": null
+ },
+ "notarad-plus-581x960-12-dilim-1212-kcal-h-500-aks-aluminyum-dokum-radyator": {
+  "price": 13800,
+  "old_price": null
+ },
+ "notarad-zen-1500x400-5-dilim-1085-kcal-h-aluminyum-radyator": {
+  "price": 7410,
+  "old_price": null
+ },
+ "notarad-zen-1500x480-6-dilim-1302-kcal-h-aluminyum-radyator": {
+  "price": 13900,
+  "old_price": null
+ },
+ "notarad-zen-1500x560-7-dilim-1519-kcal-h-aluminyum-radyator": {
+  "price": 16100,
+  "old_price": null
+ },
+ "notarad-zen-1500x640-8-dilim-1736-kcal-h-aluminyum-radyator": {
+  "price": 18350,
+  "old_price": null
+ },
+ "notarad-zen-1800x400-5-dilim-1300-kcal-h-aluminyum-radyator": {
+  "price": 8770,
+  "old_price": null
+ },
+ "notarad-zen-1800x480-6-dilim-1560-kcal-h-aluminyum-radyator": {
+  "price": 16450,
+  "old_price": null
+ },
+ "notarad-zen-1800x560-7-dilim-1820-kcal-h-aluminyum-radyator": {
+  "price": 19100,
+  "old_price": null
+ },
+ "notarad-zen-1800x640-8-dilim-2080-kcal-h-aluminyum-radyator": {
+  "price": 21750,
+  "old_price": null
+ },
+ "notarad-zen-2000x400-5-dilim-1440-kcal-h-aluminyum-radyator": {
+  "price": 9350,
+  "old_price": null
+ },
+ "notarad-zen-2000x480-6-dilim-1728-kcal-h-aluminyum-radyator": {
+  "price": 17550,
+  "old_price": null
+ },
+ "notarad-zen-2000x560-7-dilim-2016-kcal-h-aluminyum-radyator": {
+  "price": 20350,
+  "old_price": null
+ },
+ "notarad-zen-2000x640-8-dilim-2304-kcal-h-aluminyum-radyator": {
+  "price": 23200,
+  "old_price": null
+ },
+ "protherm-600x1000-panel-radyator-tip22": {
+  "price": 2860,
+  "old_price": null
+ },
+ "protherm-600x1100-panel-radyator-tip22": {
+  "price": 3090,
+  "old_price": null
+ },
+ "protherm-600x1200-panel-radyator-tip22": {
+  "price": 3310,
+  "old_price": null
+ },
+ "protherm-600x1300-panel-radyator-tip22": {
+  "price": 3560,
+  "old_price": null
+ },
+ "protherm-600x1400-panel-radyator-tip22": {
+  "price": 3850,
+  "old_price": null
+ },
+ "protherm-600x1500-panel-radyator-tip22": {
+  "price": 4070,
+  "old_price": null
+ },
+ "protherm-600x1600-panel-radyator-tip22": {
+  "price": 4350,
+  "old_price": null
+ },
+ "protherm-600x1800-panel-radyator-tip22": {
+  "price": 4820,
+  "old_price": null
+ },
+ "protherm-600x2000-panel-radyator-tip22": {
+  "price": 4820,
+  "old_price": null
+ },
+ "protherm-600x400-panel-radyator-tip22": {
+  "price": 1460,
+  "old_price": null
+ },
+ "protherm-600x500-panel-radyator-tip22": {
+  "price": 1690,
+  "old_price": null
+ },
+ "protherm-600x600-panel-radyator-tip22": {
+  "price": 1910,
+  "old_price": null
+ },
+ "protherm-600x700-panel-radyator-tip22": {
+  "price": 2130,
+  "old_price": null
+ },
+ "protherm-600x800-panel-radyator-tip22": {
+  "price": 2360,
+  "old_price": null
+ },
+ "protherm-600x900-panel-radyator-tip22": {
+  "price": 2590,
+  "old_price": null
+ },
+ "protherm-dt4-80-lt-titanium-standart-termosifon": {
+  "price": 16350,
+  "old_price": null
+ },
+ "protherm-lynx-condens-24-kw-2-yil-garantili-tam-yogusmali-kombi": {
+  "price": 31100,
+  "old_price": 34500
+ },
+ "protherm-lynx-condens-28-kw-2-yil-garantili-tam-yogusmali-kombi": {
+  "price": 26350,
+  "old_price": 29000
+ },
+ "protherm-lynx-kablosuz-on-off-oda-termostati": {
+  "price": 2070,
+  "old_price": null
+ },
+ "protherm-puma-condens-1824-2-yil-garantili-2-yil-garantili-tam-yogusmali-yeni-nesil-kombi": {
+  "price": 30400,
+  "old_price": 33500
+ },
+ "radyal-hane-1000x1050-15-dilim-2100-kcal-h-aluminyum-radyator": {
+  "price": 33400,
+  "old_price": null
+ },
+ "radyal-hane-1000x1120-16-dilim-2240-kcal-h-aluminyum-radyator": {
+  "price": 35600,
+  "old_price": null
+ },
+ "radyal-hane-1000x1190-17-dilim-2380-kcal-h-aluminyum-radyator": {
+  "price": 37850,
+  "old_price": null
+ },
+ "radyal-hane-1000x1260-18-dilim-2520-kcal-h-aluminyum-radyator": {
+  "price": 40050,
+  "old_price": null
+ },
+ "radyal-hane-1000x1330-19-dilim-2660-kcal-h-aluminyum-radyator": {
+  "price": 42300,
+  "old_price": null
+ },
+ "radyal-hane-1000x1400-20-dilim-2800-kcal-h-aluminyum-radyator": {
+  "price": 44500,
+  "old_price": null
+ },
+ "radyal-hane-1000x1470-21-dilim-2940-kcal-h-aluminyum-radyator": {
+  "price": 46750,
+  "old_price": null
+ },
+ "radyal-hane-1000x1540-22-dilim-3080-kcal-h-aluminyum-radyator": {
+  "price": 48950,
+  "old_price": null
+ },
+ "radyal-hane-1000x1610-23-dilim-3220-kcal-h-aluminyum-radyator": {
+  "price": 51200,
+  "old_price": null
+ },
+ "radyal-hane-1000x490-7-dilim-980-kcal-h-aluminyum-radyator": {
+  "price": 15550,
+  "old_price": null
+ },
+ "radyal-hane-1000x560-8-dilim-1120-kcal-h-aluminyum-radyator": {
+  "price": 17800,
+  "old_price": null
+ },
+ "radyal-hane-1000x630-9-dilim-1260-kcal-h-aluminyum-radyator": {
+  "price": 20000,
+  "old_price": null
+ },
+ "radyal-hane-1000x700-10-dilim-1400-kcal-h-aluminyum-radyator": {
+  "price": 22250,
+  "old_price": null
+ },
+ "radyal-hane-1000x770-11-dilim-1540-kcal-h-aluminyum-radyator": {
+  "price": 24450,
+  "old_price": null
+ },
+ "radyal-hane-1000x840-12-dilim-1680-kcal-h-aluminyum-radyator": {
+  "price": 26700,
+  "old_price": null
+ },
+ "radyal-hane-1000x910-13-dilim-1820-kcal-h-aluminyum-radyator": {
+  "price": 28900,
+  "old_price": null
+ },
+ "radyal-hane-1000x980-14-dilim-1960-kcal-h-aluminyum-radyator": {
+  "price": 31150,
+  "old_price": null
+ },
+ "radyal-hane-1250x1050-15-dilim-2580-kcal-h-aluminyum-radyator": {
+  "price": 40200,
+  "old_price": null
+ },
+ "radyal-hane-1250x1120-16-dilim-2752-kcal-h-aluminyum-radyator": {
+  "price": 42900,
+  "old_price": null
+ },
+ "radyal-hane-1250x1190-17-dilim-2924-kcal-h-aluminyum-radyator": {
+  "price": 45600,
+  "old_price": null
+ },
+ "radyal-hane-1250x1260-18-dilim-3096-kcal-h-aluminyum-radyator": {
+  "price": 48250,
+  "old_price": null
+ },
+ "radyal-hane-1250x1330-19-dilim-3268-kcal-h-aluminyum-radyator": {
+  "price": 50950,
+  "old_price": null
+ },
+ "radyal-hane-1250x1400-20-dilim-3440-kcal-h-aluminyum-radyator": {
+  "price": 53650,
+  "old_price": null
+ },
+ "radyal-hane-1250x1470-21-dilim-3612-kcal-h-aluminyum-radyator": {
+  "price": 56300,
+  "old_price": null
+ },
+ "radyal-hane-1250x1540-22-dilim-3784-kcal-h-aluminyum-radyator": {
+  "price": 59000,
+  "old_price": null
+ },
+ "radyal-hane-1250x1610-23-dilim-3956-kcal-h-aluminyum-radyator": {
+  "price": 61700,
+  "old_price": null
+ },
+ "radyal-hane-1250x490-7-dilim-1204-kcal-h-aluminyum-radyator": {
+  "price": 18750,
+  "old_price": null
+ },
+ "radyal-hane-1250x560-8-dilim-1376-kcal-h-aluminyum-radyator": {
+  "price": 21450,
+  "old_price": null
+ },
+ "radyal-hane-1250x630-9-dilim-1548-kcal-h-aluminyum-radyator": {
+  "price": 24100,
+  "old_price": null
+ },
+ "radyal-hane-1250x700-10-dilim-1720-kcal-h-aluminyum-radyator": {
+  "price": 26800,
+  "old_price": null
+ },
+ "radyal-hane-1250x770-11-dilim-1892-kcal-h-aluminyum-radyator": {
+  "price": 29500,
+  "old_price": null
+ },
+ "radyal-hane-1250x840-12-dilim-2064-kcal-h-aluminyum-radyator": {
+  "price": 32150,
+  "old_price": null
+ },
+ "radyal-hane-1250x910-13-dilim-2236-kcal-h-aluminyum-radyator": {
+  "price": 34850,
+  "old_price": null
+ },
+ "radyal-hane-1250x980-14-dilim-2408-kcal-h-aluminyum-radyator": {
+  "price": 37550,
+  "old_price": null
+ },
+ "radyal-hane-1500x1050-15-dilim-3015-kcal-h-aluminyum-radyator": {
+  "price": 46650,
+  "old_price": null
+ },
+ "radyal-hane-1500x1120-16-dilim-3216-kcal-h-aluminyum-radyator": {
+  "price": 49800,
+  "old_price": null
+ },
+ "radyal-hane-1500x1190-17-dilim-3417-kcal-h-aluminyum-radyator": {
+  "price": 52900,
+  "old_price": null
+ },
+ "radyal-hane-1500x1260-18-dilim-3618-kcal-h-aluminyum-radyator": {
+  "price": 56000,
+  "old_price": null
+ },
+ "radyal-hane-1500x1330-19-dilim-3819-kcal-h-aluminyum-radyator": {
+  "price": 59150,
+  "old_price": null
+ },
+ "radyal-hane-1500x1400-20-dilim-4020-kcal-h-aluminyum-radyator": {
+  "price": 62250,
+  "old_price": null
+ },
+ "radyal-hane-1500x1470-21-dilim-4221-kcal-h-aluminyum-radyator": {
+  "price": 65350,
+  "old_price": null
+ },
+ "radyal-hane-1500x1540-22-dilim-4422-kcal-h-aluminyum-radyator": {
+  "price": 68450,
+  "old_price": null
+ },
+ "radyal-hane-1500x1610-23-dilim-4623-kcal-h-aluminyum-radyator": {
+  "price": 71600,
+  "old_price": null
+ },
+ "radyal-hane-1500x560-8-dilim-1608-kcal-h-aluminyum-radyator": {
+  "price": 24900,
+  "old_price": null
+ },
+ "radyal-hane-1500x630-9-dilim-1809-kcal-h-aluminyum-radyator": {
+  "price": 28000,
+  "old_price": null
+ },
+ "radyal-hane-1500x700-10-dilim-2010-kcal-h-aluminyum-radyator": {
+  "price": 31100,
+  "old_price": null
+ },
+ "radyal-hane-1500x770-11-dilim-2211-kcal-h-aluminyum-radyator": {
+  "price": 34200,
+  "old_price": null
+ },
+ "radyal-hane-1500x840-12-dilim-2412-kcal-h-aluminyum-radyator": {
+  "price": 37350,
+  "old_price": null
+ },
+ "radyal-hane-1500x910-13-dilim-2613-kcal-h-aluminyum-radyator": {
+  "price": 40450,
+  "old_price": null
+ },
+ "radyal-hane-1500x980-14-dilim-2814-kcal-h-aluminyum-radyator": {
+  "price": 43550,
+  "old_price": null
+ },
+ "radyal-hane-2000x1050-15-dilim-3840-kcal-h-aluminyum-radyator": {
+  "price": 60750,
+  "old_price": null
+ },
+ "radyal-hane-2000x1120-16-dilim-4096-kcal-h-aluminyum-radyator": {
+  "price": 64800,
+  "old_price": null
+ },
+ "radyal-hane-2000x1190-17-dilim-4352-kcal-h-aluminyum-radyator": {
+  "price": 68850,
+  "old_price": null
+ },
+ "radyal-hane-2000x1260-18-dilim-4608-kcal-h-aluminyum-radyator": {
+  "price": 72900,
+  "old_price": null
+ },
+ "radyal-hane-2000x1330-19-dilim-4864-kcal-h-aluminyum-radyator": {
+  "price": 77000,
+  "old_price": null
+ },
+ "radyal-hane-2000x1400-20-dilim-5120-kcal-h-aluminyum-radyator": {
+  "price": 81050,
+  "old_price": null
+ },
+ "radyal-hane-2000x1470-21-dilim-5376-kcal-h-aluminyum-radyator": {
+  "price": 85100,
+  "old_price": null
+ },
+ "radyal-hane-2000x1540-22-dilim-5632-kcal-h-aluminyum-radyator": {
+  "price": 89150,
+  "old_price": null
+ },
+ "radyal-hane-2000x1610-23-dilim-5888-kcal-h-aluminyum-radyator": {
+  "price": 93200,
+  "old_price": null
+ },
+ "radyal-hane-2000x560-8-dilim-2048-kcal-h-aluminyum-radyator": {
+  "price": 32400,
+  "old_price": null
+ },
+ "radyal-hane-2000x630-9-dilim-2304-kcal-h-aluminyum-radyator": {
+  "price": 36450,
+  "old_price": null
+ },
+ "radyal-hane-2000x700-10-dilim-2560-kcal-h-aluminyum-radyator": {
+  "price": 40500,
+  "old_price": null
+ },
+ "radyal-hane-2000x770-11-dilim-2816-kcal-h-aluminyum-radyator": {
+  "price": 44550,
+  "old_price": null
+ },
+ "radyal-hane-2000x840-12-dilim-3072-kcal-h-aluminyum-radyator": {
+  "price": 48600,
+  "old_price": null
+ },
+ "radyal-hane-2000x910-13-dilim-3328-kcal-h-aluminyum-radyator": {
+  "price": 52650,
+  "old_price": null
+ },
+ "radyal-hane-2000x980-14-dilim-3584-kcal-h-aluminyum-radyator": {
+  "price": 56700,
+  "old_price": null
+ },
+ "radyal-hane-600x1050-15-dilim-1380-kcal-h-aluminyum-radyator": {
+  "price": 22600,
+  "old_price": null
+ },
+ "radyal-hane-600x1120-16-dilim-1472-kcal-h-aluminyum-radyator": {
+  "price": 24100,
+  "old_price": null
+ },
+ "radyal-hane-600x1190-17-dilim-1564-kcal-h-aluminyum-radyator": {
+  "price": 25650,
+  "old_price": null
+ },
+ "radyal-hane-600x1260-18-dilim-1656-kcal-h-aluminyum-radyator": {
+  "price": 27150,
+  "old_price": null
+ },
+ "radyal-hane-600x1330-19-dilim-1748-kcal-h-aluminyum-radyator": {
+  "price": 28650,
+  "old_price": null
+ },
+ "radyal-hane-600x1400-20-dilim-1840-kcal-h-aluminyum-radyator": {
+  "price": 30150,
+  "old_price": null
+ },
+ "radyal-hane-600x1470-21-dilim-1932-kcal-h-aluminyum-radyator": {
+  "price": 31650,
+  "old_price": null
+ },
+ "radyal-hane-600x1540-22-dilim-2024-kcal-h-aluminyum-radyator": {
+  "price": 33150,
+  "old_price": null
+ },
+ "radyal-hane-600x1610-23-dilim-2116-kcal-h-aluminyum-radyator": {
+  "price": 34700,
+  "old_price": null
+ },
+ "radyal-hane-600x490-7-dilim-644-kcal-h-aluminyum-radyator": {
+  "price": 12050,
+  "old_price": null
+ },
+ "radyal-hane-600x560-8-dilim-736-kcal-h-aluminyum-radyator": {
+  "price": 12050,
+  "old_price": null
+ },
+ "radyal-hane-600x630-9-dilim-828-kcal-h-aluminyum-radyator": {
+  "price": 13550,
+  "old_price": null
+ },
+ "radyal-hane-600x700-10-dilim-920-kcal-h-aluminyum-radyator": {
+  "price": 15050,
+  "old_price": null
+ },
+ "radyal-hane-600x770-11-dilim-1012-kcal-h-aluminyum-radyator": {
+  "price": 16550,
+  "old_price": null
+ },
+ "radyal-hane-600x840-12-dilim-1104-kcal-h-aluminyum-radyator": {
+  "price": 18100,
+  "old_price": null
+ },
+ "radyal-hane-600x910-13-dilim-1196-kcal-h-aluminyum-radyator": {
+  "price": 19600,
+  "old_price": null
+ },
+ "radyal-hane-600x980-14-dilim-1288-kcal-h-aluminyum-radyator": {
+  "price": 21100,
+  "old_price": null
+ },
+ "radyal-hane-900x1050-15-dilim-1935-kcal-h-aluminyum-radyator": {
+  "price": 30800,
+  "old_price": null
+ },
+ "radyal-hane-900x1120-16-dilim-2064-kcal-h-aluminyum-radyator": {
+  "price": 32850,
+  "old_price": null
+ },
+ "radyal-hane-900x1190-17-dilim-2193-kcal-h-aluminyum-radyator": {
+  "price": 34900,
+  "old_price": null
+ },
+ "radyal-hane-900x1260-18-dilim-2322-kcal-h-aluminyum-radyator": {
+  "price": 36950,
+  "old_price": null
+ },
+ "radyal-hane-900x1330-19-dilim-2451-kcal-h-aluminyum-radyator": {
+  "price": 39000,
+  "old_price": null
+ },
+ "radyal-hane-900x1400-20-dilim-2580-kcal-h-aluminyum-radyator": {
+  "price": 41050,
+  "old_price": null
+ },
+ "radyal-hane-900x1470-21-dilim-2709-kcal-h-aluminyum-radyator": {
+  "price": 43100,
+  "old_price": null
+ },
+ "radyal-hane-900x1540-22-dilim-2838-kcal-h-aluminyum-radyator": {
+  "price": 45150,
+  "old_price": null
+ },
+ "radyal-hane-900x1610-23-dilim-2967-kcal-h-aluminyum-radyator": {
+  "price": 47200,
+  "old_price": null
+ },
+ "radyal-hane-900x490-7-dilim-903-kcal-h-aluminyum-radyator": {
+  "price": 14350,
+  "old_price": null
+ },
+ "radyal-hane-900x560-8-dilim-1032-kcal-h-aluminyum-radyator": {
+  "price": 16400,
+  "old_price": null
+ },
+ "radyal-hane-900x630-9-dilim-1161-kcal-h-aluminyum-radyator": {
+  "price": 18450,
+  "old_price": null
+ },
+ "radyal-hane-900x700-10-dilim-1290-kcal-h-aluminyum-radyator": {
+  "price": 20500,
+  "old_price": null
+ },
+ "radyal-hane-900x770-11-dilim-1419-kcal-h-aluminyum-radyator": {
+  "price": 22550,
+  "old_price": null
+ },
+ "radyal-hane-900x840-12-dilim-1548-kcal-h-aluminyum-radyator": {
+  "price": 24600,
+  "old_price": null
+ },
+ "radyal-hane-900x910-13-dilim-1677-kcal-h-aluminyum-radyator": {
+  "price": 26650,
+  "old_price": null
+ },
+ "radyal-hane-900x980-14-dilim-1806-kcal-h-aluminyum-radyator": {
+  "price": 28700,
+  "old_price": null
+ },
+ "radyal-konak-line-1000x1040-13-dilim-2210-kcal-h-aluminyum-radyator": {
+  "price": 17800,
+  "old_price": null
+ },
+ "radyal-konak-line-1000x1120-14-dilim-2380-kcal-h-aluminyum-radyator": {
+  "price": 19200,
+  "old_price": null
+ },
+ "radyal-konak-line-1000x1200-15-dilim-2550-kcal-h-aluminyum-radyator": {
+  "price": 20550,
+  "old_price": null
+ },
+ "radyal-konak-line-1000x1280-16-dilim-2720-kcal-h-aluminyum-radyator": {
+  "price": 21950,
+  "old_price": null
+ },
+ "radyal-konak-line-1000x1360-17-dilim-2890-kcal-h-aluminyum-radyator": {
+  "price": 23300,
+  "old_price": null
+ },
+ "radyal-konak-line-1000x1440-18-dilim-3060-kcal-h-aluminyum-radyator": {
+  "price": 24700,
+  "old_price": null
+ },
+ "radyal-konak-line-1000x1520-19-dilim-3230-kcal-h-aluminyum-radyator": {
+  "price": 26050,
+  "old_price": null
+ },
+ "radyal-konak-line-1000x1600-20-dilim-3400-kcal-h-aluminyum-radyator": {
+  "price": 27400,
+  "old_price": null
+ },
+ "radyal-konak-line-1000x480-6-dilim-1020-kcal-h-aluminyum-radyator": {
+  "price": 9420,
+  "old_price": null
+ },
+ "radyal-konak-line-1000x560-7-dilim-1190-kcal-h-aluminyum-radyator": {
+  "price": 10950,
+  "old_price": null
+ },
+ "radyal-konak-line-1000x640-8-dilim-1360-kcal-h-aluminyum-radyator": {
+  "price": 12550,
+  "old_price": null
+ },
+ "radyal-konak-line-1000x720-9-dilim-1530-kcal-h-aluminyum-radyator": {
+  "price": 12350,
+  "old_price": null
+ },
+ "radyal-konak-line-1000x800-10-dilim-1700-kcal-h-aluminyum-radyator": {
+  "price": 13700,
+  "old_price": null
+ },
+ "radyal-konak-line-1000x880-11-dilim-1870-kcal-h-aluminyum-radyator": {
+  "price": 15050,
+  "old_price": null
+ },
+ "radyal-konak-line-1000x960-12-dilim-2040-kcal-h-aluminyum-radyator": {
+  "price": 16450,
+  "old_price": null
+ },
+ "radyal-konak-line-1250x480-6-dilim-1242-kcal-h-aluminyum-radyator": {
+  "price": 11400,
+  "old_price": null
+ },
+ "radyal-konak-line-1250x560-7-dilim-1449-kcal-h-aluminyum-radyator": {
+  "price": 13300,
+  "old_price": null
+ },
+ "radyal-konak-line-1250x640-8-dilim-1656-kcal-h-aluminyum-radyator": {
+  "price": 13250,
+  "old_price": null
+ },
+ "radyal-konak-line-1250x720-9-dilim-1863-kcal-h-aluminyum-radyator": {
+  "price": 14950,
+  "old_price": null
+ },
+ "radyal-konak-line-1250x800-10-dilim-2070-kcal-h-aluminyum-radyator": {
+  "price": 16600,
+  "old_price": null
+ },
+ "radyal-konak-line-1250x880-11-dilim-2277-kcal-h-aluminyum-radyator": {
+  "price": 18250,
+  "old_price": null
+ },
+ "radyal-konak-line-1250x960-12-dilim-2484-kcal-h-aluminyum-radyator": {
+  "price": 19900,
+  "old_price": null
+ },
+ "radyal-konak-line-1500x480-6-dilim-1458-kcal-h-aluminyum-radyator": {
+  "price": 13150,
+  "old_price": null
+ },
+ "radyal-konak-line-1500x560-7-dilim-1701-kcal-h-aluminyum-radyator": {
+  "price": 13400,
+  "old_price": null
+ },
+ "radyal-konak-line-1500x640-8-dilim-1944-kcal-h-aluminyum-radyator": {
+  "price": 15300,
+  "old_price": null
+ },
+ "radyal-konak-line-1500x720-9-dilim-2187-kcal-h-aluminyum-radyator": {
+  "price": 17250,
+  "old_price": null
+ },
+ "radyal-konak-line-1500x800-10-dilim-2430-kcal-h-aluminyum-radyator": {
+  "price": 19150,
+  "old_price": null
+ },
+ "radyal-konak-line-1500x880-11-dilim-2673-kcal-h-aluminyum-radyator": {
+  "price": 21100,
+  "old_price": null
+ },
+ "radyal-konak-line-2000x400-5-dilim-1585-kcal-h-aluminyum-radyator": {
+  "price": 12400,
+  "old_price": null
+ },
+ "radyal-konak-line-2000x480-6-dilim-1902-kcal-h-aluminyum-radyator": {
+  "price": 14900,
+  "old_price": null
+ },
+ "radyal-konak-line-2000x560-7-dilim-2219-kcal-h-aluminyum-radyator": {
+  "price": 17400,
+  "old_price": null
+ },
+ "radyal-konak-line-2000x640-8-dilim-2536-kcal-h-aluminyum-radyator": {
+  "price": 19850,
+  "old_price": null
+ },
+ "radyal-konak-line-2000x720-9-dilim-2853-kcal-h-aluminyum-radyator": {
+  "price": 22350,
+  "old_price": null
+ },
+ "radyal-konak-line-600x1040-13-dilim-1443-kcal-h-aluminyum-radyator": {
+  "price": 12450,
+  "old_price": null
+ },
+ "radyal-konak-line-600x1120-14-dilim-1554-kcal-h-aluminyum-radyator": {
+  "price": 13400,
+  "old_price": null
+ },
+ "radyal-konak-line-600x1200-15-dilim-1665-kcal-h-aluminyum-radyator": {
+  "price": 14350,
+  "old_price": null
+ },
+ "radyal-konak-line-600x1280-16-dilim-1776-kcal-h-aluminyum-radyator": {
+  "price": 15350,
+  "old_price": null
+ },
+ "radyal-konak-line-600x1360-17-dilim-1887-kcal-h-aluminyum-radyator": {
+  "price": 16300,
+  "old_price": null
+ },
+ "radyal-konak-line-600x1440-18-dilim-1998-kcal-h-aluminyum-radyator": {
+  "price": 17250,
+  "old_price": null
+ },
+ "radyal-konak-line-600x1520-19-dilim-2109-kcal-h-aluminyum-radyator": {
+  "price": 18200,
+  "old_price": null
+ },
+ "radyal-konak-line-600x1600-20-dilim-2220-kcal-h-aluminyum-radyator": {
+  "price": 19150,
+  "old_price": null
+ },
+ "radyal-konak-line-600x1680-21-dilim-2331-kcal-h-aluminyum-radyator": {
+  "price": 20150,
+  "old_price": null
+ },
+ "radyal-konak-line-600x1760-22-dilim-2442-kcal-h-aluminyum-radyator": {
+  "price": 21100,
+  "old_price": null
+ },
+ "radyal-konak-line-600x1840-23-dilim-2553-kcal-h-aluminyum-radyator": {
+  "price": 22050,
+  "old_price": null
+ },
+ "radyal-konak-line-600x1920-24-dilim-2664-kcal-h-aluminyum-radyator": {
+  "price": 23000,
+  "old_price": null
+ },
+ "radyal-konak-line-600x2000-25-dilim-2775-kcal-h-aluminyum-radyator": {
+  "price": 23950,
+  "old_price": null
+ },
+ "radyal-konak-line-600x480-6-dilim-666-kcal-h-aluminyum-radyator": {
+  "price": 6590,
+  "old_price": null
+ },
+ "radyal-konak-line-600x560-7-dilim-777-kcal-h-aluminyum-radyator": {
+  "price": 7690,
+  "old_price": null
+ },
+ "radyal-konak-line-600x640-8-dilim-888-kcal-h-aluminyum-radyator": {
+  "price": 8790,
+  "old_price": null
+ },
+ "radyal-konak-line-600x720-9-dilim-999-kcal-h-aluminyum-radyator": {
+  "price": 9890,
+  "old_price": null
+ },
+ "radyal-konak-line-600x800-10-dilim-1110-kcal-h-aluminyum-radyator": {
+  "price": 10950,
+  "old_price": null
+ },
+ "radyal-konak-line-600x880-11-dilim-1221-kcal-h-aluminyum-radyator": {
+  "price": 12050,
+  "old_price": null
+ },
+ "radyal-konak-line-600x960-12-dilim-1332-kcal-h-aluminyum-radyator": {
+  "price": 13150,
+  "old_price": null
+ },
+ "radyal-konak-line-900x1040-13-dilim-2028-kcal-h-aluminyum-radyator": {
+  "price": 16500,
+  "old_price": null
+ },
+ "radyal-konak-line-900x1120-14-dilim-2184-kcal-h-aluminyum-radyator": {
+  "price": 17750,
+  "old_price": null
+ },
+ "radyal-konak-line-900x1200-15-dilim-2340-kcal-h-aluminyum-radyator": {
+  "price": 19050,
+  "old_price": null
+ },
+ "radyal-konak-line-900x1280-16-dilim-2496-kcal-h-aluminyum-radyator": {
+  "price": 20300,
+  "old_price": null
+ },
+ "radyal-konak-line-900x1360-17-dilim-2652-kcal-h-aluminyum-radyator": {
+  "price": 21600,
+  "old_price": null
+ },
+ "radyal-konak-line-900x1440-18-dilim-2808-kcal-h-aluminyum-radyator": {
+  "price": 22850,
+  "old_price": null
+ },
+ "radyal-konak-line-900x1520-19-dilim-2964-kcal-h-aluminyum-radyator": {
+  "price": 24150,
+  "old_price": null
+ },
+ "radyal-konak-line-900x1600-20-dilim-3120-kcal-h-aluminyum-radyator": {
+  "price": 25400,
+  "old_price": null
+ },
+ "radyal-konak-line-900x480-6-dilim-936-kcal-h-aluminyum-radyator": {
+  "price": 8730,
+  "old_price": null
+ },
+ "radyal-konak-line-900x560-7-dilim-1092-kcal-h-aluminyum-radyator": {
+  "price": 10150,
+  "old_price": null
+ },
+ "radyal-konak-line-900x640-8-dilim-1248-kcal-h-aluminyum-radyator": {
+  "price": 11600,
+  "old_price": null
+ },
+ "radyal-konak-line-900x720-9-dilim-1404-kcal-h-aluminyum-radyator": {
+  "price": 13100,
+  "old_price": null
+ },
+ "radyal-konak-line-900x800-10-dilim-1560-kcal-h-aluminyum-radyator": {
+  "price": 12700,
+  "old_price": null
+ },
+ "radyal-konak-line-900x880-11-dilim-1716-kcal-h-aluminyum-radyator": {
+  "price": 13950,
+  "old_price": null
+ },
+ "radyal-konak-line-900x960-12-dilim-1872-kcal-h-aluminyum-radyator": {
+  "price": 15250,
+  "old_price": null
+ },
+ "radyal-mahal-1000x1000-10-dilim-1400-kcal-h-aluminyum-radyator": {
+  "price": 18200,
+  "old_price": null
+ },
+ "radyal-mahal-1000x1200-12-dilim-1680-kcal-h-aluminyum-radyator": {
+  "price": 21850,
+  "old_price": null
+ },
+ "radyal-mahal-1000x1400-14-dilim-1960-kcal-h-aluminyum-radyator": {
+  "price": 30100,
+  "old_price": null
+ },
+ "radyal-mahal-1000x1600-16-dilim-2240-kcal-h-aluminyum-radyator": {
+  "price": 34400,
+  "old_price": null
+ },
+ "radyal-mahal-1000x500-5-dilim-700-kcal-h-aluminyum-radyator": {
+  "price": 10400,
+  "old_price": null
+ },
+ "radyal-mahal-1000x600-6-dilim-840-kcal-h-aluminyum-radyator": {
+  "price": 12500,
+  "old_price": null
+ },
+ "radyal-mahal-1000x800-8-dilim-1120-kcal-h-aluminyum-radyator": {
+  "price": 14550,
+  "old_price": null
+ },
+ "radyal-mahal-1000x900-9-dilim-1260-kcal-h-aluminyum-radyator": {
+  "price": 16400,
+  "old_price": null
+ },
+ "radyal-mahal-1250x1000-10-dilim-1710-kcal-h-aluminyum-radyator": {
+  "price": 26400,
+  "old_price": null
+ },
+ "radyal-mahal-1250x1200-12-dilim-2052-kcal-h-aluminyum-radyator": {
+  "price": 31700,
+  "old_price": null
+ },
+ "radyal-mahal-1250x1400-14-dilim-2394-kcal-h-aluminyum-radyator": {
+  "price": 37000,
+  "old_price": null
+ },
+ "radyal-mahal-1250x1600-16-dilim-2736-kcal-h-aluminyum-radyator": {
+  "price": 42600,
+  "old_price": null
+ },
+ "radyal-mahal-1250x500-5-dilim-855-kcal-h-aluminyum-radyator": {
+  "price": 15100,
+  "old_price": null
+ },
+ "radyal-mahal-1250x600-6-dilim-1026-kcal-h-aluminyum-radyator": {
+  "price": 15850,
+  "old_price": null
+ },
+ "radyal-mahal-1250x800-8-dilim-1368-kcal-h-aluminyum-radyator": {
+  "price": 21150,
+  "old_price": null
+ },
+ "radyal-mahal-1250x900-9-dilim-1539-kcal-h-aluminyum-radyator": {
+  "price": 23750,
+  "old_price": null
+ },
+ "radyal-mahal-1500x1000-10-dilim-2010-kcal-h-aluminyum-radyator": {
+  "price": 30600,
+  "old_price": null
+ },
+ "radyal-mahal-1500x1200-12-dilim-2412-kcal-h-aluminyum-radyator": {
+  "price": 36750,
+  "old_price": null
+ },
+ "radyal-mahal-1500x1400-14-dilim-2814-kcal-h-aluminyum-radyator": {
+  "price": 42850,
+  "old_price": null
+ },
+ "radyal-mahal-1500x1600-16-dilim-3216-kcal-h-aluminyum-radyator": {
+  "price": 49000,
+  "old_price": null
+ },
+ "radyal-mahal-1500x500-5-dilim-1005-kcal-h-aluminyum-radyator": {
+  "price": 15100,
+  "old_price": null
+ },
+ "radyal-mahal-1500x600-6-dilim-1206-kcal-h-aluminyum-radyator": {
+  "price": 18350,
+  "old_price": null
+ },
+ "radyal-mahal-1500x800-8-dilim-1608-kcal-h-aluminyum-radyator": {
+  "price": 24500,
+  "old_price": null
+ },
+ "radyal-mahal-1500x900-9-dilim-1809-kcal-h-aluminyum-radyator": {
+  "price": 27550,
+  "old_price": null
+ },
+ "radyal-mahal-2000x400-4-dilim-1048-kcal-h-aluminyum-radyator": {
+  "price": 15900,
+  "old_price": null
+ },
+ "radyal-mahal-2000x500-5-dilim-1310-kcal-h-aluminyum-radyator": {
+  "price": 19850,
+  "old_price": null
+ },
+ "radyal-mahal-2000x600-6-dilim-1572-kcal-h-aluminyum-radyator": {
+  "price": 23850,
+  "old_price": null
+ },
+ "radyal-mahal-2000x700-7-dilim-1834-kcal-h-aluminyum-radyator": {
+  "price": 27850,
+  "old_price": null
+ },
+ "radyal-mahal-2000x800-8-dilim-2096-kcal-h-aluminyum-radyator": {
+  "price": 31800,
+  "old_price": null
+ },
+ "radyal-mahal-600x1000-10-dilim-910-kcal-h-aluminyum-radyator": {
+  "price": 14500,
+  "old_price": null
+ },
+ "radyal-mahal-600x1100-11-dilim-1001-kcal-h-aluminyum-radyator": {
+  "price": 15950,
+  "old_price": null
+ },
+ "radyal-mahal-600x1200-12-dilim-1092-kcal-h-aluminyum-radyator": {
+  "price": 17500,
+  "old_price": null
+ },
+ "radyal-mahal-600x1300-13-dilim-1183-kcal-h-aluminyum-radyator": {
+  "price": 18850,
+  "old_price": null
+ },
+ "radyal-mahal-600x1400-14-dilim-1274-kcal-h-aluminyum-radyator": {
+  "price": 20300,
+  "old_price": null
+ },
+ "radyal-mahal-600x1500-15-dilim-1365-kcal-h-aluminyum-radyator": {
+  "price": 21750,
+  "old_price": null
+ },
+ "radyal-mahal-600x1600-16-dilim-1456-kcal-h-aluminyum-radyator": {
+  "price": 23200,
+  "old_price": null
+ },
+ "radyal-mahal-600x1700-17-dilim-1547-kcal-h-aluminyum-radyator": {
+  "price": 24650,
+  "old_price": null
+ },
+ "radyal-mahal-600x1800-18-dilim-1638-kcal-h-aluminyum-radyator": {
+  "price": 26100,
+  "old_price": null
+ },
+ "radyal-mahal-600x2000-20-dilim-1820-kcal-h-aluminyum-radyator": {
+  "price": 29000,
+  "old_price": null
+ },
+ "radyal-mahal-600x500-5-dilim-455-kcal-h-aluminyum-radyator": {
+  "price": 8300,
+  "old_price": null
+ },
+ "radyal-mahal-600x600-6-dilim-546-kcal-h-aluminyum-radyator": {
+  "price": 9950,
+  "old_price": null
+ },
+ "radyal-mahal-600x700-7-dilim-637-kcal-h-aluminyum-radyator": {
+  "price": 11600,
+  "old_price": null
+ },
+ "radyal-mahal-600x800-8-dilim-728-kcal-h-aluminyum-radyator": {
+  "price": 13300,
+  "old_price": null
+ },
+ "radyal-mahal-600x900-9-dilim-819-kcal-h-aluminyum-radyator": {
+  "price": 14950,
+  "old_price": null
+ },
+ "radyal-mahal-900x1000-10-dilim-1290-kcal-h-aluminyum-radyator": {
+  "price": 19950,
+  "old_price": null
+ },
+ "radyal-mahal-900x1200-12-dilim-1548-kcal-h-aluminyum-radyator": {
+  "price": 23850,
+  "old_price": null
+ },
+ "radyal-mahal-900x1400-14-dilim-1806-kcal-h-aluminyum-radyator": {
+  "price": 28650,
+  "old_price": null
+ },
+ "radyal-mahal-900x1600-16-dilim-2064-kcal-h-aluminyum-radyator": {
+  "price": 31800,
+  "old_price": null
+ },
+ "radyal-mahal-900x500-5-dilim-645-kcal-h-aluminyum-radyator": {
+  "price": 11350,
+  "old_price": null
+ },
+ "radyal-mahal-900x600-6-dilim-774-kcal-h-aluminyum-radyator": {
+  "price": 13650,
+  "old_price": null
+ },
+ "radyal-mahal-900x800-8-dilim-1032-kcal-h-aluminyum-radyator": {
+  "price": 15900,
+  "old_price": null
+ },
+ "radyal-mahal-900x900-9-dilim-1161-kcal-h-aluminyum-radyator": {
+  "price": 17900,
+  "old_price": null
+ },
+ "risa-atom-500x1000-10-dilim-820-kcal-h-aluminyum-radyator": {
+  "price": 9410,
+  "old_price": null
+ },
+ "risa-atom-500x1200-12-dilim-984-kcal-h-aluminyum-radyator": {
+  "price": 11250,
+  "old_price": null
+ },
+ "risa-atom-500x1400-14-dilim-1148-kcal-h-aluminyum-radyator": {
+  "price": 13150,
+  "old_price": null
+ },
+ "risa-atom-500x1500-15-dilim-1275-kcal-h-aluminyum-radyator": {
+  "price": 12300,
+  "old_price": null
+ },
+ "risa-atom-500x1600-16-dilim-1312-kcal-h-aluminyum-radyator": {
+  "price": 13150,
+  "old_price": null
+ },
+ "risa-atom-500x1800-18-dilim-1476-kcal-h-aluminyum-radyator": {
+  "price": 14800,
+  "old_price": null
+ },
+ "risa-atom-500x2000-20-dilim-1640-kcal-h-aluminyum-radyator": {
+  "price": 16450,
+  "old_price": null
+ },
+ "risa-atom-500x600-6-dilim-492-kcal-h-aluminyum-radyator": {
+  "price": 3130,
+  "old_price": null
+ },
+ "risa-atom-500x800-8-dilim-656-kcal-h-aluminyum-radyator": {
+  "price": 7530,
+  "old_price": null
+ },
+ "risa-atom-600x1000-10-dilim-1000-kcal-h-aluminyum-radyator": {
+  "price": 10450,
+  "old_price": null
+ },
+ "risa-atom-600x1200-12-dilim-1200-kcal-h-aluminyum-radyator": {
+  "price": 12550,
+  "old_price": null
+ },
+ "risa-atom-600x1400-14-dilim-1400-kcal-h-aluminyum-radyator": {
+  "price": 12750,
+  "old_price": null
+ },
+ "risa-atom-600x1500-15-dilim-1500-kcal-h-aluminyum-radyator": {
+  "price": 13700,
+  "old_price": null
+ },
+ "risa-atom-600x1600-16-dilim-1600-kcal-h-aluminyum-radyator": {
+  "price": 14600,
+  "old_price": null
+ },
+ "risa-atom-600x1800-18-dilim-1800-kcal-h-aluminyum-radyator": {
+  "price": 16450,
+  "old_price": null
+ },
+ "risa-atom-600x2000-20-dilim-2000-kcal-h-aluminyum-radyator": {
+  "price": 18250,
+  "old_price": null
+ },
+ "risa-atom-600x500-5-dilim-500-kcal-h-aluminyum-radyator": {
+  "price": 2900,
+  "old_price": null
+ },
+ "risa-atom-600x600-6-dilim-600-kcal-h-aluminyum-radyator": {
+  "price": 6270,
+  "old_price": null
+ },
+ "risa-atom-600x800-8-dilim-800-kcal-h-aluminyum-radyator": {
+  "price": 8360,
+  "old_price": null
+ },
+ "risa-atom-600x900-9-dilim-900-kcal-h-aluminyum-radyator": {
+  "price": 9410,
+  "old_price": null
+ },
+ "termodinamik-dek-12-dokunmatik-panelli-sicak-sulu-3-fazli-elektrikli-kombi-380v": {
+  "price": 30050,
+  "old_price": null
+ },
+ "termodinamik-dek-12-dokunmatik-panelli-sicak-sulu-tek-fazli-elektrikli-kombi-220v": {
+  "price": 30650,
+  "old_price": null
+ },
+ "termodinamik-dek-14-kw-elektrikli-kombi-monofaze-sicak-sulu": {
+  "price": 39800,
+  "old_price": null
+ },
+ "termodinamik-dek-18-kw-elektrikli-kombi-trifaze-sicak-sulu": {
+  "price": 38750,
+  "old_price": null
+ },
+ "termodinamik-dek-24-kw-elektrikli-kombi-trifaze-sicak-sulu": {
+  "price": 34800,
+  "old_price": null
+ },
+ "termodinamik-dek-30-kw-elektrikli-kombi-trifaze-sicak-sulu": {
+  "price": 43750,
+  "old_price": null
+ },
+ "termodinamik-dek-36-kw-elektrikli-kombi-trifaze-sicak-sulu": {
+  "price": 42350,
+  "old_price": null
+ },
+ "termodinamik-dek-40-kw-elektrikli-kombi-trifaze-sicak-sulu": {
+  "price": 52200,
+  "old_price": null
+ },
+ "termoteknik-300x1000-panel-radyator-tip22": {
+  "price": 2050,
+  "old_price": null
+ },
+ "termoteknik-300x1100-panel-radyator-tip22": {
+  "price": 2250,
+  "old_price": null
+ },
+ "termoteknik-300x1200-panel-radyator-tip22": {
+  "price": 2240,
+  "old_price": null
+ },
+ "termoteknik-300x1300-panel-radyator-tip22": {
+  "price": 2660,
+  "old_price": null
+ },
+ "termoteknik-300x1400-panel-radyator-tip22": {
+  "price": 2870,
+  "old_price": null
+ },
+ "termoteknik-300x1500-panel-radyator-tip22": {
+  "price": 2800,
+  "old_price": null
+ },
+ "termoteknik-300x1600-panel-radyator-tip22": {
+  "price": 2690,
+  "old_price": null
+ },
+ "termoteknik-300x1800-panel-radyator-tip22": {
+  "price": 3320,
+  "old_price": null
+ },
+ "termoteknik-300x2000-panel-radyator-tip22": {
+  "price": 3370,
+  "old_price": null
+ },
+ "termoteknik-300x2200-panel-radyator-tip22": {
+  "price": 3700,
+  "old_price": null
+ },
+ "termoteknik-300x2400-panel-radyator-tip22": {
+  "price": 4430,
+  "old_price": null
+ },
+ "termoteknik-300x600-panel-radyator-tip22": {
+  "price": 1350,
+  "old_price": null
+ },
+ "termoteknik-300x700-panel-radyator-tip22": {
+  "price": 1570,
+  "old_price": null
+ },
+ "termoteknik-300x800-panel-radyator-tip22": {
+  "price": 1640,
+  "old_price": null
+ },
+ "termoteknik-300x900-panel-radyator-tip22": {
+  "price": 1840,
+  "old_price": null
+ },
+ "termoteknik-400x1000-panel-radyator-tip22": {
+  "price": 2340,
+  "old_price": null
+ },
+ "termoteknik-400x1100-panel-radyator-tip22": {
+  "price": 2570,
+  "old_price": null
+ },
+ "termoteknik-400x1200-panel-radyator-tip22": {
+  "price": 2810,
+  "old_price": null
+ },
+ "termoteknik-400x1300-panel-radyator-tip22": {
+  "price": 3040,
+  "old_price": null
+ },
+ "termoteknik-400x1400-panel-radyator-tip22": {
+  "price": 3280,
+  "old_price": null
+ },
+ "termoteknik-400x1500-panel-radyator-tip22": {
+  "price": 3510,
+  "old_price": null
+ },
+ "termoteknik-400x1600-panel-radyator-tip22": {
+  "price": 3370,
+  "old_price": null
+ },
+ "termoteknik-400x1800-panel-radyator-tip22": {
+  "price": 3790,
+  "old_price": null
+ },
+ "termoteknik-400x2000-panel-radyator-tip22": {
+  "price": 4220,
+  "old_price": null
+ },
+ "termoteknik-400x2200-panel-radyator-tip22": {
+  "price": 4640,
+  "old_price": null
+ },
+ "termoteknik-400x2400-panel-radyator-tip22": {
+  "price": 5060,
+  "old_price": null
+ },
+ "termoteknik-400x500-panel-radyator-tip22": {
+  "price": 1310,
+  "old_price": null
+ },
+ "termoteknik-400x600-panel-radyator-tip22": {
+  "price": 1410,
+  "old_price": null
+ },
+ "termoteknik-400x700-panel-radyator-tip22": {
+  "price": 1800,
+  "old_price": null
+ },
+ "termoteknik-400x800-panel-radyator-tip22": {
+  "price": 1870,
+  "old_price": null
+ },
+ "termoteknik-400x900-panel-radyator-tip22": {
+  "price": 2100,
+  "old_price": null
+ },
+ "termoteknik-500x1000-panel-radyator-tip22": {
+  "price": 2630,
+  "old_price": null
+ },
+ "termoteknik-500x1100-panel-radyator-tip22": {
+  "price": 2900,
+  "old_price": null
+ },
+ "termoteknik-500x1200-panel-radyator-tip22": {
+  "price": 3160,
+  "old_price": null
+ },
+ "termoteknik-500x1300-panel-radyator-tip22": {
+  "price": 3420,
+  "old_price": null
+ },
+ "termoteknik-500x1400-panel-radyator-tip22": {
+  "price": 3690,
+  "old_price": null
+ },
+ "termoteknik-500x1500-panel-radyator-tip22": {
+  "price": 3950,
+  "old_price": null
+ },
+ "termoteknik-500x1600-panel-radyator-tip22": {
+  "price": 3790,
+  "old_price": null
+ },
+ "termoteknik-500x1800-panel-radyator-tip22": {
+  "price": 4270,
+  "old_price": null
+ },
+ "termoteknik-500x2000-panel-radyator-tip22": {
+  "price": 4740,
+  "old_price": null
+ },
+ "termoteknik-500x2200-panel-radyator-tip22": {
+  "price": 5220,
+  "old_price": null
+ },
+ "termoteknik-500x2400-panel-radyator-tip22": {
+  "price": 5690,
+  "old_price": null
+ },
+ "termoteknik-500x500-panel-radyator-tip22": {
+  "price": 1540,
+  "old_price": null
+ },
+ "termoteknik-500x600-panel-radyator-tip22": {
+  "price": 1580,
+  "old_price": null
+ },
+ "termoteknik-500x700-panel-radyator-tip22": {
+  "price": 2020,
+  "old_price": null
+ },
+ "termoteknik-500x800-panel-radyator-tip22": {
+  "price": 2100,
+  "old_price": null
+ },
+ "termoteknik-500x900-panel-radyator-tip22": {
+  "price": 2160,
+  "old_price": null
+ },
+ "termoteknik-600x1000-panel-radyator-tip22": {
+  "price": 2930,
+  "old_price": null
+ },
+ "termoteknik-600x1100-panel-radyator-tip22": {
+  "price": 3220,
+  "old_price": null
+ },
+ "termoteknik-600x1200-panel-radyator-tip22": {
+  "price": 3510,
+  "old_price": null
+ },
+ "termoteknik-600x1300-panel-radyator-tip22": {
+  "price": 3800,
+  "old_price": null
+ },
+ "termoteknik-600x1400-panel-radyator-tip22": {
+  "price": 4100,
+  "old_price": null
+ },
+ "termoteknik-600x1500-panel-radyator-tip22": {
+  "price": 4390,
+  "old_price": null
+ },
+ "termoteknik-600x1600-panel-radyator-tip22": {
+  "price": 4220,
+  "old_price": null
+ },
+ "termoteknik-600x1800-panel-radyator-tip22": {
+  "price": 4740,
+  "old_price": null
+ },
+ "termoteknik-600x2000-panel-radyator-tip22": {
+  "price": 5270,
+  "old_price": null
+ },
+ "termoteknik-600x2200-panel-radyator-tip22": {
+  "price": 5290,
+  "old_price": null
+ },
+ "termoteknik-600x2400-panel-radyator-tip22": {
+  "price": 5770,
+  "old_price": null
+ },
+ "termoteknik-600x400-panel-radyator-tip22": {
+  "price": 1330,
+  "old_price": null
+ },
+ "termoteknik-600x500-panel-radyator-tip22": {
+  "price": 1670,
+  "old_price": null
+ },
+ "termoteknik-600x600-panel-radyator-tip22": {
+  "price": 1750,
+  "old_price": null
+ },
+ "termoteknik-600x700-panel-radyator-tip22": {
+  "price": 2230,
+  "old_price": null
+ },
+ "termoteknik-600x800-panel-radyator-tip22": {
+  "price": 2340,
+  "old_price": null
+ },
+ "termoteknik-600x900-panel-radyator-tip22": {
+  "price": 2630,
+  "old_price": null
+ },
+ "termoteknik-900x400-panel-radyator-tip22": {
+  "price": 2110,
+  "old_price": null
+ },
+ "termoteknik-900x500-panel-radyator-tip22": {
+  "price": 2640,
+  "old_price": null
+ },
+ "termoteknik-900x600-panel-radyator-tip22": {
+  "price": 2710,
+  "old_price": null
+ },
+ "termoteknik-900x700-panel-radyator-tip22": {
+  "price": 3230,
+  "old_price": null
+ },
+ "termoteknik-900x800-panel-radyator-tip22": {
+  "price": 3330,
+  "old_price": null
+ },
+ "termoteknik-900x900-panel-radyator-tip22": {
+  "price": 3710,
+  "old_price": null
+ },
+ "termoteknik-logic-26-35-kw-tam-yogusmali-kombi": {
+  "price": 30800,
+  "old_price": null
+ },
+ "termoteknik-logic-31-35-kw-tam-yogusmali-kombi": {
+  "price": 32800,
+  "old_price": null
+ },
+ "tt-minima-22-600-150cm-dekoratif-panel-radyator": {
+  "price": 7130,
+  "old_price": null
+ },
+ "tt-minima-22-600-180cm-dekoratif-panel-radyator": {
+  "price": 8410,
+  "old_price": null
+ },
+ "tt-minima-dikey-22-1400x060-dekoratif-panel-rad": {
+  "price": 11000,
+  "old_price": null
+ },
+ "tt-style-22-300-120cm-dekoratif-panel-rad": {
+  "price": 2340,
+  "old_price": null
+ },
+ "tt-style-22-300-130cm-dekoratif-panel-rad": {
+  "price": 2300,
+  "old_price": null
+ },
+ "tt-vertica-22-600x060-dekoratif-panel-rad": {
+  "price": 3530,
+  "old_price": null
+ },
+ "tt-vertica-22-900x080-dekoratif-panel-rad": {
+  "price": 6000,
+  "old_price": null
+ },
+ "vaillant-26-cs1-5-ecotec-plus-vuw-tam-yogusmali-kombi": {
+  "price": 86500,
+  "old_price": 95500
+ },
+ "vaillant-32-cs1-5-ecotec-plus-vuw-2-yil-garantili-tam-yogusmali-kombi": {
+  "price": 95000,
+  "old_price": 105000
+ },
+ "vaillant-36-cs1-5-ecotec-plus-vuw-2-yil-garantili-tam-yogusmali-kombi": {
+  "price": 107650,
+  "old_price": 118500
+ },
+ "vaillant-40cs1-5-ecotec-plus-vuw-2-yil-garantili-tam-yogusmali-kombi": {
+  "price": 116350,
+  "old_price": 128000
+ },
+ "vaillant-500x1000-21-tip-pkp-panel-radyator-tip21": {
+  "price": 2300,
+  "old_price": null
+ },
+ "vaillant-500x1100-21-tip-pkp-panel-radyator-tip21": {
+  "price": 2480,
+  "old_price": null
+ },
+ "vaillant-500x1200-21-tip-pkp-panel-radyator-tip21": {
+  "price": 2710,
+  "old_price": null
+ },
+ "vaillant-500x1300-21-tip-pkp-panel-radyator-tip21": {
+  "price": 2910,
+  "old_price": null
+ },
+ "vaillant-500x1400-21-tip-pkp-panel-radyator-tip21": {
+  "price": 3130,
+  "old_price": null
+ },
+ "vaillant-500x1500-21-tip-pkp-panel-radyator-tip21": {
+  "price": 3360,
+  "old_price": null
+ },
+ "vaillant-500x1600-21-tip-pkp-panel-radyator-tip21": {
+  "price": 3540,
+  "old_price": null
+ },
+ "vaillant-500x1800-21-tip-pkp-panel-radyator-tip21": {
+  "price": 3980,
+  "old_price": null
+ },
+ "vaillant-500x2000-21-tip-pkp-panel-radyator-tip21": {
+  "price": 4430,
+  "old_price": null
+ },
+ "vaillant-500x2200-21-tip-pkp-panel-radyator-tip21": {
+  "price": 4770,
+  "old_price": null
+ },
+ "vaillant-500x2400-21-tip-pkp-panel-radyator-tip21": {
+  "price": 5200,
+  "old_price": null
+ },
+ "vaillant-500x2600-21-tip-pkp-panel-radyator-tip21": {
+  "price": 5640,
+  "old_price": null
+ },
+ "vaillant-500x2800-21-tip-pkp-panel-radyator-tip21": {
+  "price": 6070,
+  "old_price": null
+ },
+ "vaillant-500x3000-21-tip-pkp-panel-radyator-tip21": {
+  "price": 6510,
+  "old_price": null
+ },
+ "vaillant-500x500-21-tip-pkp-panel-radyator-tip21": {
+  "price": 1350,
+  "old_price": null
+ },
+ "vaillant-500x600-21-tip-pkp-panel-radyator-tip21": {
+  "price": 1520,
+  "old_price": null
+ },
+ "vaillant-500x700-21-tip-pkp-panel-radyator-tip21": {
+  "price": 1770,
+  "old_price": null
+ },
+ "vaillant-500x800-21-tip-pkp-panel-radyator-tip21": {
+  "price": 1950,
+  "old_price": null
+ },
+ "vaillant-500x900-21-tip-pkp-panel-radyator-tip21": {
+  "price": 2200,
+  "old_price": null
+ },
+ "vaillant-600400-panel-radyator-tip22": {
+  "price": 1560,
+  "old_price": null
+ },
+ "vaillant-600900-panel-radyator-tip22": {
+  "price": 3190,
+  "old_price": null
+ },
+ "vaillant-600x1000-21-tip-pkp-panel-radyator-tip21": {
+  "price": 2960,
+  "old_price": null
+ },
+ "vaillant-600x1000-panel-radyator-tip22": {
+  "price": 3340,
+  "old_price": null
+ },
+ "vaillant-600x1100-21-tip-pkp-panel-radyator-tip21": {
+  "price": 3120,
+  "old_price": null
+ },
+ "vaillant-600x1100-panel-radyator-tip22": {
+  "price": 3600,
+  "old_price": null
+ },
+ "vaillant-600x1200-21-tip-pkp-panel-radyator-tip21": {
+  "price": 3390,
+  "old_price": null
+ },
+ "vaillant-600x1200-panel-radyator-tip22": {
+  "price": 3930,
+  "old_price": null
+ },
+ "vaillant-600x1300-21-tip-pkp-panel-radyator-tip21": {
+  "price": 3640,
+  "old_price": null
+ },
+ "vaillant-600x1300-panel-radyator-tip22": {
+  "price": 4210,
+  "old_price": null
+ },
+ "vaillant-600x1400-21-tip-pkp-panel-radyator-tip21": {
+  "price": 3970,
+  "old_price": null
+ },
+ "vaillant-600x1400-panel-radyator-tip22": {
+  "price": 4540,
+  "old_price": null
+ },
+ "vaillant-600x1500-21-tip-pkp-panel-radyator-tip21": {
+  "price": 4340,
+  "old_price": null
+ },
+ "vaillant-600x1500-panel-radyator-tip22": {
+  "price": 4870,
+  "old_price": null
+ },
+ "vaillant-600x1600-21-tip-pkp-panel-radyator-tip21": {
+  "price": 4760,
+  "old_price": null
+ },
+ "vaillant-600x1600-panel-radyator-tip22": {
+  "price": 5140,
+  "old_price": null
+ },
+ "vaillant-600x1800-21-tip-pkp-panel-radyator-tip21": {
+  "price": 4950,
+  "old_price": null
+ },
+ "vaillant-600x1800-panel-radyator-tip22": {
+  "price": 5770,
+  "old_price": null
+ },
+ "vaillant-600x2000-21-tip-pkp-panel-radyator-tip21": {
+  "price": 5720,
+  "old_price": null
+ },
+ "vaillant-600x2000-panel-radyator-tip22": {
+  "price": 6420,
+  "old_price": null
+ },
+ "vaillant-600x400-21-tip-pkp-panel-radyator-tip21": {
+  "price": 1190,
+  "old_price": null
+ },
+ "vaillant-600x500-21-tip-pkp-panel-radyator-tip21": {
+  "price": 1850,
+  "old_price": null
+ },
+ "vaillant-600x500-panel-radyator-tip22": {
+  "price": 1960,
+  "old_price": null
+ },
+ "vaillant-600x600-21-tip-pkp-panel-radyator-tip21": {
+  "price": 1980,
+  "old_price": null
+ },
+ "vaillant-600x600-panel-radyator-tip22": {
+  "price": 2210,
+  "old_price": null
+ },
+ "vaillant-600x700-21-tip-pkp-panel-radyator-tip21": {
+  "price": 2280,
+  "old_price": null
+ },
+ "vaillant-600x700-panel-radyator-tip22": {
+  "price": 2570,
+  "old_price": null
+ },
+ "vaillant-600x800-21-tip-pkp-panel-radyator-tip21": {
+  "price": 3930,
+  "old_price": null
+ },
+ "vaillant-600x800-panel-radyator-tip22": {
+  "price": 2840,
+  "old_price": null
+ },
+ "vaillant-600x900-21-tip-pkp-panel-radyator-tip21": {
+  "price": 2820,
+  "old_price": null
+ },
+ "vaillant-900x400-21-tip-pkp-panel-radyator-tip21": {
+  "price": 2320,
+  "old_price": null
+ },
+ "vaillant-akilli-oda-termostati-myvaillant-smart": {
+  "price": 8200,
+  "old_price": null
+ },
+ "vaillant-arotherm-vwl-125-5-as-230v-split-isi-pompasi-dis-unite-15kw-monofaze": {
+  "price": 295950,
+  "old_price": null
+ },
+ "vaillant-climavair-pro-12000-btu-split-klima": {
+  "price": 43850,
+  "old_price": null
+ },
+ "vaillant-climavair-pro-18000-btu-split-klima": {
+  "price": 67600,
+  "old_price": null
+ },
+ "vaillant-climavair-pro-24000-btu-split-klima": {
+  "price": 85050,
+  "old_price": null
+ },
+ "vaillant-climavair-pro-9000-btu-split-klima": {
+  "price": 40650,
+  "old_price": null
+ },
+ "vaillant-climavair-pure-12000-btu-split-klima": {
+  "price": 39000,
+  "old_price": null
+ },
+ "vaillant-climavair-pure-18000-btu-split-klima": {
+  "price": 51800,
+  "old_price": null
+ },
+ "vaillant-climavair-pure-24000-btu-split-klima": {
+  "price": 70100,
+  "old_price": null
+ },
+ "vaillant-climavair-pure-9000-btu-split-klima": {
+  "price": 31200,
+  "old_price": null
+ },
+ "vaillant-ecotec-intro-18-24-model-2-yil-garantili-yogusmali-kombi": {
+  "price": 56300,
+  "old_price": 62000
+ },
+ "vaillant-ecotec-intro-24-24-kw-tam-yogusmali-kombi": {
+  "price": 52900,
+  "old_price": null
+ },
+ "vaillant-ecotec-pro-2365-3-model-2-yil-garantili-yogusmali-kombi": {
+  "price": 69800,
+  "old_price": 77000
+ },
+ "vaillant-ecotec-pro-2865-3-28-kw-tam-yogusmali-kombi": {
+  "price": 73200,
+  "old_price": 81000
+ },
+ "vaillant-ecotec-pure-2367-2-20-kw-2-yil-garantili-tam-yogusmali-kombi": {
+  "price": 63250,
+  "old_price": 70000
+ },
+ "vaillant-ecotec-pure-2867-2-2-yil-garantili-tam-yogusmali-kombi": {
+  "price": 63300,
+  "old_price": 70000
+ },
+ "vaillant-erelax-akilli-oda-termostati": {
+  "price": 11200,
+  "old_price": null
+ },
+ "vaillant-turbomag-1251-12-lt-hermatik-dogalgazli-sofben": {
+  "price": 26350,
+  "old_price": 29000
+ },
+ "vaillant-turbomag-145-1-14-lt-fanli-hermetik-sofben": {
+  "price": 25700,
+  "old_price": null
+ },
+ "vaillant-ved-e-18-8-18-kw-trifaze-8-lt-dk-elektikli-sofben": {
+  "price": 16050,
+  "old_price": null
+ },
+ "vaillant-ved-pro-18-8-18-kw-trifaze-8-lt-dk-elektikli-sofben": {
+  "price": 15850,
+  "old_price": null
+ },
+ "vaillant-ved-pro-21-8-21-kw-trifaze-8-lt-dk-elektikli-sofben": {
+  "price": 16300,
+  "old_price": null
+ },
+ "vaillant-vrt-380f-2-dokunmatik-modulasyonlu-haftalik-programlanabilir-oda-termostati": {
+  "price": 11050,
+  "old_price": null
+ },
+ "vaillant-vrt-50-modulasyonlu-oda-termostati": {
+  "price": 3320,
+  "old_price": null
+ },
+ "vaillant-vui-35cs-1-5-ecotec-plus-tam-yogusmali-kombi-boyler-cikisli": {
+  "price": 105100,
+  "old_price": null
+ },
+ "vaillant-vui-36cs-1-5-ecotec-plus-tam-yogusmali-kombi-20-l-boylerli": {
+  "price": 154500,
+  "old_price": null
+ },
+ "vaillant-vui-40cs-1-5-ecotec-plus-tam-yogusmali-kombi-20-l-boylerli": {
+  "price": 164400,
+  "old_price": null
+ },
+ "viessmann-12000-btu-pro-split-inverter-klima": {
+  "price": 28900,
+  "old_price": 32000
+ },
+ "viessmann-18000-btu-pro-split-inverter-klima": {
+  "price": 41850,
+  "old_price": 46500
+ },
+ "viessmann-242-s-42000-btu-salon-tipi-klima": {
+  "price": 110750,
+  "old_price": null
+ },
+ "viessmann-connect-32-35-kw-tam-yogusmali-kombi": {
+  "price": 65650,
+  "old_price": null
+ },
+ "viessmann-vitodens-111-f-32-kw-tam-yogusmali-kombi-100-l-boyler": {
+  "price": 267450,
+  "old_price": null
+ },
+ "viessmann-vitodens-111-w-32-kw-tam-yogusmali-kombi-46-l-boyler": {
+  "price": 212750,
+  "old_price": null
+ },
+ "viessmann-vitodens-classic-25-kw-tam-yogusmali-kombi": {
+  "price": 39950,
+  "old_price": 44000
+ },
+ "viessmann-vitodens-connect-19kw-tam-yogusmali-kombi-entegre-wifi-arayuzu": {
+  "price": 44500,
+  "old_price": 49000
+ },
+ "viessmann-vitodens-connect-25kw-tam-yogusmali-entegre-wifi-arayuzu": {
+  "price": 48050,
+  "old_price": 53000
+ },
+ "viessmann-vitodens-trend-19kw-yogusmali-kombi": {
+  "price": 38700,
+  "old_price": 43000
+ },
+ "viessmann-vitodens-trend-25kw-yogusmali-kombi": {
+  "price": 43350,
+  "old_price": 48000
+ },
+ "viessmann-vitotrol-100-tip-rt-kablolu-oda-termostati-on-off": {
+  "price": 3600,
+  "old_price": null
+ },
+ "warmhaus-ewa-20-kw-tam-yogusmali-kombi": {
+  "price": 26200,
+  "old_price": null
+ },
+ "warmhaus-ewa-24-kw-tam-yogusmali-kombi": {
+  "price": 26500,
+  "old_price": null
+ },
+ "york-48000-btu-inverter-salon-tipi-klima": {
+  "price": 103600,
+  "old_price": null
+ },
+ "york-monterosa-12000-btu-inverter-split-klima": {
+  "price": 33250,
+  "old_price": null
+ },
+ "york-monterosa-18000-btu-inverter-split-klima": {
+  "price": 41150,
+  "old_price": null
+ },
+ "york-monterosa-24000-btu-inverter-split-klima": {
+  "price": 50050,
+  "old_price": null
+ },
+ "york-monterosa-9000-btu-inverter-split-klima": {
+  "price": 28200,
+  "old_price": null
+ }
+}
