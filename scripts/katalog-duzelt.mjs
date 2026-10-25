@@ -20,6 +20,9 @@
 //     UPLOAD_DIR/.eski-fiyat-1.json dosyasına yedeklenir.
 // 12) Ürün görsellerini eykom.com görselleriyle değiştirir, eykom'da olmayan ürünlerin galerisini tek görsele indirir
 //     ve bizim kategorilerimizdeki yeni eykom ürünlerini ekler (eykom.json + eykom-gorselleri/).
+// 13) Satış fiyatlarını piyasa fiyatlarının (birden çok Türk satıcının medyanı) ~%3 altına çeker; üstü çizili fiyatı
+//     olan ürünlerde old_price'ı da günceller (fiyat-2.json: slug → { price, old_price }). 12. adımdan sonra çalışır,
+//     eski değerler UPLOAD_DIR/.fiyat-2.json dosyasına yedeklenir.
 // Her adım başarıyla bitince UPLOAD_DIR'e kendi işaret dosyasını bırakır ve bir daha çalışmaz;
 // böylece sonradan admin panelinden yapılan değişikliklere dokunulmaz.
 import { createHash, randomBytes } from "node:crypto";
@@ -40,6 +43,7 @@ const MARK_BG_BACK = ".arkaplan-geri-1";
 const MARK_PRICE = ".fiyat-indirim-1";
 const MARK_OLD = ".eski-fiyat-1";
 const MARK_EYKOM = ".eykom-1";
+const MARK_MARKET = ".fiyat-2";
 const exists = (p) => access(p).then(() => true, () => false);
 const bundledName = (url) => createHash("sha1").update(url).digest("hex").slice(0, 24) + ".webp";
 
@@ -69,7 +73,8 @@ export async function run() {
   const doPrice = !(await exists(path.join(uploadDir, MARK_PRICE)));
   const doOld = !(await exists(path.join(uploadDir, MARK_OLD)));
   const doEykom = !(await exists(path.join(uploadDir, MARK_EYKOM))) && (await exists(path.join(HERE, "eykom.json")));
-  if (!doCatalog && !doStock && !doGallery && !doClean && !doText && !doSku && !doBg && !doBgBack && !doPrice && !doOld && !doEykom) return;
+  const doMarket = !(await exists(path.join(uploadDir, MARK_MARKET))) && (await exists(path.join(HERE, "fiyat-2.json")));
+  if (!doCatalog && !doStock && !doGallery && !doClean && !doText && !doSku && !doBg && !doBgBack && !doPrice && !doOld && !doEykom && !doMarket) return;
 
   const c = await mysql.createConnection({
     host: process.env.DB_HOST,
@@ -97,6 +102,7 @@ export async function run() {
     if (doPrice) await priceCut(c, uploadDir);
     if (doOld) await oldPriceFix(c, uploadDir);
     if (doEykom) await eykom(c, uploadDir);
+    if (doMarket) await marketPrices(c, uploadDir);
   } finally {
     await c.end();
   }
@@ -417,6 +423,31 @@ async function eykom(c, uploadDir) {
   await writeFile(path.join(uploadDir, `${MARK_EYKOM}.json`), JSON.stringify(backup));
   console.log(`[katalog] eykom: ${changed} ürünün görseli değişti, ${single} ürün tek görsele indi, ${added} yeni ürün eklendi`);
   await writeFile(path.join(uploadDir, MARK_EYKOM), new Date().toISOString());
+}
+
+// 13) Piyasa fiyatı: fiyat-2.json'daki her ürün (adresi/slug ile bulunur) yeni satış fiyatını ve üstü çizili fiyatını alır.
+// Dosyada olmayan ya da veritabanında bulunmayan ürünlere dokunulmaz; zaten aynı değerde olanlar atlanır.
+// Eski fiyatlar slug → { id, price, old_price } olarak UPLOAD_DIR/.fiyat-2.json dosyasına yedeklenir.
+async function marketPrices(c, uploadDir) {
+  const data = JSON.parse(await readFile(path.join(HERE, "fiyat-2.json"), "utf8"));
+  const slugs = Object.keys(data);
+  const [rows] = slugs.length ? await c.query("SELECT id, slug, price, old_price FROM products WHERE slug IN (?)", [slugs]) : [[]];
+  const backup = {};
+  let up = 0, down = 0, same = 0;
+  for (const r of rows) {
+    const e = data[r.slug];
+    const price = Math.round(Number(e.price));
+    const old = e.old_price == null ? null : Math.round(Number(e.old_price));
+    const curPrice = Number(r.price), curOld = r.old_price == null ? null : Number(r.old_price);
+    if (!(price > 0)) continue;
+    if (curPrice === price && curOld === old) { same++; continue; }
+    backup[r.slug] = { id: r.id, price: curPrice, old_price: curOld };
+    await c.query("UPDATE products SET price = ?, old_price = ? WHERE id = ?", [price, old, r.id]);
+    if (price > curPrice) up++; else if (price < curPrice) down++;
+  }
+  await writeFile(path.join(uploadDir, `${MARK_MARKET}.json`), JSON.stringify(backup));
+  console.log(`[katalog] piyasa fiyatı: ${Object.keys(backup).length}/${slugs.length} ürün güncellendi (${down} düştü, ${up} arttı, ${same} zaten aynı, ${slugs.length - rows.length} bulunamadı)`);
+  await writeFile(path.join(uploadDir, MARK_MARKET), new Date().toISOString());
 }
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
