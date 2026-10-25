@@ -36,6 +36,28 @@ export const mailboxes = {
 export const appLinks = {
   ios: "https://apps.apple.com/tr/app/id6817845551",
   android: "https://play.google.com/store/apps/details?id=com.gaza.muhendislik",
+  iosLive: true, // App Store sayfası yayında
+};
+
+// Ziyaretçiye ekranın ortasında çıkan "Uygulamamızı indirin" penceresi (components/AppPopup.tsx).
+// enabled: false yapılırsa pencere tamamen kapanır. Çerez bildirimi yanıtlanmadan açılmaz;
+// kapatıldıktan sonra snoozeDays gün boyunca, gösterildiği oturumda da bir daha çıkmaz.
+export const appPopup = {
+  enabled: true,
+  delayMs: 6000, // sayfa açıldıktan sonra bekleme
+  scrollPx: 700, // ya da bu kadar kaydırınca
+  snoozeDays: 7,
+  // Bu yollarda (ve alt sayfalarında) gösterilmez: sepet/sipariş ve yasal metinler
+  hidden: [
+    "/admin", "/sepet", "/siparis", "/giris", "/uye-ol", "/hesap-silme", "/abonelik",
+    "/cerez-politikasi", "/gizlilik-politikasi", "/kvkk-aydinlatma-metni", "/kullanim-kosullari",
+    "/mesafeli-satis-sozlesmesi", "/on-bilgilendirme-formu", "/iptal-ve-iade-kosullari", "/teslimat-ve-iade",
+  ],
+  name: "GAZ-A Mühendislik",
+  screens: [
+    { src: "/brand/app-home.webp", alt: "GAZ-A Mühendislik uygulaması ana sayfa", width: 540, height: 1170 },
+    { src: "/brand/app-campaigns.webp", alt: "Uygulamada kampanyalar ekranı", width: 540, height: 1170 },
+  ],
 };
 
 export const contact = {
