@@ -37,6 +37,9 @@ export async function generateMetadata({ params }: Pick<Props, "params">): Promi
   };
 }
 
+// Görseli olan ürünlerde galerinin sonuna merkez binamızın fotoğrafı eklenir; görselsiz üründe kapak olmasın diye eklenmez
+const withBuilding = (images: string[]) => (images.length ? [...images, "/brand/hakkimizda-2.webp"] : images);
+
 export default async function ProductPage({ params, searchParams }: Props) {
   const p = await getProduct((await params).slug);
   if (!p) notFound();
@@ -57,7 +60,8 @@ export default async function ProductPage({ params, searchParams }: Props) {
       <Breadcrumb crumbs={[{ label: "Ana Sayfa", href: "/" }, { label: p.category, href: `/${slugify(p.category)}` }, { label: p.name }]} />
 
       <div className="mt-8 grid gap-10 lg:grid-cols-2">
-        <ProductGallery images={[p.imageUrl, ...p.images].filter((x): x is string => !!x)} name={p.name}>
+        {/* Ürün görsellerinin ardından son görsel merkez binamız (yalnızca GAZ-A; ortak veritabanına yazılmaz) */}
+        <ProductGallery images={withBuilding([p.imageUrl, ...p.images].filter((x): x is string => !!x))} name={p.name}>
           <FavoriteButton id={p.id} className="absolute right-4 top-4 !h-11 !w-11" />
         </ProductGallery>
 

@@ -1,4 +1,5 @@
 import { Fragment } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { CookieSettingsButton } from "@/components/CookieConsent";
 import { categories } from "./consent";
@@ -67,6 +68,11 @@ export const legal: Record<LegalSlug, { title: string; description: string; body
           bakım ve onarım hizmetleri sunan bir mühendislik firmasıdır. 2020 yılından bu yana İstanbul Sancaktepe merkezimizden
           konut ve iş yerlerine hizmet veriyoruz.
         </p>
+        <div className="my-8 grid grid-cols-2 gap-3 md:gap-4">
+          {[["/brand/hakkimizda-1.webp", "GAZ-A Mühendislik Sancaktepe merkez binası"], ["/brand/hakkimizda-2.webp", "GAZ-A Mühendislik merkez binası girişi"]].map(([src, alt]) => (
+            <Image key={src} src={src} alt={alt} width={900} height={1600} sizes="(min-width: 768px) 380px, 50vw" className="!m-0 h-auto w-full rounded-[6px] object-cover" />
+          ))}
+        </div>
         <h2>Ne yapıyoruz?</h2>
         <ul>
           <li><strong>Ürün satışı:</strong> Kombi, klima, ısı pompası, radyatör, şofben, oda termostatı ve sirkülasyon pompası gibi ürünlerde önde gelen markaların modellerini sunuyoruz.</li>
