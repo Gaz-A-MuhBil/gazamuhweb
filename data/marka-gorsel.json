@@ -1,0 +1,2260 @@
+{
+ "placeholderFile": "gorsel-hazirlaniyor.webp",
+ "images": {
+  "airfel-duvar-tipi-inverter-klima-ltxm25n-9000-btu": [
+   "a216c43839f7d81cc26cf3d4.webp",
+   "0aef494863f55bc2be93593f.webp",
+   "7dfa350fcc2b465637a5807d.webp"
+  ],
+  "airfel-duvar-tipi-inverter-klima-ltxm35n-12000-btu": [
+   "3819b2f33796b7584a1071e7.webp",
+   "d677df237737450515cc026b.webp",
+   "287ce2f215808c0fab45799c.webp"
+  ],
+  "airfel-duvar-tipi-inverter-klima-ltxm50n-18000-btu": [
+   "71df34ba849e5c9c42e720b9.webp",
+   "b3c3e5797119fb50a194ea5d.webp",
+   "0c24660dd2f976fe351d0e75.webp"
+  ],
+  "airfel-duvar-tipi-inverter-klima-ltxm71n-24000-btu": [
+   "0dae3e116332c5f3361f4269.webp",
+   "f2c6ee66a165af2f9caf0dc5.webp",
+   "320f93484140b3a4180b240e.webp"
+  ],
+  "airfel-inverter-salon-tipi-klima-lva140a-split-48000-btu": [
+   "d39506890890035add4044fd.webp"
+  ],
+  "airfel_vibe_inverter_klima_9000_btu_klima": [
+   "d7938b9c0ab13134046b2698.webp",
+   "777eea68901a64238ddecfc1.webp",
+   "4cd2a8d12a791ae8c9a8ee5c.webp"
+  ],
+  "airfel_vibe_inverter_klima_ltxq35a_12000_btu": [
+   "b19c5d832417339eb716509d.webp",
+   "72d51191c76931122594d9bc.webp",
+   "016cddc872c96c69a6ca72fd.webp"
+  ],
+  "airfel_vibe_inverter_klima_ltxq50c_18000_btu": [
+   "b19c5d832417339eb716509d.webp",
+   "72d51191c76931122594d9bc.webp",
+   "016cddc872c96c69a6ca72fd.webp"
+  ],
+  "airfel-vibe-inverter-klima-ltxq71c-24020-btu": [
+   "b19c5d832417339eb716509d.webp",
+   "72d51191c76931122594d9bc.webp",
+   "016cddc872c96c69a6ca72fd.webp"
+  ],
+  "airfel-maestro-power-premix-24kw-tam-yogusmali-5-yil-garantili-kombi": [
+   "d807b5c8de2c8309c09a616e.webp",
+   "9b65283c10232d70be75b424.webp",
+   "ed8738b1d86bcc1ffb51ea4e.webp"
+  ],
+  "airfel-maestro-optimum-premix-20-24-kw-tam-yogusmali-5-yil-garantili-kombi": [
+   "952fe160cc08b81b120298ae.webp",
+   "cf5d11262c01e9353ace3d0d.webp"
+  ],
+  "airfel-maestro-optimum-premix-23-kw-tam-yogusmali-5-yil-garantili-kombi": [
+   "34e83a99f63dd37ec51d38f2.webp",
+   "63e1b04ca08392eacd4dfdd0.webp",
+   "c87bea0ed33f623693ec2a93.webp"
+  ],
+  "maestro-optimum-premix-26-kw-tam-yogusmali-5-yil-garantili-kombi": [
+   "502ad087e4235b85e0a4e750.webp",
+   "241a0814d1ae450d0a32f03f.webp",
+   "f51544053dbcb159c2f03b79.webp"
+  ],
+  "maestro-optimum-premix-30-kw-tam-yogusmali-5-yil-garantili-kombi": [
+   "8f0e8074f248335e2deb05c9.webp",
+   "05830d942535084bf415e503.webp",
+   "99a20be9236e1b22a340b995.webp"
+  ],
+  "airfel-maestro-power-premix-23kw-tam-yogusmali-5-yil-garantili-kombi": [
+   "3c782b842fd96625efcfb301.webp",
+   "59d31de82a9dc5455d237a68.webp",
+   "a9fd6c22efb7fc445f4fbacd.webp"
+  ],
+  "airfel-maestro-power-premix-23kw-tam-yogusmali-5-yil-garantili-kombi-2": [
+   "de8ff0d58731364033ff5ba3.webp",
+   "bff8fbea5c1f6e7f8b5a1c68.webp",
+   "d3f048a151223deb6e76f5d0.webp"
+  ],
+  "airfel-maestro-power-premix-30kw-tam-yogusmali-5-yil-garantili-kombi": [
+   "730a2feb77eb362a9d46b159.webp",
+   "1a68f5dd9dc4e1b58befe45a.webp",
+   "4b2813fdfabbb9cc37da4c40.webp"
+  ],
+  "airfel-maestro-power-premix-36kw-tam-yogusmali-5-yil-garantili-kombi": [
+   "7adbea9921f498615c390947.webp",
+   "af3697b7606149b6516fbf93.webp",
+   "567fde32074347c26aeea4b5.webp"
+  ],
+  "airfel-maestro-smart-premix-24-kw-tam-yogusmali-5yil-garantili-kombi": [
+   "f2729eab293b933e6605dd35.webp",
+   "30e2fd522a92477357296090.webp",
+   "7d229dc3cf8eed487df546f4.webp"
+  ],
+  "airfel-maestro-smart-premix-28-kw-tam-yogusmali-5-yil-garantili-kombi": [
+   "95edb22e95af3ecec9d7d723.webp",
+   "cfc06f1771df07c08fd023e8.webp",
+   "72542860f35d6dca25638717.webp"
+  ],
+  "baymak-iotherm-hava-kaynakli-monoblok-inverter-isi-pompasi-io-mm-100-p-10kw": [
+   "6a4ea3ba2894a282874058f2.webp"
+  ],
+  "baymak-iotherm-hava-kaynakli-monoblok-inverter-isi-pompasi-io-mm-120-p-12kw": [
+   "6a4ea3ba2894a282874058f2.webp"
+  ],
+  "baymak-iotherm-hava-kaynakli-monoblok-inverter-isi-pompasi-io-mm-140-p-14kw": [
+   "6a4ea3ba2894a282874058f2.webp"
+  ],
+  "baymak-iotherm-hava-kaynakli-monoblok-inverter-isi-pompasi-io-mm-80-p-8kw": [
+   "6a4ea3ba2894a282874058f2.webp"
+  ],
+  "baymak-iotherm-hava-kaynakli-monoblok-inverter-isi-pompasi-io-mt-160-p-16kw": [
+   "6a4ea3ba2894a282874058f2.webp"
+  ],
+  "baymak-iotherm-hava-kaynakli-monoblok-isi-inverter-pompasi-io-mm-160-p-16kw": [
+   "6a4ea3ba2894a282874058f2.webp"
+  ],
+  "baymak-iotherm-plus-hava-kaynakli-monoblok-inverter-isi-pompasi-10-mt-220-22-kw": [
+   "9ce5c3f6efdb5fc1e836d43e.webp"
+  ],
+  "baymak-iotherm-plus-hava-kaynakli-monoblok-inverter-isi-pompasi-10-mt-260-26-kw": [
+   "9ce5c3f6efdb5fc1e836d43e.webp"
+  ],
+  "baymak-iotherm-plus-hava-kaynakli-monoblok-inverter-isi-pompasi-10-mt-300-30-kw": [
+   "9ce5c3f6efdb5fc1e836d43e.webp"
+  ],
+  "baymak-iotherm-pro-hava-kaynakli-isi-pompasi-10m-10kw": [
+   "282bf7cdf7f43bbaaf0cfcc5.webp"
+  ],
+  "baymak-iotherm-pro-hava-kaynakli-isi-pompasi-12m-12kw": [
+   "282bf7cdf7f43bbaaf0cfcc5.webp"
+  ],
+  "baymak-iotherm-pro-hava-kaynakli-isi-pompasi-16m-159kw": [
+   "282bf7cdf7f43bbaaf0cfcc5.webp"
+  ],
+  "baymak-iotherm-pro-hava-kaynakli-isi-pompasi-16t-159kw": [
+   "282bf7cdf7f43bbaaf0cfcc5.webp"
+  ],
+  "baymak-iotherm-pro-hava-kaynakli-isi-pompasi-8m-8kw": [
+   "282bf7cdf7f43bbaaf0cfcc5.webp"
+  ],
+  "baymak-12000-btu-elegant-plus-split-inverter-klima": [
+   "92f41046ce7bba9732d3e261.webp",
+   "cb80b7b9bccf7460a17982dc.webp",
+   "519440d7336b4603dfc217c0.webp"
+  ],
+  "baymak-18000-btu-elegant-plus-split-inverter-klima": [
+   "92f41046ce7bba9732d3e261.webp",
+   "cb80b7b9bccf7460a17982dc.webp",
+   "519440d7336b4603dfc217c0.webp"
+  ],
+  "baymak-24000-btu-elegant-plus-split-inverter-klima-2": [
+   "92f41046ce7bba9732d3e261.webp",
+   "cb80b7b9bccf7460a17982dc.webp",
+   "519440d7336b4603dfc217c0.webp"
+  ],
+  "baymak-9000-btu-elegant-plus-split-inverter-klima": [
+   "92f41046ce7bba9732d3e261.webp",
+   "cb80b7b9bccf7460a17982dc.webp",
+   "519440d7336b4603dfc217c0.webp"
+  ],
+  "baymak-duotec-compact-24-kw-3-yil-garantili-premix-yogusmali-kombi": [
+   "63e9a13e210bb655534ea67e.webp",
+   "37056971deba0d6b5562fa79.webp",
+   "a2c1ecb3f5c63bc419e0cacf.webp"
+  ],
+  "baymak-duotec-compact-30-kw-3-yil-garantili-premix-yogusmali-kombi": [
+   "63e9a13e210bb655534ea67e.webp",
+   "37056971deba0d6b5562fa79.webp",
+   "a2c1ecb3f5c63bc419e0cacf.webp"
+  ],
+  "baymak-duotec-compact-33-kw-3-yil-garantili-premix-yogusmali-kombi": [
+   "63e9a13e210bb655534ea67e.webp",
+   "37056971deba0d6b5562fa79.webp",
+   "a2c1ecb3f5c63bc419e0cacf.webp"
+  ],
+  "baymak-duotec-premix-42-kw-3-yil-garantili-yogusmali-kombi": [
+   "d660b92dcbd8980be89161cc.webp",
+   "589af7a2899b816f10cf5c9d.webp",
+   "09b3561696fa9c17607c4b9f.webp"
+  ],
+  "baymak-lunatec-24-kw-5-yil-garantili-tam-yogusmali-kombi": [
+   "31ab88a3fae4fa5e28409692.webp",
+   "2545552645505e08874d829e.webp",
+   "aa48cc85afdb825548ff1afa.webp"
+  ],
+  "baymak-lunatec-30-kw-5-yil-garantili-tam-yogusmali-kombi": [
+   "31ab88a3fae4fa5e28409692.webp",
+   "2545552645505e08874d829e.webp",
+   "aa48cc85afdb825548ff1afa.webp"
+  ],
+  "baymak-lunatec-35-kw-5-yil-garantili-tam-yogusmali-kombi": [
+   "31ab88a3fae4fa5e28409692.webp",
+   "2545552645505e08874d829e.webp",
+   "aa48cc85afdb825548ff1afa.webp"
+  ],
+  "baymak-bh-12-lt-dogalgazli-hermatik-sofben": [
+   "946f79578161fd7265efc5ef.webp",
+   "58d88d165dd3f0eb376bc65e.webp",
+   "ab6df94fbb2d22aa0084b710.webp"
+  ],
+  "baymak-idee-kablosuz-programlanabilir-oda-termostati": [
+   "3de78a779407e3584a828140.webp",
+   "be87b91bd8109cec0a8d0f89.webp"
+  ],
+  "baymak-idee-programlanabilir-oda-termostati": [
+   "3de78a779407e3584a828140.webp",
+   "be87b91bd8109cec0a8d0f89.webp"
+  ],
+  "baymak-elegant-plus-uv-09-a-k-r32-inverter-split-klima": [
+   "92f41046ce7bba9732d3e261.webp",
+   "cb80b7b9bccf7460a17982dc.webp",
+   "519440d7336b4603dfc217c0.webp"
+  ],
+  "baymak-elegant-plus-uv-09-a-r32-inverter-split-klima": [
+   "92f41046ce7bba9732d3e261.webp",
+   "cb80b7b9bccf7460a17982dc.webp",
+   "519440d7336b4603dfc217c0.webp"
+  ],
+  "baymak-elegant-plus-uv-12-a-k-r32-inverter-split-klima": [
+   "92f41046ce7bba9732d3e261.webp",
+   "cb80b7b9bccf7460a17982dc.webp",
+   "519440d7336b4603dfc217c0.webp"
+  ],
+  "baymak-elegant-plus-uv-12-a-r32-inverter-split-klima": [
+   "92f41046ce7bba9732d3e261.webp",
+   "cb80b7b9bccf7460a17982dc.webp",
+   "519440d7336b4603dfc217c0.webp"
+  ],
+  "baymak-elegant-plus-uv-18-a-k-r32-inverter-split-klima": [
+   "92f41046ce7bba9732d3e261.webp",
+   "cb80b7b9bccf7460a17982dc.webp",
+   "519440d7336b4603dfc217c0.webp"
+  ],
+  "baymak-elegant-plus-uv-18-a-r32-inverter-split-klima": [
+   "92f41046ce7bba9732d3e261.webp",
+   "cb80b7b9bccf7460a17982dc.webp",
+   "519440d7336b4603dfc217c0.webp"
+  ],
+  "baymak-elegant-plus-uv-24-a-r32-inverter-split-klima": [
+   "92f41046ce7bba9732d3e261.webp",
+   "cb80b7b9bccf7460a17982dc.webp",
+   "519440d7336b4603dfc217c0.webp"
+  ],
+  "baymak-duotec-compact-45-kw-tam-yogusmali-kombi": [
+   "63e9a13e210bb655534ea67e.webp",
+   "37056971deba0d6b5562fa79.webp",
+   "a2c1ecb3f5c63bc419e0cacf.webp"
+  ],
+  "baymak-duotec-compact-42-kw-dhw-tam-yogusmali-kombi-boyler-cikisli": [
+   "63e9a13e210bb655534ea67e.webp",
+   "37056971deba0d6b5562fa79.webp",
+   "a2c1ecb3f5c63bc419e0cacf.webp"
+  ],
+  "65-lt-termoboyler-baymak-aqua-konfor": [
+   "1517f53a7eb2dc56e7b10e7d.webp",
+   "b3a4cb5115dcb2657bbff3ad.webp",
+   "b0dbd91ff73c07d2dd9ce4a7.webp"
+  ],
+  "baymak-aqua-konfor-65-lt-montaj-haric-titanium-silindirik-termosifon": [
+   "1517f53a7eb2dc56e7b10e7d.webp",
+   "b3a4cb5115dcb2657bbff3ad.webp",
+   "b0dbd91ff73c07d2dd9ce4a7.webp"
+  ],
+  "baymak-aqua-lcd-prizmatik-65-lt-termosifon-montaj-haric": [
+   "e27ddcc646ddb1ede6f6ea82.webp",
+   "9712a436287332905e5f972e.webp",
+   "114c42d1f71fa18c9e54dc4d.webp"
+  ],
+  "baymak-aqua-lcd-prizmatik-jet-65-lt-termosifon-montaj-haric": [
+   "e27ddcc646ddb1ede6f6ea82.webp",
+   "9712a436287332905e5f972e.webp",
+   "114c42d1f71fa18c9e54dc4d.webp"
+  ],
+  "baymak-aqua-lcd-prizmatik-jet-50-lt-termosifon-montaj-haric": [
+   "e27ddcc646ddb1ede6f6ea82.webp",
+   "9712a436287332905e5f972e.webp",
+   "114c42d1f71fa18c9e54dc4d.webp"
+  ],
+  "baymak-aqua-konfor-50-lt-montaj-haric-titanium-silindirik-termosifon": [
+   "1517f53a7eb2dc56e7b10e7d.webp",
+   "b3a4cb5115dcb2657bbff3ad.webp",
+   "b0dbd91ff73c07d2dd9ce4a7.webp"
+  ],
+  "baymak-aqua-konfor-80-lt-montaj-haric-titanium-silindirik-termosifon": [
+   "1517f53a7eb2dc56e7b10e7d.webp",
+   "b3a4cb5115dcb2657bbff3ad.webp",
+   "b0dbd91ff73c07d2dd9ce4a7.webp"
+  ],
+  "baymak-aqua-konfor-100-lt-montaj-haric-titanium-silindirik-termosifon": [
+   "1517f53a7eb2dc56e7b10e7d.webp",
+   "b3a4cb5115dcb2657bbff3ad.webp",
+   "b0dbd91ff73c07d2dd9ce4a7.webp"
+  ],
+  "baymak-tu-15-lt-montaj-haric-tezgah-ustu-termosifon": [
+   "f0bb66219e82f567be32b92d.webp",
+   "f9c3acd2a3b329da39382bbf.webp"
+  ],
+  "baymak-tu-30-lt-montaj-haric-tezgah-ustu-termosifon": [
+   "f0bb66219e82f567be32b92d.webp",
+   "f9c3acd2a3b329da39382bbf.webp"
+  ],
+  "baymak-bh-14-hermetik-sofben-14-lt": [
+   "946f79578161fd7265efc5ef.webp",
+   "58d88d165dd3f0eb376bc65e.webp"
+  ],
+  "bosch-compress-2000-awf-monoblok-isi-pompasi-16-kw": [
+   "57592ffbb02c31df3574e105.webp",
+   "e4db41ae8c82e423d37aff77.webp"
+  ],
+  "bosch-compress-2000-awf-monoblok-isi-pompasi-22-kw": [
+   "57592ffbb02c31df3574e105.webp",
+   "e4db41ae8c82e423d37aff77.webp"
+  ],
+  "bosch-compress-2000-awf-monoblok-isi-pompasi-30-kw": [
+   "57592ffbb02c31df3574e105.webp",
+   "e4db41ae8c82e423d37aff77.webp"
+  ],
+  "bosch-compress-2000-awf-monoblok-isi-pompasi-8-kw": [
+   "57592ffbb02c31df3574e105.webp",
+   "e4db41ae8c82e423d37aff77.webp"
+  ],
+  "bosch-climate-2000-duvar-tipi-klima-18000-btu": [
+   "80b94abd4288f507d35ebd43.webp",
+   "bed71106b320c9ef88871a95.webp"
+  ],
+  "bosch-climate-2000-duvar-tipi-klima-12000-btu": [
+   "80b94abd4288f507d35ebd43.webp",
+   "bed71106b320c9ef88871a95.webp"
+  ],
+  "bosch-climate-2000-duvar-tipi-klima-24000-btu": [
+   "80b94abd4288f507d35ebd43.webp",
+   "bed71106b320c9ef88871a95.webp"
+  ],
+  "bosch-climate-2000-duvar-tipi-klima-9000-btu": [
+   "80b94abd4288f507d35ebd43.webp",
+   "bed71106b320c9ef88871a95.webp"
+  ],
+  "bosch-climate-5000-l-f-salon-tipi-klima-48000-btu": [
+   "d69da7c10b0a26ba8be4ec76.webp",
+   "d92041be0e301a5590abf1de.webp"
+  ],
+  "bosch-condens-1200i-tam-yogusmali-20kw-3-yil-garantili-kombi": [
+   "82a52e134953868b72dccddc.webp",
+   "1251065b6c00a916c1e53330.webp"
+  ],
+  "bosch-condens-1200w-24kw-3-yil-garanti-tam-yogusmali-kombi": [
+   "82a52e134953868b72dccddc.webp",
+   "1251065b6c00a916c1e53330.webp"
+  ],
+  "bosch-condens-1200w-28kw-3-yil-garanti-tam-yogusmali-kombi": [
+   "82a52e134953868b72dccddc.webp",
+   "1251065b6c00a916c1e53330.webp"
+  ],
+  "bosch-condens-2200i-w-24-kw-5-yil-garantili-tam-yogusmali-kombi": [
+   "a8b5723b8db6bcf73ce2dc30.webp",
+   "dad868850d6ce344d00510c8.webp"
+  ],
+  "bosch-condens-5700i-w-2424-tam-yogusmali-kombi": [
+   "c64c31afafbb1e151dccfd8d.webp",
+   "9999daf6b3cb9962ef4e136f.webp"
+  ],
+  "bosch-condens-5700i-w-3030-tam-yogusmali-kombi": [
+   "c64c31afafbb1e151dccfd8d.webp",
+   "9999daf6b3cb9962ef4e136f.webp"
+  ],
+  "bosch-condens-5700i-w-3535-tam-yogusmali-kombi": [
+   "c64c31afafbb1e151dccfd8d.webp",
+   "9999daf6b3cb9962ef4e136f.webp"
+  ],
+  "bosch-ct200-easycontrol-akilli-oda-kumandasi-siyah": [
+   "3beaaac42a0271b29b967541.webp",
+   "1846def668f5acc1b0086b83.webp"
+  ],
+  "bosch-climate-3000i-9-000-btu-h-r32-gazli-a-inverter-split-klima": [
+   "83bff9bf5b1e40800a3b824e.webp"
+  ],
+  "bosch-climate-3000i-12-000-btu-h-r32-gazli-a-inverter-split-klima": [
+   "83bff9bf5b1e40800a3b824e.webp"
+  ],
+  "bosch-climate-3000i-18-000-btu-h-r32-gazli-a-inverter-split-klima": [
+   "83bff9bf5b1e40800a3b824e.webp"
+  ],
+  "bosch-climate-3000i-24-000-btu-h-r32-gazli-a-inverter-split-klima": [
+   "83bff9bf5b1e40800a3b824e.webp"
+  ],
+  "buderus-logamax-plus-gb172i2-30-kw-tam-yogusmali-kombi": [
+   "b3b3bd963e033b57ffe5c74d.webp"
+  ],
+  "buderus-logamax-plus-gb172i2-35-kw-tam-yogusmali-kombi": [
+   "b3b3bd963e033b57ffe5c74d.webp"
+  ],
+  "buderus-logamax-plus-gb182i2-24-kw-tam-yogusmali-kombi": [
+   "f00db970760d2be7437883c2.webp",
+   "98521150f5d786c281498e0a.webp"
+  ],
+  "buderus-logamax-plus-gb182i2-30-kw-tam-yogusmali-kombi": [
+   "f00db970760d2be7437883c2.webp",
+   "98521150f5d786c281498e0a.webp"
+  ],
+  "buderus-logamax-plus-gb182i2-35-kw-tam-yogusmali-kombi": [
+   "f00db970760d2be7437883c2.webp",
+   "98521150f5d786c281498e0a.webp"
+  ],
+  "buderus-rc210-rf-mx100-kablosuz-programlanabilir-modulasyonlu-oda-kumandasi": [
+   "d5461338d35d03c02b4f339d.webp"
+  ],
+  "buderus-rt20-rf-kablosuz-oda-kumandasi": [
+   "ed22c4309e98b712e7dbe0da.webp"
+  ],
+  "buderus-logamatic-tc100-2": [
+   "76e45decd07e088c54b0b20c.webp"
+  ],
+  "buderus-rc100-2-modulasyonlu-oda-kumandasi": [
+   "3b60df42a533efa5be4987b9.webp",
+   "d08bbb8df283ab0929d7ca20.webp"
+  ],
+  "buderus-logamax-plus-gb182i-2-wi-fi-24-30-kw-tam-yogusmali-kombi": [
+   "3f08b396e3afd5d5e0cef914.webp"
+  ],
+  "buderus-logamax-plus-gb182i-2-wi-fi-35-40-kw-tam-yogusmali-kombi": [
+   "3f08b396e3afd5d5e0cef914.webp"
+  ],
+  "daikin-emura-12000-btuh-a-siyah": [
+   "e278b9f5a7c61befa815217d.webp",
+   "91a044c47597b65f63d37e8e.webp"
+  ],
+  "daikin-emura-12000-btu-inverter-klima-beyaz": [
+   "c9207e4333ec803ee91239f1.webp",
+   "4123132773be93fada72828c.webp"
+  ],
+  "daikin-emura-12000-btu-inverter-klima-gri": [
+   "69ab1653c598b40b44ebf1f3.webp",
+   "7b2b8915a493319ecd6b26e6.webp"
+  ],
+  "daikin-emura-14000-btu-inverter-klima-beyaz": [
+   "c9207e4333ec803ee91239f1.webp",
+   "4123132773be93fada72828c.webp"
+  ],
+  "daikin-emura-14000-btu-inverter-klima-gri": [
+   "69ab1653c598b40b44ebf1f3.webp",
+   "7b2b8915a493319ecd6b26e6.webp"
+  ],
+  "daikin-emura-14000-btu-inverter-klima-siyah": [
+   "e278b9f5a7c61befa815217d.webp",
+   "91a044c47597b65f63d37e8e.webp"
+  ],
+  "daikin-emura-18000-btu-inverter-beyaz": [
+   "c9207e4333ec803ee91239f1.webp",
+   "4123132773be93fada72828c.webp"
+  ],
+  "daikin-emura-18000-btu-inverter-gri": [
+   "69ab1653c598b40b44ebf1f3.webp",
+   "7b2b8915a493319ecd6b26e6.webp"
+  ],
+  "daikin-emura-18000-btu-inverter-siyah": [
+   "e278b9f5a7c61befa815217d.webp",
+   "91a044c47597b65f63d37e8e.webp"
+  ],
+  "daikin-emura-7000-btu-inverter-klima-beyaz": [
+   "c9207e4333ec803ee91239f1.webp",
+   "4123132773be93fada72828c.webp"
+  ],
+  "daikin-emura-7000-btu-inverter-klima-gri": [
+   "69ab1653c598b40b44ebf1f3.webp",
+   "7b2b8915a493319ecd6b26e6.webp"
+  ],
+  "daikin-emura-7000-btu-inverter-klima-siyah": [
+   "e278b9f5a7c61befa815217d.webp",
+   "91a044c47597b65f63d37e8e.webp"
+  ],
+  "daikin-emura-9000-btu-inverter-klima-beyaz": [
+   "c9207e4333ec803ee91239f1.webp",
+   "4123132773be93fada72828c.webp"
+  ],
+  "daikin-emura-9000-btu-inverter-klima-gri": [
+   "69ab1653c598b40b44ebf1f3.webp",
+   "7b2b8915a493319ecd6b26e6.webp"
+  ],
+  "daikin-emura-9000-btu-inverter-klima-siyah": [
+   "e278b9f5a7c61befa815217d.webp",
+   "91a044c47597b65f63d37e8e.webp"
+  ],
+  "daikin-mc30y-hava-temizleme-cihazi": [
+   "844e4d850713af3773a30197.webp"
+  ],
+  "daikin-mc55w-hava-temizleme-cihazi": [
+   "2c71acb0e97d168840b16adf.webp",
+   "4338a2944adff19de06270f4.webp"
+  ],
+  "daikin-mc80z-hava-temizleme-cihazi": [
+   "097b8281d4d3085b812e0a59.webp",
+   "14c53c64d42f4be9c94f73bd.webp"
+  ],
+  "daikin-mck555aw-hava-temizleme-cihazi": [
+   "7be1b605677f63c5878fd382.webp",
+   "830e4a344ac6967018baaa49.webp"
+  ],
+  "daikin-mck70zh-hava-temizleme-cihazi": [
+   "b79721b2937ad17594445aa2.webp"
+  ],
+  "daikin-mck70zw-hava-temizleme-cihazi": [
+   "7e10c1faace7d0ff69861306.webp"
+  ],
+  "daikin-sensira-12000-btu-inverter-klima-beyaz": [
+   "99180217b1d2c4669e431bef.webp",
+   "98f92fa66ee5e322fc943c52.webp"
+  ],
+  "daikin-sensira-14000-btu-inverter-klima-beyaz": [
+   "398801b73b1144bcc8c770aa.webp",
+   "d1c1bc7751d3ef938d4ad620.webp"
+  ],
+  "daikin-sensira-18000-btu-inverter-klima-beyaz": [
+   "70144d75ace4833e4efeb4d9.webp",
+   "91b2345df1b46432b2044e0e.webp"
+  ],
+  "daikin-sensira-21000-btu-inverter-klima-beyaz": [
+   "00ad05332c97dda183c8ec2d.webp",
+   "9991472a82a5e7556628bbaf.webp"
+  ],
+  "daikin-sensira-24000-btu-inverter-klima-beyaz": [
+   "97db6c1a9bbbe83826915cc3.webp",
+   "502417ec4a4d34b0a2a09ab5.webp"
+  ],
+  "daikin-sensira-7000-btu-inverter-klima-beyaz": [
+   "68f5824a050aee9cd966f8e2.webp",
+   "ee860609488b74861f811bae.webp"
+  ],
+  "daikin-sensira-9000-btu-inverter-klima": [
+   "7bb21b88ea86312c08be7439.webp",
+   "1525b0f29cfb720e2343fc07.webp"
+  ],
+  "daikin-shira-eco-12000-btu-inverter-klima": [
+   "e24e0dbd854f2ae086747ea6.webp"
+  ],
+  "daikin-shira-eco-17000-btu-inverter-klima": [
+   "5cb144d1d02a80bf88cea326.webp"
+  ],
+  "daikin-shira-eco-21000-btu-inverter-klima": [
+   "bc796376eea6967a42e86138.webp"
+  ],
+  "daikin-shira-eco-24000-btu-inverter-klima": [
+   "4c02c3a1d1f9d8ec61482e4b.webp"
+  ],
+  "daikin-shira-eco-7000-btu-inverter-klima": [
+   "b15223bb1b856a914199f6cf.webp"
+  ],
+  "daikin-shira-eco-9000-btu-inverter-klima": [
+   "930ae1759072458549a9cbf9.webp"
+  ],
+  "daikin-siesta-sensira-12000-btu-inverter-klima-beyaz": [
+   "949a75e4b475b74c137d96fc.webp",
+   "de23500ad14a7518cea7b532.webp"
+  ],
+  "daikin-siesta-sensira-14000-btu-inverter-klima-beyaz": [
+   "4e84c702546766b14d8f3fe3.webp",
+   "92741b7fe4e58924395d91fa.webp"
+  ],
+  "daikin-siesta-sensira-18000-btu-inverter-klima-beyaz": [
+   "6f8d4e0a05eb502fca3688fb.webp",
+   "7e6404734b7773a6a1a16ed1.webp"
+  ],
+  "daikin-siesta-sensira-24000-btu-inverter-klima-beyaz": [
+   "e2ab941b74c7bf1e1e8de604.webp",
+   "bb4fdc8c6fc2ca34a0e7f431.webp"
+  ],
+  "daikin-siesta-sensira-9000-btu-inverter-klima-beyaz": [
+   "4f47bffe0e75cd087d3edfe0.webp",
+   "ae55346a4a761fb34fb9b4bb.webp"
+  ],
+  "daikin-ururu-sarara-12000-btu-inverter-klima-beyaz": [
+   "501bf9a3bcbea64124d3c85f.webp"
+  ],
+  "daikin-ururu-sarara-18000-btuh-inverter-klima-a-beyaz": [
+   "39cdd29789b5755251ad200b.webp"
+  ],
+  "daikin-ururu-sarara-9000-btuh-inverter-klima-a-beyaz": [
+   "98f86e47f295b546fb170e00.webp"
+  ],
+  "daikin-zeta-shira-plus-12000-btu-inverter-klima": [
+   "d037e032a0c940ad180d8d06.webp"
+  ],
+  "daikin-zeta-shira-plus-14000-btu-inverter-klima": [
+   "d35637128a6557d9a17174f1.webp"
+  ],
+  "daikin-zeta-shira-plus-17000-btu-inverter-klima": [
+   "020734e98304f386a13a472a.webp"
+  ],
+  "daikin-zeta-shira-plus-21000-btu-inverter-klima": [
+   "40e1b1713d7005114f45b947.webp"
+  ],
+  "daikin-zeta-shira-plus-24000-btu-inverter-klima": [
+   "939a467b0c8ec36db033a0dc.webp"
+  ],
+  "daikin-zeta-shira-plus-7000-btu-inverter-klima": [
+   "f066ea4c52705431d4cdd8a2.webp"
+  ],
+  "daikin-zeta-shira-plus-9000-btu-inverter-klima": [
+   "e26cb7c54e4330fa8ca91239.webp"
+  ],
+  "daikin-csu-premix-24-kw-d2cnl024-6-yil-garantili-tam-yogusmali-kombi": [
+   "eb3c913a114b38b2474daf89.webp",
+   "ceb359daeec23faa8989a276.webp",
+   "1a6fd50afb3a45b06148707f.webp"
+  ],
+  "daikin-ndj-premix-24-kw-d2cnd024-6-yil-garantili-tam-yogusmali-kombi": [
+   "b300f75af8447c7a920eb402.webp"
+  ],
+  "daikin-ndj-premix-28-kw-d2cnd028-6-yil-garantili-tam-yogusmali-kombi": [
+   "4a7a9fb69402412c876966fd.webp"
+  ],
+  "daikin-ndj-premix-35-kw-d2cnd035-6-yil-garantili-tam-yogusmali-kombi": [
+   "0c435ccd7d8660ed93e70ae4.webp"
+  ],
+  "daikin-ndj-smart-premix-24-kw-d2cnd024-6-yil-garantili-tam-yogusmali-kombi": [
+   "5646f7e50eb07fad9caa24e3.webp",
+   "2ebaa60d8276f7cb4d1ae56f.webp"
+  ],
+  "daikin-ndj-smart-premix-28-kw-d2cnd024-6-yil-garantili-tam-yogusmali-kombi": [
+   "37f307ce73dc583adb423a68.webp",
+   "a5cd59a51a8212249f676f05.webp"
+  ],
+  "daikin-ndj-smart-premix-35-kw-d2cnd024-6-yil-garantili-tam-yogusmali-kombi": [
+   "2c0861fe6063ac87cc51b6db.webp",
+   "a7f1b9f0537eaa7fb5a0cb06.webp"
+  ],
+  "daikin-vz-premix-23-kw-d2cpx023-6-yil-garantili-tam-yogusmali-kombi": [
+   "243b7d3ff1db1e9abe88e707.webp"
+  ],
+  "daikin-vz-premix-26-kw-d2cpx026-6-yil-garantili-tam-yogusmali-kombi": [
+   "49bdc27513d831cffa042d95.webp",
+   "383d3725a782400fd1980e94.webp"
+  ],
+  "daikin-vz-premix-30-kw-d2cpx030-6-yil-garantili-tam-yogusmali-kombi": [
+   "8a0d652857c773ec6daffe07.webp"
+  ],
+  "daikin-vz-premix-36-kw-d2cpx036-6-yil-garantili-tam-yogusmali-kombi": [
+   "f8d2c1c73025bbfd1e2843f1.webp",
+   "79447425fb3373aed7861665.webp"
+  ],
+  "daikin-vz-premix-42-kw-d2cpx042-6-yil-garantili-tam-yogusmali-kombi": [
+   "86106c7451e5c593ff129954.webp",
+   "51c13bfd7cd97b93258f5b82.webp"
+  ],
+  "daxom-naviels-uk-dax-10edt-sicak-sulu-3-fazli-elektrikli-kombi-400v": [
+   "3fe335eee2fbaab38aa1ed6a.webp"
+  ],
+  "daxom-naviels-uk-dax-10ett-sadece-isitma-3-fazli-elektrikli-kombi-400v": [
+   "3fe335eee2fbaab38aa1ed6a.webp"
+  ],
+  "daxom-naviels-uk-dax-12ett-sadece-isitma-3-fazli-elektrikli-kombi-400v": [
+   "3fe335eee2fbaab38aa1ed6a.webp"
+  ],
+  "daxom-naviels-uk-dax-16ett-sadece-isitma-3-fazli-elektrikli-kombi-400v": [
+   "3fe335eee2fbaab38aa1ed6a.webp"
+  ],
+  "daxom-naviels-uk-dax-18ett-sadece-isitma-3-fazli-elektrikli-kombi-400v": [
+   "3fe335eee2fbaab38aa1ed6a.webp"
+  ],
+  "daxom-naviels-uk-dax-20ett-sadece-isitma-3-fazli-elektrikli-kombi-400v": [
+   "3fe335eee2fbaab38aa1ed6a.webp"
+  ],
+  "daxom-naviels-uk-dax-24ett-sadece-isitma-3-fazli-elektrikli-kombi-400v": [
+   "3fe335eee2fbaab38aa1ed6a.webp"
+  ],
+  "daxom-naviels-uk-dax-30ett-sadece-isitma-3-fazli-elektrikli-kombi-400v": [
+   "d0c6ba8ac151c54b3f7fa576.webp"
+  ],
+  "daxom-naviels-uk-dax-36ett-sadece-isitma-3-fazli-elektrikli-kombi-400v": [
+   "d0c6ba8ac151c54b3f7fa576.webp"
+  ],
+  "daxom-naviels-uk-dax-48ett-sadece-isitma-3-fazli-elektrikli-kombi-400v": [
+   "d0c6ba8ac151c54b3f7fa576.webp"
+  ],
+  "daxom-naviels-uk-dax-40ett-sadece-isitma-3-fazli-elektrikli-kombi-400v": [
+   "d0c6ba8ac151c54b3f7fa576.webp"
+  ],
+  "daxom-naviels-uk-dax-6-ebm-50-lt-boylerli-tek-fazli-elektrikli-kombi-220v": [
+   "cc218db8aa9a9749dc362ce8.webp"
+  ],
+  "daxom-naviels-uk-dax-16-ebm-50-lt-boylerli-tek-fazli-elektrikli-kombi-220v": [
+   "cc218db8aa9a9749dc362ce8.webp"
+  ],
+  "daxom-naviels-uk-dax-10-ebm-50-lt-boylerli-tek-fazli-elektrikli-kombi-220v": [
+   "cc218db8aa9a9749dc362ce8.webp"
+  ],
+  "daxom-naviels-uk-dax-18-ebt-50-lt-boylerli-3-fazli-elektrikli-kombi-400v": [
+   "cc218db8aa9a9749dc362ce8.webp"
+  ],
+  "daxom-naviels-uk-dax-20-ebt-50-lt-boylerli-3-fazli-elektrikli-kombi-400v": [
+   "cc218db8aa9a9749dc362ce8.webp"
+  ],
+  "daxom-naviels-uk-dax-24-ebt-50-lt-boylerli-3-fazli-elektrikli-kombi-400v": [
+   "cc218db8aa9a9749dc362ce8.webp"
+  ],
+  "daxom-10-kw-elektrikli-kombi-monofaze-sicak-sulu-uk-dax-10edm": [
+   "992c58f674ed90063a9fea34.webp"
+  ],
+  "daxom-12-kw-elektrikli-kombi-monofaze-sicak-sulu-uk-dax-12edm": [
+   "992c58f674ed90063a9fea34.webp"
+  ],
+  "daxom-16-kw-elektrikli-kombi-monofaze-sicak-sulu-uk-dax-16edm": [
+   "992c58f674ed90063a9fea34.webp"
+  ],
+  "daxom-18-kw-elektrikli-kombi-monofaze-sicak-sulu-uk-dax-18edm": [
+   "992c58f674ed90063a9fea34.webp"
+  ],
+  "daxom-12-kw-elektrikli-kombi-trifaze-sicak-sulu-uk-dax-12edt": [
+   "3fe335eee2fbaab38aa1ed6a.webp"
+  ],
+  "daxom-16-kw-elektrikli-kombi-trifaze-sicak-sulu-uk-dax-16edt": [
+   "3fe335eee2fbaab38aa1ed6a.webp"
+  ],
+  "daxom-18-kw-elektrikli-kombi-trifaze-sicak-sulu-uk-dax-18edt": [
+   "3fe335eee2fbaab38aa1ed6a.webp"
+  ],
+  "daxom-20-kw-elektrikli-kombi-trifaze-sicak-sulu-uk-dax-20edt": [
+   "3fe335eee2fbaab38aa1ed6a.webp"
+  ],
+  "daxom-24-kw-elektrikli-kombi-trifaze-sicak-sulu-uk-dax-24edt": [
+   "3fe335eee2fbaab38aa1ed6a.webp"
+  ],
+  "daxom-30-kw-elektrikli-kombi-trifaze-sicak-sulu-uk-dax-30edt": [
+   "d0c6ba8ac151c54b3f7fa576.webp"
+  ],
+  "daxom-36-kw-elektrikli-kombi-trifaze-sicak-sulu-uk-dax-36edt": [
+   "d0c6ba8ac151c54b3f7fa576.webp"
+  ],
+  "daxom-40-kw-elektrikli-kombi-trifaze-sicak-sulu-uk-dax-40edt": [
+   "d0c6ba8ac151c54b3f7fa576.webp"
+  ],
+  "daxom-48-kw-elektrikli-kombi-trifaze-sicak-sulu-uk-dax-48edt": [
+   "d0c6ba8ac151c54b3f7fa576.webp"
+  ],
+  "daxom-ukdax-12-stl-12-lt-fanli-hermetik-sofben": [
+   "b79aade1f3252d88820d2559.webp"
+  ],
+  "daxom-ukdax-14-stl-14-lt-fanli-hermetik-sofben": [
+   "fd6a56f607c43007dfcd2924.webp"
+  ],
+  "demirdokum-maxiair-isi-pompasi-16-kw": [
+   "d1aff7bf80c6d86f6803bf72.webp"
+  ],
+  "demirdokum-maxiair-isi-pompasi-8-kw": [
+   "d1aff7bf80c6d86f6803bf72.webp"
+  ],
+  "demirdokum-maxiair-plus-isi-pompasi-12-kw": [
+   "d1aff7bf80c6d86f6803bf72.webp"
+  ],
+  "demirdokum-maxiair-plus-isi-pompasi-14-kw": [
+   "d1aff7bf80c6d86f6803bf72.webp"
+  ],
+  "demirdokum-maxiair-plus-isi-pompasi-5-kw": [
+   "d1aff7bf80c6d86f6803bf72.webp"
+  ],
+  "demirdokum-maxiair-plus-isi-pompasi-7-kw": [
+   "d1aff7bf80c6d86f6803bf72.webp"
+  ],
+  "demirdokum-maxiair-plus-mono-isi-pompasi-12-kw": [
+   "f2b125b5120f4e1cc5119052.webp"
+  ],
+  "demirdokum-maxiair-plus-mono-isi-pompasi-15-kw": [
+   "f2b125b5120f4e1cc5119052.webp"
+  ],
+  "demirdokum-maxiair-plus-mono-isi-pompasi-5-kw": [
+   "f2b125b5120f4e1cc5119052.webp"
+  ],
+  "demirdokum-maxiair-plus-mono-isi-pompasi-8-kw": [
+   "f2b125b5120f4e1cc5119052.webp"
+  ],
+  "demirdokum-maxiair-r32-split-isi-pompasi-10-kw": [
+   "d1aff7bf80c6d86f6803bf72.webp"
+  ],
+  "demirdokum-maxiair-r32-split-isi-pompasi-12-kw": [
+   "d1aff7bf80c6d86f6803bf72.webp"
+  ],
+  "demirdokum-maxiair-r32-split-isi-pompasi-16-kw": [
+   "d1aff7bf80c6d86f6803bf72.webp"
+  ],
+  "demirdokum-maxiair-r32-split-isi-pompasi-8-kw": [
+   "d1aff7bf80c6d86f6803bf72.webp"
+  ],
+  "demir-dokum-9000-btu-klima": [
+   "ee79e6f44ad4942c40fb4bcd.webp"
+  ],
+  "demirdokum-ademix-2424-2-yil-garantili-yogusmali-kombi": [
+   "3852d810dccaf817b717fbc1.webp"
+  ],
+  "demirdokum-ademix-2828-2-yil-garantili-yogusmali-kombi": [
+   "3852d810dccaf817b717fbc1.webp"
+  ],
+  "demirdokum-isomix-p35-yogusmali-kombi": [
+   "2e7509ac453611da7aaf80ca.webp"
+  ],
+  "demirdokum-nitromix-ioni-2426-cs-2-yil-garantili-tam-yogusmali-dokunmatik-ekran-kombi": [
+   "5f0069525f2c12f8d74bb671.webp"
+  ],
+  "demirdokum-nitromix-ioni-2836-cs-2-yil-garantili-tam-yogusmali-dokunmatik-ekran-kombi": [
+   "5f0069525f2c12f8d74bb671.webp"
+  ],
+  "demirdokum-nitromix-ioni-3436-cs-2-yii-garantili-tam-yogusmali-dokunmatik-ekran-kombi": [
+   "5f0069525f2c12f8d74bb671.webp"
+  ],
+  "demirdokum-nitromix-p24-2-yil-garantili-yogusmali-kombi": [
+   "b9d87c058fea09e479554bf7.webp"
+  ],
+  "demirdokum-nitromix-p28-2-yil-garantili-yogusmali-kombi": [
+   "b9d87c058fea09e479554bf7.webp"
+  ],
+  "demirdokum-nitromix-p35-2-yil-garantili-yogusmali-kombi": [
+   "b9d87c058fea09e479554bf7.webp"
+  ],
+  "demirdokum-vintomix-1824-2-yil-garantili-yogusmali-kombi": [
+   "9beffa5094c60290f9d3bc87.webp"
+  ],
+  "demirdokum-vintomix-2428-2-yil-garantili-yogusmali-kombi": [
+   "9beffa5094c60290f9d3bc87.webp"
+  ],
+  "demirdokum-migo-connect-akilli-oda-termostati": [
+   "68b5e2176eb13bafbf47b659.webp"
+  ],
+  "demirdokum-rf6001-kablosuz-termostad": [
+   "1a0c7b07749cbac2565614e0.webp"
+  ],
+  "demirdokum-plus-6001000-panel-radyator-tip22": [
+   "71c7dd765dee653db929156b.webp"
+  ],
+  "demirdokum-plus-6001200-panel-radyator-tip22": [
+   "71c7dd765dee653db929156b.webp"
+  ],
+  "demirdokum-plus-6001300-panel-radyator-tip22": [
+   "71c7dd765dee653db929156b.webp"
+  ],
+  "demirdokum-plus-6001400-panel-radyator-tip22": [
+   "71c7dd765dee653db929156b.webp"
+  ],
+  "demirdokum-plus-6001500-panel-radyator-tip22": [
+   "71c7dd765dee653db929156b.webp"
+  ],
+  "demirdokum-plus-6001600-panel-radyator-tip22": [
+   "71c7dd765dee653db929156b.webp"
+  ],
+  "demirdokum-plus-6001800-panel-radyator-tip22": [
+   "71c7dd765dee653db929156b.webp"
+  ],
+  "demirdokum-plus-6002000-panel-radyator-tip22": [
+   "71c7dd765dee653db929156b.webp"
+  ],
+  "demirdokum-plus-600500-panel-radyator-tip22": [
+   "71c7dd765dee653db929156b.webp"
+  ],
+  "demirdokum-plus-600600-panel-radyator-tip22": [
+   "71c7dd765dee653db929156b.webp"
+  ],
+  "demirdokum-plus-600700-panel-radyator-tip22": [
+   "71c7dd765dee653db929156b.webp"
+  ],
+  "demirdokum-plus-600800-panel-radyator-tip22": [
+   "71c7dd765dee653db929156b.webp"
+  ],
+  "demirdokum-plus-600900-panel-radyator-tip22": [
+   "71c7dd765dee653db929156b.webp"
+  ],
+  "demirdokum-exabasic-oda-termostati": [
+   "93b4b547b61d44b1df701dc7.webp"
+  ],
+  "demirdokum-panel-plus-600x1100-panel-radyator-tip22": [
+   "71c7dd765dee653db929156b.webp"
+  ],
+  "demirdokum-panel-plus-600x400-panel-radyator-tip22": [
+   "71c7dd765dee653db929156b.webp"
+  ],
+  "demirdokum-kion-inverter-12000-btu-split-klima": [
+   "ee79e6f44ad4942c40fb4bcd.webp"
+  ],
+  "demirdokum-kion-inverter-18000-btu-split-klima": [
+   "ee79e6f44ad4942c40fb4bcd.webp"
+  ],
+  "demirdokum-kion-inverter-24000-btu-split-klima": [
+   "ee79e6f44ad4942c40fb4bcd.webp"
+  ],
+  "demirdokum-nitromix-ioni-35-kw-tam-yogusmali-kombi": [
+   "5f0069525f2c12f8d74bb671.webp"
+  ],
+  "demirdokum-isomix-30-35-kw-tam-yogusmali-kombi-entegre-boylerli": [
+   "2e7509ac453611da7aaf80ca.webp"
+  ],
+  "demirdokum-dt4-titanium-65-lt-basic-termosifon": [
+   "634bc67d7bc236c04176a890.webp",
+   "fdda1e8aab71fd180ab9cdd4.webp"
+  ],
+  "demirdokum-dt4-titanium-digital-65-lt-digital-termosifon": [
+   "d421e81c01fa052598ed6f31.webp",
+   "634bc67d7bc236c04176a890.webp"
+  ],
+  "demirdokum-dt4-titanium-50-lt-basic-termosifon": [
+   "634bc67d7bc236c04176a890.webp",
+   "fdda1e8aab71fd180ab9cdd4.webp"
+  ],
+  "demirdokum-dt4-titanium-digital-50-lt-digital-termosifon": [
+   "d421e81c01fa052598ed6f31.webp",
+   "634bc67d7bc236c04176a890.webp"
+  ],
+  "demirdokum-dt4-titanium-80-lt-basic-termosifon": [
+   "634bc67d7bc236c04176a890.webp",
+   "fdda1e8aab71fd180ab9cdd4.webp"
+  ],
+  "demirdokum-dt4-titanium-digital-80-lt-digital-termosifon": [
+   "d421e81c01fa052598ed6f31.webp",
+   "634bc67d7bc236c04176a890.webp"
+  ],
+  "euroterm-konfor-600x800-10-dilim-1350-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-melisa-600x1000-25-dilim-1600-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-klasik-600x800-10-dilim-1150-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-600x880-11-dilim-1265-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-600x960-12-dilim-1380-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-600x1040-13-dilim-1495-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-600x1120-14-dilim-1610-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-600x1200-15-dilim-1725-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-600x1280-16-dilim-1840-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-600x1360-17-dilim-1955-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-600x1440-18-dilim-2070-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-600x1520-19-dilim-2185-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-600x1600-20-dilim-2300-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-600x1680-21-dilim-2415-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-600x1760-22-dilim-2530-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-600x1840-23-dilim-2645-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-600x1920-24-dilim-2760-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-600x480-6-dilim-690-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-600x2000-25-dilim-2875-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-600x560-7-dilim-805-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-600x640-8-dilim-920-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-600x720-9-dilim-1035-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-konfor-600x880-11-dilim-1485-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-600x960-12-dilim-1620-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-600x1040-13-dilim-1755-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-600x1120-14-dilim-1890-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-600x1200-15-dilim-2025-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-600x1280-16-dilim-2160-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-600x1360-17-dilim-2295-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-600x1440-18-dilim-2430-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-600x1520-19-dilim-2565-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-600x1600-20-dilim-2700-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-600x1680-21-dilim-2835-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-600x1760-22-dilim-2970-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-600x1840-23-dilim-3105-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-600x1920-24-dilim-3240-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-600x2000-25-dilim-3375-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-600x480-6-dilim-810-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-600x560-7-dilim-945-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-600x640-8-dilim-1080-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-600x720-9-dilim-1215-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-melisa-600x480-12-dilim-768-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-melisa-600x560-14-dilim-896-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-melisa-600x640-16-dilim-1024-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-melisa-600x720-18-dilim-1152-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-melisa-600x800-20-dilim-1280-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-melisa-600x880-22-dilim-1408-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-melisa-600x960-24-dilim-1536-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-melisa-600x1040-26-dilim-1664-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-melisa-600x1120-28-dilim-1792-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-melisa-600x1200-30-dilim-1920-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-melisa-600x1280-32-dilim-2048-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-melisa-600x1360-34-dilim-2176-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-melisa-600x1440-36-dilim-2304-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-melisa-600x1520-38-dilim-2432-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-melisa-600x1600-40-dilim-2560-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-melisa-600x1680-42-dilim-2668-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-melisa-600x1760-44-dilim-2816-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-melisa-600x1840-46-dilim-2944-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-melisa-600x1920-48-dilim-3072-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-melisa-600x2000-50-dilim-3200-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-melisa-900x1000-25-dilim-2350-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-klasik-900x800-10-dilim-1690-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-900x880-11-dilim-1859-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-900x960-12-dilim-2028-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-900x1040-13-dilim-2197-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-900x1120-14-dilim-2366-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-900x1200-15-dilim-2535-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-900x1280-16-dilim-2704-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-900x1360-17-dilim-2873-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-900x1440-18-dilim-3042-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-900x1520-19-dilim-3211-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-900x1600-20-dilim-3380-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-900x480-6-dilim-1014-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-900x560-7-dilim-1183-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-900x640-8-dilim-1352-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-900x720-9-dilim-1521-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-konfor-900x800-10-dilim-2000-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-900x880-11-dilim-2200-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-900x960-12-dilim-2400-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-900x1040-13-dilim-2600-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-900x1120-14-dilim-2800-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-900x1200-15-dilim-3000-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-900x1280-16-dilim-3200-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-900x1360-17-dilim-3400-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-900x1440-18-dilim-3600-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-900x1520-19-dilim-3800-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-900x1600-20-dilim-4000-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-900x480-6-dilim-1200-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-900x560-7-dilim-1400-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-900x640-8-dilim-1600-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-900x720-9-dilim-1800-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-melisa-900x480-12-dilim-1128-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-melisa-900x560-14-dilim-1316-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-melisa-900x640-16-dilim-1504-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-melisa-900x720-18-dilim-1692-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-melisa-900x800-20-dilim-1880-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-melisa-900x880-22-dilim-2068-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-melisa-900x960-24-dilim-2256-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-melisa-900x1040-26-dilim-2444-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-melisa-900x1120-28-dilim-2632-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-melisa-900x1200-30-dilim-2820-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-melisa-900x1280-32-dilim-3008-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-melisa-900x1360-34-dilim-3196-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-melisa-900x1440-36-dilim-3384-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-melisa-900x1520-38-dilim-3572-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-melisa-900x1600-40-dilim-3760-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-klasik-1500x800-10-dilim-2650-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-1500x880-11-dilim-2915-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-1500x480-6-dilim-1590-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-1500x560-7-dilim-1855-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-1500x640-8-dilim-2120-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-1500x720-9-dilim-2385-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-konfor-1500x800-10-dilim-3130-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-1500x480-6-dilim-1878-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-1500x560-7-dilim-2191-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-1500x640-8-dilim-2504-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-1500x720-9-dilim-2817-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-melisa-1500x400-10-dilim-1470-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-melisa-1500x480-12-dilim-1764-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-melisa-1500x560-14-dilim-2058-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-melisa-1500x640-16-dilim-2352-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-melisa-1500x720-18-dilim-2646-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-melisa-1500x800-20-dilim-2940-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-klasik-2000x480-6-dilim-2070-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-2000x400-5-dilim-1725-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-2000x560-7-dilim-2415-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-2000x720-9-dilim-3105-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-2000x640-8-dilim-2760-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-melisa-1000x1000-25-dilim-2650-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-klasik-1000x800-10-dilim-1900-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-1000x880-11-dilim-2090-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-1000x960-12-dilim-2280-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-1000x1120-14-dilim-2660-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-1000x1040-13-dilim-2470-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-1000x1200-15-dilim-2850-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-1000x1280-16-dilim-3040-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-1000x1360-17-dilim-3230-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-1000x1440-18-dilim-3420-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-1000x1520-19-dilim-3610-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-1000x1600-20-dilim-3800-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-1000x480-6-dilim-1140-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-1000x560-7-dilim-1330-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-1000x640-8-dilim-1520-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-1000x720-9-dilim-1710-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-konfor-1000x800-10-dilim-2240-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-1000x880-11-dilim-2464-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-1000x1040-13-dilim-2912-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-1000x1120-14-dilim-3136-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-1000x960-12-dilim-2688-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-1000x1200-15-dilim-3360-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-1000x1280-16-dilim-3584-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-1000x1360-17-dilim-3808-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-1000x1440-18-dilim-4032-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-1000x1520-19-dilim-4256-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-1000x1600-20-dilim-4480-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-1000x480-6-dilim-1344-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-1000x560-7-dilim-1568-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-1000x640-8-dilim-1792-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-1000x720-9-dilim-2016-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-melisa-1000x480-12-dilim-1272-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-melisa-1000x560-14-dilim-1484-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-melisa-1000x640-16-dilim-1696-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-melisa-1000x720-18-dilim-1908-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-melisa-1000x800-20-dilim-2120-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-melisa-1000x880-22-dilim-2332-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-melisa-1000x960-24-dilim-2544-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-melisa-1000x1040-26-dilim-2756-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-melisa-1000x1120-28-dilim-2968-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-melisa-1000x1280-32-dilim-3392-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-melisa-1000x1360-34-dilim-3604-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-melisa-1000x1200-30-dilim-3180-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-melisa-1000x1440-36-dilim-3816-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-melisa-1000x1600-40-dilim-4240-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-melisa-1000x1520-38-dilim-4028-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-klasik-1250x720-9-dilim-2124-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-1250x800-10-dilim-2360-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-1250x880-11-dilim-2596-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-1250x960-12-dilim-2832-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-1250x480-6-dilim-1416-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-1250x560-7-dilim-1652-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-klasik-1250x640-8-dilim-1888-kcal-h-aluminyum-radyator": [
+   "c5763f0323f45b77fb88afb4.webp"
+  ],
+  "euroterm-konfor-1250x800-10-dilim-2790-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-1250x880-11-dilim-3069-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-1250x960-12-dilim-3348-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-1250x480-6-dilim-1674-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-1250x560-7-dilim-1953-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-1250x640-8-dilim-2232-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-1250x720-9-dilim-2511-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-melisa-1250x480-12-dilim-1572-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-melisa-1250x560-14-dilim-1834-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-melisa-1250x640-16-dilim-2096-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-melisa-1250x720-18-dilim-2358-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-melisa-1250x800-20-dilim-2620-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-melisa-1250x880-22-dilim-2882-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-melisa-1250x960-24-dilim-3144-kcal-h-aluminyum-radyator": [
+   "8392a31eb0f96700ca47abc3.webp"
+  ],
+  "euroterm-konfor-450x800-10-dilim-1090-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-450x880-11-dilim-1199-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-450x960-12-dilim-1308-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-450x1040-13-dilim-1417-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-450x1120-14-dilim-1526-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-450x1200-15-dilim-1635-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-450x1280-16-dilim-1744-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-450x1360-17-dilim-1853-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-450x1440-18-dilim-1962-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-450x1520-19-dilim-2071-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-450x1450-20-dilim-2180-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-450x1680-21-dilim-2289-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-450x1760-22-dilim-2398-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-450x1840-23-dilim-2507-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-450x1920-24-dilim-2616-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-450x2000-25-dilim-2725-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "euroterm-konfor-450x640-8-dilim-872-kcal-h-aluminyum-radyator": [
+   "a3b078703c8646cde322aea7.webp"
+  ],
+  "mars-s5-kablosuz-termostad": [
+   "4aa4ffe651c8f06415dc7f61.webp"
+  ],
+  "notarad-evra-500x1000-10-dilim-530-kcal-h-aluminyum-radyator": [
+   "8df0886422d72bcf38bdc83c.webp"
+  ],
+  "notarad-heat-500x1000-12-dilim-852-kcal-h-450-aks-aluminyum-radyator": [
+   "1aae2224a14f9262b02edd31.webp"
+  ],
+  "notarad-evra-500x600-6-dilim-318-kcal-h-aluminyum-radyator": [
+   "8df0886422d72bcf38bdc83c.webp"
+  ],
+  "notarad-evra-500x800-8-dilim-424-kcal-h-aluminyum-radyator": [
+   "8df0886422d72bcf38bdc83c.webp"
+  ],
+  "notarad-evra-500x1200-12-dilim-636-kcal-h-aluminyum-radyator": [
+   "8df0886422d72bcf38bdc83c.webp"
+  ],
+  "notarad-evra-500x1400-14-dilim-742-kcal-h-aluminyum-radyator": [
+   "8df0886422d72bcf38bdc83c.webp"
+  ],
+  "notarad-evra-500x1500-15-dilim-795-kcal-h-aluminyum-radyator": [
+   "8df0886422d72bcf38bdc83c.webp"
+  ],
+  "notarad-evra-500x1600-16-dilim-848-kcal-h-aluminyum-radyator": [
+   "8df0886422d72bcf38bdc83c.webp"
+  ],
+  "notarad-evra-500x1800-18-dilim-954-kcal-h-aluminyum-radyator": [
+   "8df0886422d72bcf38bdc83c.webp"
+  ],
+  "notarad-evra-500x2000-20-dilim-1060-kcal-h-aluminyum-radyator": [
+   "8df0886422d72bcf38bdc83c.webp"
+  ],
+  "notarad-heat-500x498-6-dilim-2112-kcal-h-450-aks-aluminyum-radyator": [
+   "1aae2224a14f9262b02edd31.webp"
+  ],
+  "notarad-heat-500x665-8-dilim-2112-kcal-h-450-aks-aluminyum-radyator": [
+   "1aae2224a14f9262b02edd31.webp"
+  ],
+  "notarad-heat-500x832-10-dilim-710-kcal-h-450-aks-aluminyum-radyator": [
+   "1aae2224a14f9262b02edd31.webp"
+  ],
+  "notarad-heat-500x1167-14-dilim-994-kcal-h-450-aks-aluminyum-radyator": [
+   "1aae2224a14f9262b02edd31.webp"
+  ],
+  "notarad-heat-500x1251-15-dilim-1065-kcal-h-450-aks-aluminyum-radyator": [
+   "1aae2224a14f9262b02edd31.webp"
+  ],
+  "notarad-heat-500x1335-16-dilim-1136-kcal-h-450-aks-aluminyum-radyator": [
+   "1aae2224a14f9262b02edd31.webp"
+  ],
+  "notarad-heat-500x1500-18-dilim-1278-kcal-h-450-aks-aluminyum-radyator": [
+   "1aae2224a14f9262b02edd31.webp"
+  ],
+  "notarad-heat-500x1670-20-dilim-1420-kcal-h-450-aks-aluminyum-radyator": [
+   "1aae2224a14f9262b02edd31.webp"
+  ],
+  "notarad-heat-500x1837-22-dilim-1562-kcal-h-450-aks-aluminyum-radyator": [
+   "1aae2224a14f9262b02edd31.webp"
+  ],
+  "notarad-heat-500x2088-25-dilim-1775-kcal-h-450-aks-aluminyum-radyator": [
+   "1aae2224a14f9262b02edd31.webp"
+  ],
+  "notarad-plus-581x1200-15-dilim-1515-kcal-h-500-aks-aluminyum-dokum-radyator": [
+   "889200ab946b0ab486f0c989.webp",
+   "8b074fa0b57e16312fb0b7c0.webp"
+  ],
+  "notarad-evra-600x1000-10-dilim-640-kcal-h-aluminyum-radyator": [
+   "8df0886422d72bcf38bdc83c.webp"
+  ],
+  "notarad-heat-600x1000-12-dilim-1008-kcal-h-550-aks-aluminyum-radyator": [
+   "1aae2224a14f9262b02edd31.webp"
+  ],
+  "notarad-plus-581x400-5-dilim-505-kcal-h-500-aks-aluminyum-dokum-radyator": [
+   "889200ab946b0ab486f0c989.webp",
+   "8b074fa0b57e16312fb0b7c0.webp"
+  ],
+  "notarad-plus-581x480-6-dilim-606-kcal-h-500-aks-aluminyum-dokum-radyator": [
+   "889200ab946b0ab486f0c989.webp",
+   "8b074fa0b57e16312fb0b7c0.webp"
+  ],
+  "notarad-plus-581x560-7-dilim-707-kcal-h-500-aks-aluminyum-dokum-radyator": [
+   "889200ab946b0ab486f0c989.webp",
+   "8b074fa0b57e16312fb0b7c0.webp"
+  ],
+  "notarad-plus-581x640-8-dilim-808-kcal-h-500-aks-aluminyum-dokum-radyator": [
+   "889200ab946b0ab486f0c989.webp",
+   "8b074fa0b57e16312fb0b7c0.webp"
+  ],
+  "notarad-plus-581x800-10-dilim-1010-kcal-h-500-aks-aluminyum-dokum-radyator": [
+   "889200ab946b0ab486f0c989.webp",
+   "8b074fa0b57e16312fb0b7c0.webp"
+  ],
+  "notarad-plus-581x960-12-dilim-1212-kcal-h-500-aks-aluminyum-dokum-radyator": [
+   "889200ab946b0ab486f0c989.webp",
+   "8b074fa0b57e16312fb0b7c0.webp"
+  ],
+  "notarad-plus-581x1360-17-dilim-1717-kcal-h-500-aks-aluminyum-dokum-radyator": [
+   "889200ab946b0ab486f0c989.webp",
+   "8b074fa0b57e16312fb0b7c0.webp"
+  ],
+  "notarad-plus-581x1520-19-dilim-1919-kcal-h-500-aks-aluminyum-dokum-radyator": [
+   "889200ab946b0ab486f0c989.webp",
+   "8b074fa0b57e16312fb0b7c0.webp"
+  ],
+  "notarad-plus-581x1760-22-dilim-2222-kcal-h-500-aks-aluminyum-dokum-radyator": [
+   "889200ab946b0ab486f0c989.webp",
+   "8b074fa0b57e16312fb0b7c0.webp"
+  ],
+  "notarad-plus-581x1600-20-dilim-2020-kcal-h-500-aks-aluminyum-dokum-radyator": [
+   "889200ab946b0ab486f0c989.webp",
+   "8b074fa0b57e16312fb0b7c0.webp"
+  ],
+  "notarad-plus-581x2000-25-dilim-2525-kcal-h-500-aks-aluminyum-dokum-radyator": [
+   "889200ab946b0ab486f0c989.webp",
+   "8b074fa0b57e16312fb0b7c0.webp"
+  ],
+  "notarad-evra-600x500-5-dilim-320-kcal-h-aluminyum-radyator": [
+   "8df0886422d72bcf38bdc83c.webp"
+  ],
+  "notarad-evra-600x600-6-dilim-384-kcal-h-aluminyum-radyator": [
+   "8df0886422d72bcf38bdc83c.webp"
+  ],
+  "notarad-evra-600x800-8-dilim-512-kcal-h-aluminyum-radyator": [
+   "8df0886422d72bcf38bdc83c.webp"
+  ],
+  "notarad-evra-600x900-9-dilim-576-kcal-h-aluminyum-radyator": [
+   "8df0886422d72bcf38bdc83c.webp"
+  ],
+  "notarad-evra-600x1200-12-dilim-768-kcal-h-aluminyum-radyator": [
+   "8df0886422d72bcf38bdc83c.webp"
+  ],
+  "notarad-evra-600x1400-14-dilim-896-kcal-h-aluminyum-radyator": [
+   "8df0886422d72bcf38bdc83c.webp"
+  ],
+  "notarad-evra-600x1500-15-dilim-960-kcal-h-aluminyum-radyator": [
+   "8df0886422d72bcf38bdc83c.webp"
+  ],
+  "notarad-evra-600x1600-16-dilim-1024-kcal-h-aluminyum-radyator": [
+   "8df0886422d72bcf38bdc83c.webp"
+  ],
+  "notarad-evra-600x1800-18-dilim-1152-kcal-h-aluminyum-radyator": [
+   "8df0886422d72bcf38bdc83c.webp"
+  ],
+  "notarad-evra-600x2000-20-dilim-1280-kcal-h-aluminyum-radyator": [
+   "8df0886422d72bcf38bdc83c.webp"
+  ],
+  "notarad-heat-600x414-5-dilim-420-kcal-h-550-aks-aluminyum-radyator": [
+   "1aae2224a14f9262b02edd31.webp"
+  ],
+  "notarad-heat-600x498-6-dilim-504-kcal-h-550-aks-aluminyum-radyator": [
+   "1aae2224a14f9262b02edd31.webp"
+  ],
+  "notarad-heat-600x665-8-dilim-672-kcal-h-550-aks-aluminyum-radyator": [
+   "1aae2224a14f9262b02edd31.webp"
+  ],
+  "notarad-heat-600x749-9-dilim-756-kcal-h-550-aks-aluminyum-radyator": [
+   "1aae2224a14f9262b02edd31.webp"
+  ],
+  "notarad-heat-600x832-10-dilim-840-kcal-h-550-aks-aluminyum-radyator": [
+   "1aae2224a14f9262b02edd31.webp"
+  ],
+  "notarad-heat-600x1167-14-dilim-1176-kcal-h-550-aks-aluminyum-radyator": [
+   "1aae2224a14f9262b02edd31.webp"
+  ],
+  "notarad-heat-600x1251-15-dilim-1260-kcal-h-550-aks-aluminyum-radyator": [
+   "1aae2224a14f9262b02edd31.webp"
+  ],
+  "notarad-heat-600x1335-16-dilim-1344-kcal-h-550-aks-aluminyum-radyator": [
+   "1aae2224a14f9262b02edd31.webp"
+  ],
+  "notarad-heat-600x1500-18-dilim-1512-kcal-h-550-aks-aluminyum-radyator": [
+   "1aae2224a14f9262b02edd31.webp"
+  ],
+  "notarad-heat-600x1670-20-dilim-1680-kcal-h-550-aks-aluminyum-radyator": [
+   "1aae2224a14f9262b02edd31.webp"
+  ],
+  "notarad-heat-600x2088-25-dilim-2100-kcal-h-550-aks-aluminyum-radyator": [
+   "1aae2224a14f9262b02edd31.webp"
+  ],
+  "notarad-evra-300x1000-10-dilim-300-kcal-h-aluminyum-radyator": [
+   "8df0886422d72bcf38bdc83c.webp"
+  ],
+  "notarad-evra-300x800-8-dilim-240-kcal-h-aluminyum-radyator": [
+   "8df0886422d72bcf38bdc83c.webp"
+  ],
+  "notarad-evra-300x1200-12-dilim-360-kcal-h-aluminyum-radyator": [
+   "8df0886422d72bcf38bdc83c.webp"
+  ],
+  "notarad-evra-300x1400-14-dilim-420-kcal-h-aluminyum-radyator": [
+   "8df0886422d72bcf38bdc83c.webp"
+  ],
+  "notarad-evra-300x1500-15-dilim-450-kcal-h-aluminyum-radyator": [
+   "8df0886422d72bcf38bdc83c.webp"
+  ],
+  "notarad-evra-300x1600-16-dilim-480-kcal-h-aluminyum-radyator": [
+   "8df0886422d72bcf38bdc83c.webp"
+  ],
+  "notarad-evra-300x1800-18-dilim-540-kcal-h-aluminyum-radyator": [
+   "8df0886422d72bcf38bdc83c.webp"
+  ],
+  "notarad-evra-300x2000-x20-dilim-600-kcal-h-aluminyum-radyator": [
+   "8df0886422d72bcf38bdc83c.webp"
+  ],
+  "notarad-evra-400x1000-10-dilim-410-kcal-h-aluminyum-radyator": [
+   "8df0886422d72bcf38bdc83c.webp"
+  ],
+  "notarad-heat-400x1000-12-dilim-696-kcal-h-350-aks-aluminyum-radyator": [
+   "1aae2224a14f9262b02edd31.webp"
+  ],
+  "notarad-evra-400x800-8-dilim-328-kcal-h-aluminyum-radyator": [
+   "8df0886422d72bcf38bdc83c.webp"
+  ],
+  "notarad-evra-400x1200-12-dilim-492-kcal-h-aluminyum-radyator": [
+   "8df0886422d72bcf38bdc83c.webp"
+  ],
+  "notarad-evra-400x1400-14-dilim-574-kcal-h-aluminyum-radyator": [
+   "8df0886422d72bcf38bdc83c.webp"
+  ],
+  "notarad-evra-400x1500-15-dilim-615-kcal-h-aluminyum-radyator": [
+   "8df0886422d72bcf38bdc83c.webp"
+  ],
+  "notarad-evra-400x1800-18-dilim-738-kcal-h-aluminyum-radyator": [
+   "8df0886422d72bcf38bdc83c.webp"
+  ],
+  "notarad-evra-400x1600-16-dilim-656-kcal-h-aluminyum-radyator": [
+   "8df0886422d72bcf38bdc83c.webp"
+  ],
+  "notarad-evra-400x2000-20-dilim-820-kcal-h-aluminyum-radyator": [
+   "8df0886422d72bcf38bdc83c.webp"
+  ],
+  "notarad-heat-400x498-6-dilim-348-kcal-h-350-aks-aluminyum-radyator": [
+   "1aae2224a14f9262b02edd31.webp"
+  ],
+  "notarad-heat-400x665-8-dilim-464-kcal-h-350-aks-aluminyum-radyator": [
+   "1aae2224a14f9262b02edd31.webp"
+  ],
+  "notarad-heat-400x832-10-dilim-580-kcal-h-350-aks-aluminyum-radyator": [
+   "1aae2224a14f9262b02edd31.webp"
+  ],
+  "notarad-heat-400x1167-14-dilim-812-kcal-h-350-aks-aluminyum-radyator": [
+   "1aae2224a14f9262b02edd31.webp"
+  ],
+  "notarad-heat-400x1251-15-dilim-870-kcal-h-350-aks-aluminyum-radyator": [
+   "1aae2224a14f9262b02edd31.webp"
+  ],
+  "notarad-heat-400x1335-16-dilim-2112-kcal-h-350-aks-aluminyum-radyator": [
+   "1aae2224a14f9262b02edd31.webp"
+  ],
+  "notarad-heat-400x1500-18-dilim-2112-kcal-h-350-aks-aluminyum-radyator": [
+   "1aae2224a14f9262b02edd31.webp"
+  ],
+  "notarad-heat-400x1670-20-dilim-1160-kcal-h-350-aks-aluminyum-radyator": [
+   "1aae2224a14f9262b02edd31.webp"
+  ],
+  "notarad-heat-400x1837-22-dilim-1276-kcal-h-350-aks-aluminyum-radyator": [
+   "1aae2224a14f9262b02edd31.webp"
+  ],
+  "notarad-heat-400x2088-25-dilim-1450-kcal-h-350-aks-aluminyum-radyator": [
+   "1aae2224a14f9262b02edd31.webp"
+  ],
+  "notarad-evra-900x1000-10-dilim-970-kcal-h-aluminyum-radyator": [
+   "8df0886422d72bcf38bdc83c.webp"
+  ],
+  "notarad-evra-900x400-4-dilim-388-kcal-h-aluminyum-radyator": [
+   "8df0886422d72bcf38bdc83c.webp"
+  ],
+  "notarad-evra-900x500-5-dilim-485-kcal-h-aluminyum-radyator": [
+   "8df0886422d72bcf38bdc83c.webp"
+  ],
+  "notarad-evra-900x600-6-dilim-582-kcal-h-aluminyum-radyator": [
+   "8df0886422d72bcf38bdc83c.webp"
+  ],
+  "notarad-evra-900x700-7-dilim-679-kcal-h-aluminyum-radyator": [
+   "8df0886422d72bcf38bdc83c.webp"
+  ],
+  "notarad-evra-900x800-8-dilim-776-kcal-h-aluminyum-radyator": [
+   "8df0886422d72bcf38bdc83c.webp"
+  ],
+  "notarad-evra-900x900-9-dilim-873-kcal-h-aluminyum-radyator": [
+   "8df0886422d72bcf38bdc83c.webp"
+  ],
+  "notarad-heat-900x414-5-dilim-620-kcal-h-850-aks-aluminyum-radyator": [
+   "1aae2224a14f9262b02edd31.webp"
+  ],
+  "notarad-heat-900x498-6-dilim-744-kcal-h-850-aks-aluminyum-radyator": [
+   "1aae2224a14f9262b02edd31.webp"
+  ],
+  "notarad-heat-900x581-7-dilim-868-kcal-h-850-aks-aluminyum-radyator": [
+   "1aae2224a14f9262b02edd31.webp"
+  ],
+  "notarad-heat-900x665-8-dilim-992-kcal-h-850-aks-aluminyum-radyator": [
+   "1aae2224a14f9262b02edd31.webp"
+  ],
+  "notarad-heat-900x749-9-dilim-1116-kcal-h-850-aks-aluminyum-radyator": [
+   "1aae2224a14f9262b02edd31.webp"
+  ],
+  "notarad-heat-900x832-10-dilim-1240-kcal-h-850-aks-aluminyum-radyator": [
+   "1aae2224a14f9262b02edd31.webp"
+  ],
+  "notarad-heat-900x916-11-dilim-1364-kcal-h-850-aks-aluminyum-radyator": [
+   "1aae2224a14f9262b02edd31.webp"
+  ],
+  "notarad-heat-1200x414-5-dilim-825-kcal-h-115-aks-aluminyum-radyator": [
+   "1aae2224a14f9262b02edd31.webp"
+  ],
+  "notarad-heat-1200x498-6-dilim-990-kcal-h-115-aks-aluminyum-radyator": [
+   "1aae2224a14f9262b02edd31.webp"
+  ],
+  "notarad-heat-1200x581-7-dilim-1155-kcal-h-115-aks-aluminyum-radyator": [
+   "1aae2224a14f9262b02edd31.webp"
+  ],
+  "notarad-heat-1200x665-8-dilim-1320-kcal-h-115-aks-aluminyum-radyator": [
+   "1aae2224a14f9262b02edd31.webp"
+  ],
+  "notarad-heat-1200x749-9-dilim-1485-kcal-h-115-aks-aluminyum-radyator": [
+   "1aae2224a14f9262b02edd31.webp"
+  ],
+  "notarad-heat-1200x832-10-dilim-1650-kcal-h-115-aks-aluminyum-radyator": [
+   "1aae2224a14f9262b02edd31.webp"
+  ],
+  "notarad-heat-1600x414-5-dilim-1080-kcal-h-155-aks-aluminyum-radyator": [
+   "1aae2224a14f9262b02edd31.webp"
+  ],
+  "notarad-heat-1600x498-6-dilim-1296-kcal-h-155-aks-aluminyum-radyator": [
+   "1aae2224a14f9262b02edd31.webp"
+  ],
+  "notarad-heat-1600x581-7-dilim-1512-kcal-h-155-aks-aluminyum-radyator": [
+   "1aae2224a14f9262b02edd31.webp"
+  ],
+  "notarad-heat-1600x665-8-dilim-1728-kcal-h-155-aks-aluminyum-radyator": [
+   "1aae2224a14f9262b02edd31.webp"
+  ],
+  "notarad-heat-1600x749-9-dilim-1944-kcal-h-155-aks-aluminyum-radyator": [
+   "1aae2224a14f9262b02edd31.webp"
+  ],
+  "notarad-heat-1600x832-10-dilim-2160-kcal-h-155-aks-aluminyum-radyator": [
+   "1aae2224a14f9262b02edd31.webp"
+  ],
+  "notarad-zen-1500x400-5-dilim-1085-kcal-h-aluminyum-radyator": [
+   "7b6f59c984db84a4b2a8ec64.webp"
+  ],
+  "notarad-zen-1500x480-6-dilim-1302-kcal-h-aluminyum-radyator": [
+   "7b6f59c984db84a4b2a8ec64.webp"
+  ],
+  "notarad-zen-1500x560-7-dilim-1519-kcal-h-aluminyum-radyator": [
+   "7b6f59c984db84a4b2a8ec64.webp"
+  ],
+  "notarad-zen-1500x640-8-dilim-1736-kcal-h-aluminyum-radyator": [
+   "7b6f59c984db84a4b2a8ec64.webp"
+  ],
+  "notarad-zen-1800x400-5-dilim-1300-kcal-h-aluminyum-radyator": [
+   "7b6f59c984db84a4b2a8ec64.webp"
+  ],
+  "notarad-zen-1800x480-6-dilim-1560-kcal-h-aluminyum-radyator": [
+   "7b6f59c984db84a4b2a8ec64.webp"
+  ],
+  "notarad-zen-1800x560-7-dilim-1820-kcal-h-aluminyum-radyator": [
+   "7b6f59c984db84a4b2a8ec64.webp"
+  ],
+  "notarad-zen-1800x640-8-dilim-2080-kcal-h-aluminyum-radyator": [
+   "7b6f59c984db84a4b2a8ec64.webp"
+  ],
+  "notarad-zen-2000x400-5-dilim-1440-kcal-h-aluminyum-radyator": [
+   "7b6f59c984db84a4b2a8ec64.webp"
+  ],
+  "notarad-zen-2000x480-6-dilim-1728-kcal-h-aluminyum-radyator": [
+   "7b6f59c984db84a4b2a8ec64.webp"
+  ],
+  "notarad-zen-2000x560-7-dilim-2016-kcal-h-aluminyum-radyator": [
+   "7b6f59c984db84a4b2a8ec64.webp"
+  ],
+  "notarad-zen-2000x640-8-dilim-2304-kcal-h-aluminyum-radyator": [
+   "7b6f59c984db84a4b2a8ec64.webp"
+  ],
+  "protherm-lynx-condens-24-kw-2-yil-garantili-tam-yogusmali-kombi": [
+   "b6f088997185f23c1558ac97.webp"
+  ],
+  "protherm-lynx-condens-28-kw-2-yil-garantili-tam-yogusmali-kombi": [
+   "b6f088997185f23c1558ac97.webp"
+  ],
+  "protherm-lynx-kablosuz-on-off-oda-termostati": [
+   "62097c0fd9afecc732f8d0a7.webp"
+  ],
+  "termoteknik-logic-26-35-kw-tam-yogusmali-kombi": [
+   "d1c0cb66dec3eced289f3091.webp",
+   "a4e11efe88ea402e091feba8.webp"
+  ],
+  "termoteknik-logic-31-35-kw-tam-yogusmali-kombi": [
+   "d1c0cb66dec3eced289f3091.webp",
+   "a4e11efe88ea402e091feba8.webp"
+  ],
+  "vaillant-arotherm-intro-isi-pompasi-10-kw": [
+   "54f3dc631934ec77ce9719df.webp"
+  ],
+  "vaillant-arotherm-intro-isi-pompasi-12-kw": [
+   "54f3dc631934ec77ce9719df.webp"
+  ],
+  "vaillant-arotherm-intro-isi-pompasi-16-kw": [
+   "54f3dc631934ec77ce9719df.webp"
+  ],
+  "vaillant-arotherm-intro-isi-pompasi-8-kw": [
+   "54f3dc631934ec77ce9719df.webp"
+  ],
+  "vaillant-arotherm-plus-isi-pompasi-vwl-456-12-kw": [
+   "cb3a3e9801e4c61a03f6c3df.webp"
+  ],
+  "vaillant-arotherm-plus-isi-pompasi-vwl-456-15-kw": [
+   "cb3a3e9801e4c61a03f6c3df.webp"
+  ],
+  "vaillant-arotherm-plus-isi-pompasi-vwl-456-4-kw": [
+   "cb3a3e9801e4c61a03f6c3df.webp"
+  ],
+  "vaillant-arotherm-plus-isi-pompasi-vwl-456-8-kw": [
+   "cb3a3e9801e4c61a03f6c3df.webp"
+  ],
+  "vaillant-arotherm-plus-monoblok-isi-pompasi-12-kw": [
+   "cb3a3e9801e4c61a03f6c3df.webp"
+  ],
+  "vaillant-arotherm-plus-monoblok-isi-pompasi-15-kw": [
+   "cb3a3e9801e4c61a03f6c3df.webp"
+  ],
+  "vaillant-arotherm-plus-monoblok-isi-pompasi-4-kw": [
+   "cb3a3e9801e4c61a03f6c3df.webp"
+  ],
+  "vaillant-arotherm-plus-monoblok-isi-pompasi-5-kw": [
+   "cb3a3e9801e4c61a03f6c3df.webp"
+  ],
+  "vaillant-arotherm-plus-monoblok-isi-pompasi-8-kw": [
+   "cb3a3e9801e4c61a03f6c3df.webp"
+  ],
+  "vaillant-arotherm-plus-vwl-isi-pompasi-456-5-kw": [
+   "cb3a3e9801e4c61a03f6c3df.webp"
+  ],
+  "vaillant-arotherm-split-isi-pompasi-14-kw": [
+   "a6f0264a0a1de9b104fcb38d.webp"
+  ],
+  "vaillant-arotherm-split-isi-pompasi-16-kw": [
+   "a6f0264a0a1de9b104fcb38d.webp"
+  ],
+  "vaillant-26-cs1-5-ecotec-plus-vuw-tam-yogusmali-kombi": [
+   "77ae82046159340721788fc7.webp"
+  ],
+  "vaillant-32-cs1-5-ecotec-plus-vuw-2-yil-garantili-tam-yogusmali-kombi": [
+   "77ae82046159340721788fc7.webp"
+  ],
+  "vaillant-36-cs1-5-ecotec-plus-vuw-2-yil-garantili-tam-yogusmali-kombi": [
+   "77ae82046159340721788fc7.webp"
+  ],
+  "vaillant-40cs1-5-ecotec-plus-vuw-2-yil-garantili-tam-yogusmali-kombi": [
+   "77ae82046159340721788fc7.webp"
+  ],
+  "vaillant-ecotec-intro-18-24-model-2-yil-garantili-yogusmali-kombi": [
+   "891dd38c868cd559b3a25a0f.webp"
+  ],
+  "vaillant-ecotec-pure-2367-2-20-kw-2-yil-garantili-tam-yogusmali-kombi": [
+   "0b3f8e8c1d9593bb84b7fe22.webp"
+  ],
+  "vaillant-ecotec-pure-2867-2-2-yil-garantili-tam-yogusmali-kombi": [
+   "0b3f8e8c1d9593bb84b7fe22.webp"
+  ],
+  "vaillant-vrt36f-kablosuz-termostad": [
+   "abcc1f368b24d6ba5bcb7488.webp"
+  ],
+  "vaillant-600400-panel-radyator-tip22": [
+   "3434c971d58412184541fb41.webp"
+  ],
+  "vaillant-600900-panel-radyator-tip22": [
+   "3434c971d58412184541fb41.webp"
+  ],
+  "vaillant-turbomag-1251-12-lt-hermatik-dogalgazli-sofben": [
+   "1a769e3a7326a23059d699bc.webp"
+  ],
+  "vaillant-600x500-panel-radyator-tip22": [
+   "3434c971d58412184541fb41.webp"
+  ],
+  "vaillant-600x600-panel-radyator-tip22": [
+   "3434c971d58412184541fb41.webp"
+  ],
+  "vaillant-600x800-panel-radyator-tip22": [
+   "3434c971d58412184541fb41.webp"
+  ],
+  "vaillant-600x700-panel-radyator-tip22": [
+   "3434c971d58412184541fb41.webp"
+  ],
+  "vaillant-600x1000-panel-radyator-tip22": [
+   "3434c971d58412184541fb41.webp"
+  ],
+  "vaillant-600x1100-panel-radyator-tip22": [
+   "3434c971d58412184541fb41.webp"
+  ],
+  "vaillant-600x1200-panel-radyator-tip22": [
+   "3434c971d58412184541fb41.webp"
+  ],
+  "vaillant-600x1300-panel-radyator-tip22": [
+   "3434c971d58412184541fb41.webp"
+  ],
+  "vaillant-600x1400-panel-radyator-tip22": [
+   "3434c971d58412184541fb41.webp"
+  ],
+  "vaillant-600x1500-panel-radyator-tip22": [
+   "3434c971d58412184541fb41.webp"
+  ],
+  "vaillant-600x1600-panel-radyator-tip22": [
+   "3434c971d58412184541fb41.webp"
+  ],
+  "vaillant-600x1800-panel-radyator-tip22": [
+   "3434c971d58412184541fb41.webp"
+  ],
+  "vaillant-600x2000-panel-radyator-tip22": [
+   "3434c971d58412184541fb41.webp"
+  ],
+  "vaillant-600x800-21-tip-pkp-panel-radyator-tip21": [
+   "3434c971d58412184541fb41.webp"
+  ],
+  "vaillant-600x400-21-tip-pkp-panel-radyator-tip21": [
+   "3434c971d58412184541fb41.webp"
+  ],
+  "vaillant-600x1000-21-tip-pkp-panel-radyator-tip21": [
+   "3434c971d58412184541fb41.webp"
+  ],
+  "vaillant-600x500-21-tip-pkp-panel-radyator-tip21": [
+   "3434c971d58412184541fb41.webp"
+  ],
+  "vaillant-600x600-21-tip-pkp-panel-radyator-tip21": [
+   "3434c971d58412184541fb41.webp"
+  ],
+  "vaillant-600x700-21-tip-pkp-panel-radyator-tip21": [
+   "3434c971d58412184541fb41.webp"
+  ],
+  "vaillant-600x900-21-tip-pkp-panel-radyator-tip21": [
+   "3434c971d58412184541fb41.webp"
+  ],
+  "vaillant-600x1100-21-tip-pkp-panel-radyator-tip21": [
+   "3434c971d58412184541fb41.webp"
+  ],
+  "vaillant-600x1200-21-tip-pkp-panel-radyator-tip21": [
+   "3434c971d58412184541fb41.webp"
+  ],
+  "vaillant-600x1300-21-tip-pkp-panel-radyator-tip21": [
+   "3434c971d58412184541fb41.webp"
+  ],
+  "vaillant-600x1400-21-tip-pkp-panel-radyator-tip21": [
+   "3434c971d58412184541fb41.webp"
+  ],
+  "vaillant-600x1500-21-tip-pkp-panel-radyator-tip21": [
+   "3434c971d58412184541fb41.webp"
+  ],
+  "vaillant-600x1600-21-tip-pkp-panel-radyator-tip21": [
+   "3434c971d58412184541fb41.webp"
+  ],
+  "vaillant-600x1800-21-tip-pkp-panel-radyator-tip21": [
+   "3434c971d58412184541fb41.webp"
+  ],
+  "vaillant-600x2000-21-tip-pkp-panel-radyator-tip21": [
+   "3434c971d58412184541fb41.webp"
+  ],
+  "vaillant-500x600-21-tip-pkp-panel-radyator-tip21": [
+   "3434c971d58412184541fb41.webp"
+  ],
+  "vaillant-500x700-21-tip-pkp-panel-radyator-tip21": [
+   "3434c971d58412184541fb41.webp"
+  ],
+  "vaillant-500x800-21-tip-pkp-panel-radyator-tip21": [
+   "3434c971d58412184541fb41.webp"
+  ],
+  "vaillant-500x900-21-tip-pkp-panel-radyator-tip21": [
+   "3434c971d58412184541fb41.webp"
+  ],
+  "vaillant-500x1000-21-tip-pkp-panel-radyator-tip21": [
+   "3434c971d58412184541fb41.webp"
+  ],
+  "vaillant-500x1100-21-tip-pkp-panel-radyator-tip21": [
+   "3434c971d58412184541fb41.webp"
+  ],
+  "vaillant-500x1200-21-tip-pkp-panel-radyator-tip21": [
+   "3434c971d58412184541fb41.webp"
+  ],
+  "vaillant-500x500-21-tip-pkp-panel-radyator-tip21": [
+   "3434c971d58412184541fb41.webp"
+  ],
+  "vaillant-500x1300-21-tip-pkp-panel-radyator-tip21": [
+   "3434c971d58412184541fb41.webp"
+  ],
+  "vaillant-500x1400-21-tip-pkp-panel-radyator-tip21": [
+   "3434c971d58412184541fb41.webp"
+  ],
+  "vaillant-500x1500-21-tip-pkp-panel-radyator-tip21": [
+   "3434c971d58412184541fb41.webp"
+  ],
+  "vaillant-500x2000-21-tip-pkp-panel-radyator-tip21": [
+   "3434c971d58412184541fb41.webp"
+  ],
+  "vaillant-500x1800-21-tip-pkp-panel-radyator-tip21": [
+   "3434c971d58412184541fb41.webp"
+  ],
+  "vaillant-500x1600-21-tip-pkp-panel-radyator-tip21": [
+   "3434c971d58412184541fb41.webp"
+  ],
+  "vaillant-500x2400-21-tip-pkp-panel-radyator-tip21": [
+   "3434c971d58412184541fb41.webp"
+  ],
+  "vaillant-500x2200-21-tip-pkp-panel-radyator-tip21": [
+   "3434c971d58412184541fb41.webp"
+  ],
+  "vaillant-500x2600-21-tip-pkp-panel-radyator-tip21": [
+   "3434c971d58412184541fb41.webp"
+  ],
+  "vaillant-900x400-21-tip-pkp-panel-radyator-tip21": [
+   "3434c971d58412184541fb41.webp"
+  ],
+  "vaillant-500x3000-21-tip-pkp-panel-radyator-tip21": [
+   "3434c971d58412184541fb41.webp"
+  ],
+  "vaillant-500x2800-21-tip-pkp-panel-radyator-tip21": [
+   "3434c971d58412184541fb41.webp"
+  ],
+  "vaillant-climavair-pro-9000-btu-split-klima": [
+   "7f77ffb6b2eec0ad4c64aca7.webp"
+  ],
+  "vaillant-climavair-pro-12000-btu-split-klima": [
+   "7f77ffb6b2eec0ad4c64aca7.webp"
+  ],
+  "vaillant-climavair-pro-18000-btu-split-klima": [
+   "7f77ffb6b2eec0ad4c64aca7.webp"
+  ],
+  "vaillant-climavair-pro-24000-btu-split-klima": [
+   "7f77ffb6b2eec0ad4c64aca7.webp"
+  ],
+  "vaillant-arotherm-vwl-125-5-as-230v-split-isi-pompasi-dis-unite-15kw-monofaze": [
+   "a6f0264a0a1de9b104fcb38d.webp"
+  ],
+  "vaillant-ecotec-intro-24-24-kw-tam-yogusmali-kombi": [
+   "891dd38c868cd559b3a25a0f.webp"
+  ],
+  "vaillant-vui-35cs-1-5-ecotec-plus-tam-yogusmali-kombi-boyler-cikisli": [
+   "77ae82046159340721788fc7.webp"
+  ],
+  "vaillant-vui-36cs-1-5-ecotec-plus-tam-yogusmali-kombi-20-l-boylerli": [
+   "77ae82046159340721788fc7.webp"
+  ],
+  "vaillant-vui-40cs-1-5-ecotec-plus-tam-yogusmali-kombi-20-l-boylerli": [
+   "77ae82046159340721788fc7.webp"
+  ],
+  "vaillant-ved-pro-18-8-18-kw-trifaze-8-lt-dk-elektikli-sofben": [
+   "bd6cc6986085d11e7b9175f8.webp"
+  ],
+  "vaillant-ved-pro-21-8-21-kw-trifaze-8-lt-dk-elektikli-sofben": [
+   "bd6cc6986085d11e7b9175f8.webp"
+  ],
+  "vaillant-ved-e-18-8-18-kw-trifaze-8-lt-dk-elektikli-sofben": [
+   "c1e1915c26b6e68997fbd864.webp"
+  ],
+  "vaillant-turbomag-145-1-14-lt-fanli-hermetik-sofben": [
+   "1a769e3a7326a23059d699bc.webp"
+  ],
+  "viessmann-12000-btu-pro-split-inverter-klima": [
+   "972b2d10d19611d397c7b200.webp"
+  ],
+  "viessmann-18000-btu-pro-split-inverter-klima": [
+   "972b2d10d19611d397c7b200.webp"
+  ],
+  "viessmann-24000-btu-pro-split-inverter-klima": [
+   "972b2d10d19611d397c7b200.webp"
+  ],
+  "viessmann-9000-btu-pro-split-inverter-klima": [
+   "972b2d10d19611d397c7b200.webp"
+  ],
+  "viessmann-trend-12000-btu-split-klima": [
+   "cb9de5ef65db0762cf8f4cec.webp"
+  ],
+  "viessmann-trend-18000-btu-split-klima": [
+   "cb9de5ef65db0762cf8f4cec.webp"
+  ],
+  "viessmann-trend-24000-btu-split-klima": [
+   "cb9de5ef65db0762cf8f4cec.webp"
+  ],
+  "viessmann-trend-9000-btu-split-klima": [
+   "cb9de5ef65db0762cf8f4cec.webp"
+  ],
+  "viessmann-vitodens-classic-25-kw-tam-yogusmali-kombi": [
+   "209c7b61e07a5af8ea0d553e.webp"
+  ],
+  "viessmann-vitodens-111-f-32-kw-tam-yogusmali-kombi-100-l-boyler": [
+   "1d0e4a628c5d96464292e1b2.webp"
+  ],
+  "viessmann-vitodens-111-w-32-kw-tam-yogusmali-kombi-46-l-boyler": [
+   "7231128636ae659c78dd921c.webp"
+  ]
+ },
+ "placeholder": [
+  "eca-monoblok-empa110a100-11-kw-isi-pompasi",
+  "demir-dokum-12000-btu-klima",
+  "bosch-condens-7000i-24kw-tam-yogusmali-siyah-3-yil-garantili-kombi",
+  "daikin-icon-premix-2024-kw-d2cbp020-6-yil-garantili-tam-yogusmali-kombi",
+  "demirdokum-atromix-24-kw-2-yil-garantili-tam-yogusmali-kombi",
+  "eca-onoff-poly100-kablosuz-termostad",
+  "mars-s15-kablosuz-termostad",
+  "arissa-hm-25-120-180-sirkulasyon-pompasi",
+  "arissa-hm-25-125-180-sirkulasyon-pompasi",
+  "arissa-hm-25-70-130-sirkulasyon-pompasi-2",
+  "arissa-hm-25-70-180-sirkulasyon-pompasi",
+  "arissa-hm-25-90-180-sirkulasyon-pompasi",
+  "arissa-hm-32-120-180-sirkulasyon-pompasi-2",
+  "arissa-hm-32-125-180-sirkulasyon-pompasi",
+  "arissa-hm-40-120-250-sirkulasyon-pompasi",
+  "arissa-hmd-50-180-200-sirkulasyon-pompasi"
+ ]
+}

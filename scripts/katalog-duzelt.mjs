@@ -23,6 +23,9 @@
 // 13) Satış fiyatlarını piyasa fiyatlarının (birden çok Türk satıcının medyanı; tek kaynak varsa o) ~%0,5 altına çeker; üstü çizili fiyatı
 //     olan ürünlerde old_price'ı da günceller (fiyat-3.json: slug → { price, old_price }). 12. adımdan sonra çalışır,
 //     eski değerler UPLOAD_DIR/.fiyat-3.json dosyasına yedeklenir.
+// 14) Ürün görsellerini markaların resmi sitelerindeki görsellerle değiştirir (marka-gorsel.json: slug → dosyalar,
+//     marka-gorselleri/). Resmi kaynak bulunamayan ve görseli başka bir satıcıya ait olan ürünlere "görsel hazırlanıyor"
+//     yer tutucusu konur (yer-tutucu listesi). 12. adımdan sonra çalışır; eski değerler UPLOAD_DIR/.marka-gorsel-1.json'a yedeklenir.
 // Her adım başarıyla bitince UPLOAD_DIR'e kendi işaret dosyasını bırakır ve bir daha çalışmaz;
 // böylece sonradan admin panelinden yapılan değişikliklere dokunulmaz.
 import { createHash, randomBytes } from "node:crypto";
@@ -44,6 +47,7 @@ const MARK_PRICE = ".fiyat-indirim-1";
 const MARK_OLD = ".eski-fiyat-1";
 const MARK_EYKOM = ".eykom-1";
 const MARK_MARKET = ".fiyat-3";
+const MARK_BRAND = ".marka-gorsel-1";
 const exists = (p) => access(p).then(() => true, () => false);
 const bundledName = (url) => createHash("sha1").update(url).digest("hex").slice(0, 24) + ".webp";
 
@@ -74,7 +78,8 @@ export async function run() {
   const doOld = !(await exists(path.join(uploadDir, MARK_OLD)));
   const doEykom = !(await exists(path.join(uploadDir, MARK_EYKOM))) && (await exists(path.join(HERE, "eykom.json")));
   const doMarket = !(await exists(path.join(uploadDir, MARK_MARKET))) && (await exists(path.join(HERE, "fiyat-3.json")));
-  if (!doCatalog && !doStock && !doGallery && !doClean && !doText && !doSku && !doBg && !doBgBack && !doPrice && !doOld && !doEykom && !doMarket) return;
+  const doBrand = !(await exists(path.join(uploadDir, MARK_BRAND))) && (await exists(path.join(HERE, "marka-gorsel.json")));
+  if (!doCatalog && !doStock && !doGallery && !doClean && !doText && !doSku && !doBg && !doBgBack && !doPrice && !doOld && !doEykom && !doMarket && !doBrand) return;
 
   const c = await mysql.createConnection({
     host: process.env.DB_HOST,
@@ -103,6 +108,7 @@ export async function run() {
     if (doOld) await oldPriceFix(c, uploadDir);
     if (doEykom) await eykom(c, uploadDir);
     if (doMarket) await marketPrices(c, uploadDir);
+    if (doBrand) await brandImages(c, uploadDir);
   } finally {
     await c.end();
   }
@@ -448,6 +454,35 @@ async function marketPrices(c, uploadDir) {
   await writeFile(path.join(uploadDir, `${MARK_MARKET}.json`), JSON.stringify(backup));
   console.log(`[katalog] piyasa fiyatı: ${Object.keys(backup).length}/${slugs.length} ürün güncellendi (${down} düştü, ${up} arttı, ${same} zaten aynı, ${slugs.length - rows.length} bulunamadı)`);
   await writeFile(path.join(uploadDir, MARK_MARKET), new Date().toISOString());
+}
+
+// 14) Marka görselleri: marka-gorsel.json'daki her ürün (slug ile bulunur) resmi marka görsellerini alır
+// (ilk dosya kapak, kalanlar galeri). yer-tutucu listesindeki ürünlere tek görsel olarak yer tutucu konur.
+// Eski değerler slug → { id, image_url, images } olarak UPLOAD_DIR/.marka-gorsel-1.json dosyasına yedeklenir.
+async function brandImages(c, uploadDir) {
+  const data = JSON.parse(await readFile(path.join(HERE, "marka-gorsel.json"), "utf8"));
+  const src = path.join(HERE, "marka-gorselleri");
+  const put = async (f) => {
+    const to = path.join(uploadDir, f);
+    if (!(await exists(to))) await copyFile(path.join(src, f), to);
+    return `/uploads/${f}`;
+  };
+  const jobs = [...Object.entries(data.images).map(([slug, files]) => [slug, files]),
+    ...data.placeholder.map((slug) => [slug, [data.placeholderFile]])];
+  const backup = {};
+  let changed = 0, missing = 0;
+  for (const [slug, files] of jobs) {
+    const [rows] = await c.query("SELECT id, image_url, images FROM products WHERE slug = ?", [slug]);
+    if (!rows[0]) { missing++; continue; }
+    backup[slug] = rows[0];
+    const urls = [];
+    for (const f of files) urls.push(await put(f));
+    await c.query("UPDATE products SET image_url = ?, images = ? WHERE id = ?", [urls[0], JSON.stringify(urls.slice(1)), rows[0].id]);
+    changed++;
+  }
+  await writeFile(path.join(uploadDir, `${MARK_BRAND}.json`), JSON.stringify(backup));
+  console.log(`[katalog] marka görselleri: ${changed} ürün güncellendi (${data.placeholder.length} yer tutucu, ${missing} bulunamadı)`);
+  await writeFile(path.join(uploadDir, MARK_BRAND), new Date().toISOString());
 }
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {

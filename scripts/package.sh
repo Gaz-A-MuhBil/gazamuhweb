@@ -25,6 +25,9 @@ cp data/eykom.json "$ST/eykom.json"
 cp -R data/eykom-gorselleri "$ST/eykom-gorselleri"
 # piyasa fiyatları (katalog-duzelt.mjs 13. adım)
 cp data/fiyat-3.json "$ST/fiyat-3.json"
+# marka görselleri (katalog-duzelt.mjs 14. adım)
+cp data/marka-gorsel.json "$ST/marka-gorsel.json"
+cp -R data/marka-gorselleri "$ST/marka-gorselleri"
 cat > "$ST/app.js" <<'JS'
 // Başlangıç dosyası: .env dosyasını okuyup Next.js sunucusunu çalıştırır.
 const path = require("path");
