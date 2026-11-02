@@ -26,6 +26,9 @@
 // 14) Ürün görsellerini markaların resmi sitelerindeki görsellerle değiştirir (marka-gorsel.json: slug → dosyalar,
 //     marka-gorselleri/). Resmi kaynak bulunamayan ve görseli başka bir satıcıya ait olan ürünlere "görsel hazırlanıyor"
 //     yer tutucusu konur (yer-tutucu listesi). 12. adımdan sonra çalışır; eski değerler UPLOAD_DIR/.marka-gorsel-1.json'a yedeklenir.
+// 15) Tüm aktif ürünlerin satış fiyatını ~%2 daha düşürür (40.000 → 39.200); yeni fiyat 5.000 TL ve üzeri 50'ye, 1.000 TL ve
+//     üzeri 10'a, altı 5'e yuvarlanır. Üstü çizili fiyat (old_price) olduğu gibi kalır. 13. adımdan sonra çalışır;
+//     eski fiyatlar UPLOAD_DIR/.fiyat-4.json dosyasına yedeklenir.
 // Her adım başarıyla bitince UPLOAD_DIR'e kendi işaret dosyasını bırakır ve bir daha çalışmaz;
 // böylece sonradan admin panelinden yapılan değişikliklere dokunulmaz.
 import { createHash, randomBytes } from "node:crypto";
@@ -48,6 +51,7 @@ const MARK_OLD = ".eski-fiyat-1";
 const MARK_EYKOM = ".eykom-1";
 const MARK_MARKET = ".fiyat-3";
 const MARK_BRAND = ".marka-gorsel-1";
+const MARK_CUT2 = ".fiyat-4";
 const exists = (p) => access(p).then(() => true, () => false);
 const bundledName = (url) => createHash("sha1").update(url).digest("hex").slice(0, 24) + ".webp";
 
@@ -79,7 +83,8 @@ export async function run() {
   const doEykom = !(await exists(path.join(uploadDir, MARK_EYKOM))) && (await exists(path.join(HERE, "eykom.json")));
   const doMarket = !(await exists(path.join(uploadDir, MARK_MARKET))) && (await exists(path.join(HERE, "fiyat-3.json")));
   const doBrand = !(await exists(path.join(uploadDir, MARK_BRAND))) && (await exists(path.join(HERE, "marka-gorsel.json")));
-  if (!doCatalog && !doStock && !doGallery && !doClean && !doText && !doSku && !doBg && !doBgBack && !doPrice && !doOld && !doEykom && !doMarket && !doBrand) return;
+  const doCut2 = !(await exists(path.join(uploadDir, MARK_CUT2)));
+  if (!doCatalog && !doStock && !doGallery && !doClean && !doText && !doSku && !doBg && !doBgBack && !doPrice && !doOld && !doEykom && !doMarket && !doBrand && !doCut2) return;
 
   const c = await mysql.createConnection({
     host: process.env.DB_HOST,
@@ -109,6 +114,7 @@ export async function run() {
     if (doEykom) await eykom(c, uploadDir);
     if (doMarket) await marketPrices(c, uploadDir);
     if (doBrand) await brandImages(c, uploadDir);
+    if (doCut2) await priceCut2(c, uploadDir);
   } finally {
     await c.end();
   }
@@ -488,4 +494,28 @@ async function brandImages(c, uploadDir) {
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
   try { process.loadEnvFile(path.join(HERE, ".env")); } catch {}
   await run();
+}
+
+// 15) İkinci fiyat indirimi: satış fiyatı × 0,98, fiyata göre 50/10/5'e yuvarlanır; yuvarlama fiyatı düşürmüyorsa bir adım aşağı.
+export function cutPrice2(price) {
+  const p = Number(price);
+  const step = p >= 5000 ? 50 : p >= 1000 ? 10 : 5;
+  const n = Math.round((p * 0.98) / step) * step;
+  return n < p ? n : Math.max(step, p - step);
+}
+
+async function priceCut2(c, uploadDir) {
+  const [rows] = await c.query("SELECT id, price FROM products WHERE active = 1 AND price > 0");
+  const backup = {};
+  let total = 0;
+  for (const r of rows) {
+    const next = cutPrice2(r.price);
+    backup[r.id] = Number(r.price);
+    total += Number(r.price) - next;
+    await c.query("UPDATE products SET price = ? WHERE id = ?", [next, r.id]);
+  }
+  await writeFile(path.join(uploadDir, `${MARK_CUT2}.json`), JSON.stringify(backup));
+  const n = Object.keys(backup).length;
+  console.log(`[katalog] 2. fiyat indirimi: ${n} ürün (ortalama ${n ? Math.round(total / n) : 0} TL)`);
+  await writeFile(path.join(uploadDir, MARK_CUT2), new Date().toISOString());
 }
