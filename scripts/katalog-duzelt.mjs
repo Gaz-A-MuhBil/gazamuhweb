@@ -34,6 +34,9 @@
 //     kimlikleri UPLOAD_DIR/.kazan-1.json dosyasına yazılır.
 // 17) Oda termostatı fiyatlarını artırır: 3.000 TL altı +2.000, 7.000 TL'ye kadar +2.500, üstü +3.000 TL. Üstü çizili fiyatı
 //     olanlarda old_price da aynı tutarda artar. Eski değerler UPLOAD_DIR/.termostat-fiyat-1.json dosyasına yedeklenir.
+// 18) Yalnızca kombi fiyatları piyasanın ~%4 altına (20.000 → 19.200): fiyat-kombi.json (slug → { from, price }).
+//     Fiyatı "from" değerinden farklı olan ürün (admin panelinden elle değiştirilmiş) atlanır. Diğer kategorilere dokunulmaz.
+//     Eski fiyatlar UPLOAD_DIR/.fiyat-kombi-1.json dosyasına yedeklenir.
 // Her adım başarıyla bitince UPLOAD_DIR'e kendi işaret dosyasını bırakır ve bir daha çalışmaz;
 // böylece sonradan admin panelinden yapılan değişikliklere dokunulmaz.
 import { createHash, randomBytes } from "node:crypto";
@@ -59,6 +62,7 @@ const MARK_BRAND = ".marka-gorsel-1";
 const MARK_CUT2 = ".fiyat-4";
 const MARK_KAZAN = ".kazan-1";
 const MARK_THERMO = ".termostat-fiyat-1";
+const MARK_KOMBI = ".fiyat-kombi-1";
 const exists = (p) => access(p).then(() => true, () => false);
 const bundledName = (url) => createHash("sha1").update(url).digest("hex").slice(0, 24) + ".webp";
 
@@ -91,9 +95,10 @@ export async function run() {
   const doMarket = !(await exists(path.join(uploadDir, MARK_MARKET))) && (await exists(path.join(HERE, "fiyat-3.json")));
   const doBrand = !(await exists(path.join(uploadDir, MARK_BRAND))) && (await exists(path.join(HERE, "marka-gorsel.json")));
   const doCut2 = !(await exists(path.join(uploadDir, MARK_CUT2)));
+  const doKombi = !(await exists(path.join(uploadDir, MARK_KOMBI))) && (await exists(path.join(HERE, "fiyat-kombi.json")));
   const doThermo = !(await exists(path.join(uploadDir, MARK_THERMO)));
   const doKazan = !(await exists(path.join(uploadDir, MARK_KAZAN))) && (await exists(path.join(HERE, "kazan.json")));
-  if (!doCatalog && !doStock && !doGallery && !doClean && !doText && !doSku && !doBg && !doBgBack && !doPrice && !doOld && !doEykom && !doMarket && !doBrand && !doCut2 && !doKazan && !doThermo) return;
+  if (!doCatalog && !doStock && !doGallery && !doClean && !doText && !doSku && !doBg && !doBgBack && !doPrice && !doOld && !doEykom && !doMarket && !doBrand && !doCut2 && !doKazan && !doThermo && !doKombi) return;
 
   const c = await mysql.createConnection({
     host: process.env.DB_HOST,
@@ -126,6 +131,7 @@ export async function run() {
     if (doCut2) await priceCut2(c, uploadDir);
     if (doKazan) await addKazan(c, uploadDir);
     if (doThermo) await thermostatPrices(c, uploadDir);
+    if (doKombi) await kombiPrices(c, uploadDir);
   } finally {
     await c.end();
   }
@@ -573,4 +579,22 @@ async function thermostatPrices(c, uploadDir) {
   await writeFile(path.join(uploadDir, `${MARK_THERMO}.json`), JSON.stringify(backup));
   console.log(`[katalog] oda termostatı: ${rows.length} ürünün fiyatı artırıldı`);
   await writeFile(path.join(uploadDir, MARK_THERMO), new Date().toISOString());
+}
+
+// 18) Kombi fiyatları (yalnızca Kombi kategorisi)
+async function kombiPrices(c, uploadDir) {
+  const data = JSON.parse(await readFile(path.join(HERE, "fiyat-kombi.json"), "utf8"));
+  const slugs = Object.keys(data);
+  const [rows] = slugs.length ? await c.query("SELECT id, slug, price FROM products WHERE category = 'Kombi' AND slug IN (?)", [slugs]) : [[]];
+  const backup = {};
+  let skipped = 0;
+  for (const r of rows) {
+    const e = data[r.slug];
+    if (Math.round(Number(r.price)) !== e.from) { skipped++; continue; }
+    backup[r.slug] = { id: r.id, price: Number(r.price) };
+    await c.query("UPDATE products SET price = ? WHERE id = ?", [e.price, r.id]);
+  }
+  await writeFile(path.join(uploadDir, `${MARK_KOMBI}.json`), JSON.stringify(backup));
+  console.log(`[katalog] kombi fiyatı: ${Object.keys(backup).length}/${slugs.length} ürün güncellendi (${skipped} elle değişmiş, atlandı)`);
+  await writeFile(path.join(uploadDir, MARK_KOMBI), new Date().toISOString());
 }
