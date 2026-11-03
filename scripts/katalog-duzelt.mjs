@@ -32,6 +32,8 @@
 // 16) Yeni "Kazan" kategorisinin ürünlerini ekler (kazan.json + kazan-gorselleri/; Buderus ve Bosch Industrial resmi
 //     sayfalarından). Fiyat 0 = "fiyat için arayın" (teklif üzerine). Aynı adreste ürün varsa atlanır; eklenen ürün
 //     kimlikleri UPLOAD_DIR/.kazan-1.json dosyasına yazılır.
+// 17) Oda termostatı fiyatlarını artırır: 3.000 TL altı +2.000, 7.000 TL'ye kadar +2.500, üstü +3.000 TL. Üstü çizili fiyatı
+//     olanlarda old_price da aynı tutarda artar. Eski değerler UPLOAD_DIR/.termostat-fiyat-1.json dosyasına yedeklenir.
 // Her adım başarıyla bitince UPLOAD_DIR'e kendi işaret dosyasını bırakır ve bir daha çalışmaz;
 // böylece sonradan admin panelinden yapılan değişikliklere dokunulmaz.
 import { createHash, randomBytes } from "node:crypto";
@@ -56,6 +58,7 @@ const MARK_MARKET = ".fiyat-3";
 const MARK_BRAND = ".marka-gorsel-1";
 const MARK_CUT2 = ".fiyat-4";
 const MARK_KAZAN = ".kazan-1";
+const MARK_THERMO = ".termostat-fiyat-1";
 const exists = (p) => access(p).then(() => true, () => false);
 const bundledName = (url) => createHash("sha1").update(url).digest("hex").slice(0, 24) + ".webp";
 
@@ -88,8 +91,9 @@ export async function run() {
   const doMarket = !(await exists(path.join(uploadDir, MARK_MARKET))) && (await exists(path.join(HERE, "fiyat-3.json")));
   const doBrand = !(await exists(path.join(uploadDir, MARK_BRAND))) && (await exists(path.join(HERE, "marka-gorsel.json")));
   const doCut2 = !(await exists(path.join(uploadDir, MARK_CUT2)));
+  const doThermo = !(await exists(path.join(uploadDir, MARK_THERMO)));
   const doKazan = !(await exists(path.join(uploadDir, MARK_KAZAN))) && (await exists(path.join(HERE, "kazan.json")));
-  if (!doCatalog && !doStock && !doGallery && !doClean && !doText && !doSku && !doBg && !doBgBack && !doPrice && !doOld && !doEykom && !doMarket && !doBrand && !doCut2 && !doKazan) return;
+  if (!doCatalog && !doStock && !doGallery && !doClean && !doText && !doSku && !doBg && !doBgBack && !doPrice && !doOld && !doEykom && !doMarket && !doBrand && !doCut2 && !doKazan && !doThermo) return;
 
   const c = await mysql.createConnection({
     host: process.env.DB_HOST,
@@ -121,6 +125,7 @@ export async function run() {
     if (doBrand) await brandImages(c, uploadDir);
     if (doCut2) await priceCut2(c, uploadDir);
     if (doKazan) await addKazan(c, uploadDir);
+    if (doThermo) await thermostatPrices(c, uploadDir);
   } finally {
     await c.end();
   }
@@ -549,4 +554,23 @@ async function addKazan(c, uploadDir) {
   await writeFile(path.join(uploadDir, `${MARK_KAZAN}.json`), JSON.stringify(added));
   console.log(`[katalog] kazan: ${added.length}/${list.length} ürün eklendi`);
   await writeFile(path.join(uploadDir, MARK_KAZAN), new Date().toISOString());
+}
+
+// 17) Oda termostatı fiyat artışı (fiyatı olan aktif ürünler)
+export function thermostatRaise(price) {
+  return price < 3000 ? 2000 : price < 7000 ? 2500 : 3000;
+}
+
+async function thermostatPrices(c, uploadDir) {
+  const [rows] = await c.query("SELECT id, price, old_price FROM products WHERE category = 'Oda Termostatı' AND active = 1 AND price > 0");
+  const backup = {};
+  for (const r of rows) {
+    const price = Number(r.price), old = r.old_price == null ? null : Number(r.old_price);
+    const add = thermostatRaise(price);
+    backup[r.id] = { price, old_price: old };
+    await c.query("UPDATE products SET price = ?, old_price = ? WHERE id = ?", [price + add, old == null ? null : old + add, r.id]);
+  }
+  await writeFile(path.join(uploadDir, `${MARK_THERMO}.json`), JSON.stringify(backup));
+  console.log(`[katalog] oda termostatı: ${rows.length} ürünün fiyatı artırıldı`);
+  await writeFile(path.join(uploadDir, MARK_THERMO), new Date().toISOString());
 }
