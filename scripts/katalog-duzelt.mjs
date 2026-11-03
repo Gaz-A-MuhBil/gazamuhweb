@@ -29,6 +29,9 @@
 // 15) Tüm aktif ürünlerin satış fiyatını ~%2 daha düşürür (40.000 → 39.200); yeni fiyat 5.000 TL ve üzeri 50'ye, 1.000 TL ve
 //     üzeri 10'a, altı 5'e yuvarlanır. Üstü çizili fiyat (old_price) olduğu gibi kalır. 13. adımdan sonra çalışır;
 //     eski fiyatlar UPLOAD_DIR/.fiyat-4.json dosyasına yedeklenir.
+// 16) Yeni "Kazan" kategorisinin ürünlerini ekler (kazan.json + kazan-gorselleri/; Buderus ve Bosch Industrial resmi
+//     sayfalarından). Fiyat 0 = "fiyat için arayın" (teklif üzerine). Aynı adreste ürün varsa atlanır; eklenen ürün
+//     kimlikleri UPLOAD_DIR/.kazan-1.json dosyasına yazılır.
 // Her adım başarıyla bitince UPLOAD_DIR'e kendi işaret dosyasını bırakır ve bir daha çalışmaz;
 // böylece sonradan admin panelinden yapılan değişikliklere dokunulmaz.
 import { createHash, randomBytes } from "node:crypto";
@@ -52,6 +55,7 @@ const MARK_EYKOM = ".eykom-1";
 const MARK_MARKET = ".fiyat-3";
 const MARK_BRAND = ".marka-gorsel-1";
 const MARK_CUT2 = ".fiyat-4";
+const MARK_KAZAN = ".kazan-1";
 const exists = (p) => access(p).then(() => true, () => false);
 const bundledName = (url) => createHash("sha1").update(url).digest("hex").slice(0, 24) + ".webp";
 
@@ -84,7 +88,8 @@ export async function run() {
   const doMarket = !(await exists(path.join(uploadDir, MARK_MARKET))) && (await exists(path.join(HERE, "fiyat-3.json")));
   const doBrand = !(await exists(path.join(uploadDir, MARK_BRAND))) && (await exists(path.join(HERE, "marka-gorsel.json")));
   const doCut2 = !(await exists(path.join(uploadDir, MARK_CUT2)));
-  if (!doCatalog && !doStock && !doGallery && !doClean && !doText && !doSku && !doBg && !doBgBack && !doPrice && !doOld && !doEykom && !doMarket && !doBrand && !doCut2) return;
+  const doKazan = !(await exists(path.join(uploadDir, MARK_KAZAN))) && (await exists(path.join(HERE, "kazan.json")));
+  if (!doCatalog && !doStock && !doGallery && !doClean && !doText && !doSku && !doBg && !doBgBack && !doPrice && !doOld && !doEykom && !doMarket && !doBrand && !doCut2 && !doKazan) return;
 
   const c = await mysql.createConnection({
     host: process.env.DB_HOST,
@@ -115,6 +120,7 @@ export async function run() {
     if (doMarket) await marketPrices(c, uploadDir);
     if (doBrand) await brandImages(c, uploadDir);
     if (doCut2) await priceCut2(c, uploadDir);
+    if (doKazan) await addKazan(c, uploadDir);
   } finally {
     await c.end();
   }
@@ -228,7 +234,7 @@ async function texts(c, uploadDir) {
 
 // 7) Ürün kodları: kategori başına marka ve ada göre sıralı numara. Zaten GZ- ile başlayanlara dokunulmaz.
 // Kategori kısaltmaları src/lib/sku.ts ile aynıdır.
-const CATEGORY_CODES = { Kombi: "KMB", Klima: "KLM", "Isı Pompası": "ISP", Radyatör: "RAD", Şofben: "SFB", "Sirkülasyon Pompası": "SRK", "Oda Termostatı": "TRM", Termosifon: "TRS" };
+const CATEGORY_CODES = { Kombi: "KMB", Klima: "KLM", "Isı Pompası": "ISP", Radyatör: "RAD", Şofben: "SFB", "Sirkülasyon Pompası": "SRK", "Oda Termostatı": "TRM", Termosifon: "TRS", Kazan: "KZN" };
 async function skus(c, uploadDir) {
   const [rows] = await c.query("SELECT id, sku, category FROM products ORDER BY category, brand, name, id");
   const next = new Map();
@@ -518,4 +524,29 @@ async function priceCut2(c, uploadDir) {
   const n = Object.keys(backup).length;
   console.log(`[katalog] 2. fiyat indirimi: ${n} ürün (ortalama ${n ? Math.round(total / n) : 0} TL)`);
   await writeFile(path.join(uploadDir, MARK_CUT2), new Date().toISOString());
+}
+
+// 16) Kazan ürünleri: GZ-KZN-0001'den başlayan kodlarla eklenir, görseller UPLOAD_DIR'e kopyalanır
+async function addKazan(c, uploadDir) {
+  const list = JSON.parse(await readFile(path.join(HERE, "kazan.json"), "utf8"));
+  const src = path.join(HERE, "kazan-gorselleri");
+  const put = async (f) => { const to = path.join(uploadDir, f); if (!(await exists(to))) await copyFile(path.join(src, f), to); return `/uploads/${f}`; };
+  const [[{ n }]] = await c.query("SELECT COALESCE(MAX(CAST(SUBSTRING(sku, 8) AS UNSIGNED)), 0) n FROM products WHERE sku LIKE 'GZ-KZN-%'");
+  let seq = Number(n);
+  const added = [];
+  for (const p of list) {
+    const [dup] = await c.query("SELECT id FROM products WHERE slug = ?", [p.slug]);
+    if (dup.length) continue;
+    const urls = [];
+    for (const f of p.images) urls.push(await put(f));
+    const [res] = await c.query("INSERT INTO products SET ?", [{
+      slug: p.slug, sku: `GZ-KZN-${String(++seq).padStart(4, "0")}`, name: p.name, brand: p.brand, category: p.category,
+      product_group: p.product_group, price: p.price, old_price: p.old_price, in_stock: 1, description: p.description,
+      specs: JSON.stringify(p.specs), image_url: urls[0], images: JSON.stringify(urls.slice(1)), source_url: p.source_url, active: 1,
+    }]);
+    added.push(res.insertId);
+  }
+  await writeFile(path.join(uploadDir, `${MARK_KAZAN}.json`), JSON.stringify(added));
+  console.log(`[katalog] kazan: ${added.length}/${list.length} ürün eklendi`);
+  await writeFile(path.join(uploadDir, MARK_KAZAN), new Date().toISOString());
 }
