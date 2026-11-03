@@ -6,7 +6,7 @@
   --surface: #f5f7fb;
   --surface-alt: #e8eef7;
   --border: #e2e8f0;
-  --muted: #64748b;
+  --muted: #586579; /* açık zeminde 4,5:1 üstü kontrast */
   --primary: #1a3e85;
   --accent: #2099d0;
 }
@@ -87,3 +87,7 @@ body {
 .blog-note-title { font-weight: 800; font-size: 0.9375rem; }
 .blog-note-text { margin-top: 0.25rem; font-size: 0.9688rem; line-height: 1.75; color: color-mix(in srgb, var(--foreground) 82%, transparent); }
 .blog > hr { margin: 2.5rem auto; width: 96px; border: 0; border-top: 3px solid var(--border); border-radius: 2px; }
+
+/* Başlıklarda satırlar dengeli kırılsın, paragrafların son satırında tek kelime kalmasın */
+h1, h2, h3 { text-wrap: balance; }
+p { text-wrap: pretty; }

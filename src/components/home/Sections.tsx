@@ -31,12 +31,14 @@ export function Heading({ eyebrow, title, href, linkLabel = "Tümünü gör" }: 
   );
 }
 
-export function Deals({ products }: { products: Product[] }) {
+export function Deals({ products, eyebrow = "Fırsatlar", title = "Kampanyalı Ürünler", href = "/urunler", linkLabel = "Tüm ürünler" }: {
+  products: Product[]; eyebrow?: string; title?: string; href?: string; linkLabel?: string;
+}) {
   if (!products.length) return null;
   return (
     <section className="bg-surface pb-20 pt-12 lg:pb-28 lg:pt-14">
       <div className={wrap}>
-        <Heading eyebrow="Fırsatlar" title="Kampanyalı Ürünler" href="/urunler" linkLabel="Tüm ürünler" />
+        <Heading eyebrow={eyebrow} title={title} href={href} linkLabel={linkLabel} />
         <DealsGrid products={products} />
       </div>
     </section>

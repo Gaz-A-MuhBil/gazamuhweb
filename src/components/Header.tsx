@@ -60,7 +60,7 @@ export function Header({ menu, popular, services = [] }: { menu: MenuItem[]; pop
     </>
   );
   const navCls = (on: boolean) =>
-    `-mb-px block border-b-2 px-3.5 py-3 text-sm font-semibold transition-colors hover:text-accent ${on ? "border-primary text-primary" : "border-transparent"}`;
+    `-mb-px block whitespace-nowrap border-b-2 px-2.5 py-3 text-[13px] font-semibold transition-colors hover:text-accent 2xl:px-3.5 2xl:text-sm ${on ? "border-primary text-primary" : "border-transparent"}`;
 
   return (
     <>
@@ -74,7 +74,7 @@ export function Header({ menu, popular, services = [] }: { menu: MenuItem[]; pop
         onMouseLeave={() => setOpen(null)}
       >
         <div className={`mx-auto h-20 w-full max-w-7xl items-center gap-2 px-3 sm:gap-3 sm:px-4 md:gap-6 md:px-6 ${scrolled ? "hidden" : "flex"}`}>
-          <button className="-ml-1 p-1 md:hidden" aria-label="Menü" onClick={() => setMobile((v) => !v)}>
+          <button className="-ml-1 p-1 xl:hidden" aria-label="Menü" onClick={() => setMobile((v) => !v)}>
             {mobile ? <X size={26} /> : <Menu size={26} />}
           </button>
           <Link href="/" className="shrink-0" onClick={close}>
@@ -98,7 +98,7 @@ export function Header({ menu, popular, services = [] }: { menu: MenuItem[]; pop
           </div>
         </div>
 
-        <nav className={`border-t border-border ${scrolled ? "hidden" : "hidden md:block"}`}>
+        <nav className={`border-t border-border ${scrolled ? "hidden" : "hidden xl:block"}`}>
           <ul className="mx-auto flex w-full max-w-7xl items-center px-4 md:px-6">
             <li onMouseEnter={() => setOpen(null)}>
               <Link href="/urunler" onClick={close} className={navCls(pathname === "/urunler")}>Tüm Ürünler</Link>
@@ -114,17 +114,17 @@ export function Header({ menu, popular, services = [] }: { menu: MenuItem[]; pop
             <li className="ml-auto" onMouseEnter={() => setOpen(SERVICES)}>
               <Link href="/hizmetlerimiz" onClick={close} aria-expanded={servicesOpen}
                 className={`${navCls(onServices || servicesOpen)} inline-flex items-center gap-1.5 ${servicesOpen ? "text-accent" : ""}`}>
-                <Wrench size={16} />Hizmetlerimiz<ChevronDown size={14} className={`transition-transform ${servicesOpen ? "rotate-180" : ""}`} />
+                <Wrench size={16} className="hidden 2xl:block" />Hizmetlerimiz<ChevronDown size={14} className={`transition-transform ${servicesOpen ? "rotate-180" : ""}`} />
               </Link>
             </li>
             <li onMouseEnter={() => setOpen(null)}>
               <Link href="/iletisim" onClick={close} className={`${navCls(pathname === "/iletisim")} inline-flex items-center gap-1.5 text-primary`}>
-                <PhoneCall size={16} />İletişim
+                <PhoneCall size={16} className="hidden 2xl:block" />İletişim
               </Link>
             </li>
             <li onMouseEnter={() => setOpen(null)}>
               <Link href="/bilgi-al" onClick={close} className={`${navCls(pathname === "/bilgi-al")} inline-flex items-center gap-1.5 text-accent`}>
-                <Info size={16} />Bilgi Al
+                <Info size={16} className="hidden 2xl:block" />Bilgi Al
               </Link>
             </li>
           </ul>
@@ -139,28 +139,28 @@ export function Header({ menu, popular, services = [] }: { menu: MenuItem[]; pop
             <Link href="/" className="shrink-0" onClick={close}>
               <Image src="/brand/logo.png" alt="GAZ-A" width={242} height={58} className="h-9 w-auto" />
             </Link>
-            <ul className="ml-4 hidden items-center xl:flex">
+            <ul className="ml-2 hidden items-center xl:flex 2xl:ml-4">
               {menu.map((m) => (
                 <li key={m.href} onMouseEnter={() => setOpen(m.label)}>
                   <Link href={m.href} onClick={close}
-                    className={`block rounded-[4px] px-2.5 py-2 text-[13px] font-semibold transition-colors hover:bg-surface hover:text-primary ${pathname === m.href || open === m.label ? "text-primary" : "text-foreground/80"}`}>
+                    className={`block whitespace-nowrap rounded-[4px] px-2 py-2 text-[13px] font-semibold transition-colors 2xl:px-2.5 hover:bg-surface hover:text-primary ${pathname === m.href || open === m.label ? "text-primary" : "text-foreground/80"}`}>
                     {m.label}
                   </Link>
                 </li>
               ))}
               <li onMouseEnter={() => setOpen(SERVICES)}>
                 <Link href="/hizmetlerimiz" onClick={close}
-                  className={`block rounded-[4px] px-2.5 py-2 text-[13px] font-semibold transition-colors hover:bg-surface hover:text-primary ${onServices || servicesOpen ? "text-primary" : "text-foreground/80"}`}>
+                  className={`block whitespace-nowrap rounded-[4px] px-2 py-2 text-[13px] font-semibold transition-colors 2xl:px-2.5 hover:bg-surface hover:text-primary ${onServices || servicesOpen ? "text-primary" : "text-foreground/80"}`}>
                   Hizmetlerimiz
                 </Link>
               </li>
-              <li onMouseEnter={() => setOpen(null)}>
-                <Link href="/iletisim" onClick={close} className="ml-1 inline-flex items-center rounded-[4px] bg-primary/10 px-3 py-2 text-[13px] font-bold text-primary hover:bg-primary hover:text-white">
+              <li className="hidden 2xl:block" onMouseEnter={() => setOpen(null)}>
+                <Link href="/iletisim" onClick={close} className="ml-1 inline-flex whitespace-nowrap items-center rounded-[4px] bg-primary/10 px-3 py-2 text-[13px] font-bold text-primary hover:bg-primary hover:text-white">
                   İletişim
                 </Link>
               </li>
-              <li onMouseEnter={() => setOpen(null)}>
-                <Link href="/bilgi-al" onClick={close} className="ml-1 inline-flex items-center rounded-[4px] bg-accent/10 px-3 py-2 text-[13px] font-bold text-accent hover:bg-accent hover:text-white">
+              <li className="hidden 2xl:block" onMouseEnter={() => setOpen(null)}>
+                <Link href="/bilgi-al" onClick={close} className="ml-1 inline-flex whitespace-nowrap items-center rounded-[4px] bg-accent/10 px-3 py-2 text-[13px] font-bold text-accent hover:bg-accent hover:text-white">
                   Bilgi Al
                 </Link>
               </li>
@@ -276,7 +276,7 @@ export function Header({ menu, popular, services = [] }: { menu: MenuItem[]; pop
               initial={{ height: 0, opacity: 0 }}
               animate={{ height: "auto", opacity: 1 }}
               exit={{ height: 0, opacity: 0 }}
-              className={`max-h-[calc(100vh-5rem)] overflow-y-auto border-t border-border bg-white ${scrolled ? "xl:hidden" : "md:hidden"}`} data-lenis-prevent
+              className={`max-h-[calc(100vh-5rem)] overflow-y-auto border-t border-border bg-white xl:hidden`} data-lenis-prevent
             >
               <ul className="py-2">
                 <li><Link href="/urunler" onClick={close} className="block px-6 py-3 font-semibold">Tüm Ürünler</Link></li>
